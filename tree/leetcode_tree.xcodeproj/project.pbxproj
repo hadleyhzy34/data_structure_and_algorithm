@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA2E1BF24B621C000F8146F /* 107_binary_tree_level_order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1BE24B621C000F8146F /* 107_binary_tree_level_order.cpp */; };
+		FEA2E1C124B625CA00F8146F /* 637_average_of_levels_in_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1C024B625CA00F8146F /* 637_average_of_levels_in_binary_tree.cpp */; };
+		FEA2E1C324B62A6B00F8146F /* 108_convert_sorted_array_to_binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1C224B62A6B00F8146F /* 108_convert_sorted_array_to_binary_search_tree.cpp */; };
+		FEA2E1C524B62B7900F8146F /* 111_minimum_depth_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1C424B62B7900F8146F /* 111_minimum_depth_binary_tree.cpp */; };
+		FEA2E1C724B71F1200F8146F /* 404_sum_of_left_leaves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1C624B71F1200F8146F /* 404_sum_of_left_leaves.cpp */; };
+		FEA2E1C924B7250F00F8146F /* 437_path_sum_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1C824B7250F00F8146F /* 437_path_sum_3.cpp */; };
+		FEA2E1CB24B736C600F8146F /* 501_find_mode_in_binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1CA24B736C600F8146F /* 501_find_mode_in_binary_search_tree.cpp */; };
+		FEA2E1CD24B737E600F8146F /* 530_minimum_absulute_difference_in_BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1CC24B737E600F8146F /* 530_minimum_absulute_difference_in_BST.cpp */; };
+		FEA2E1CF24B7454200F8146F /* 538_convert_bst_to_greater_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1CE24B7454200F8146F /* 538_convert_bst_to_greater_tree.cpp */; };
+		FEA2E1D124B74C7A00F8146F /* 543_diameter_of_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1D024B74C7A00F8146F /* 543_diameter_of_binary_tree.cpp */; };
+		FEA2E1D324B868BB00F8146F /* 572_subtree_of_another_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1D224B868BB00F8146F /* 572_subtree_of_another_tree.cpp */; };
+		FEA2E1D524B86F8A00F8146F /* 617_merge_two_binary_trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1D424B86F8A00F8146F /* 617_merge_two_binary_trees.cpp */; };
+		FEA2E1D724B8870D00F8146F /* 559_maximum_depth_of_nary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1D624B8870D00F8146F /* 559_maximum_depth_of_nary_tree.cpp */; };
+		FEA2E1D924B88A9C00F8146F /* 589_nary_tree_preorder_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1D824B88A9C00F8146F /* 589_nary_tree_preorder_traversal.cpp */; };
+		FEA2E1DB24B8A88100F8146F /* 590_nary_tree_postorder_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1DA24B8A88100F8146F /* 590_nary_tree_postorder_traversal.cpp */; };
+		FEA2E1DD24B8C61D00F8146F /* 257_binary_tree_paths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1DC24B8C61D00F8146F /* 257_binary_tree_paths.cpp */; };
+		FEA2E1DF24B903FD00F8146F /* 110_balanced_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1DE24B903FD00F8146F /* 110_balanced_binary_tree.cpp */; };
+		FEA2E1E124B9BACD00F8146F /* 110_path_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1E024B9BACD00F8146F /* 110_path_sum.cpp */; };
+		FEA2E1E324B9D54B00F8146F /* 113_path_sum_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1E224B9D54B00F8146F /* 113_path_sum_3.cpp */; };
+		FEA2E1E524B9F3BF00F8146F /* 98_validate_binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1E424B9F3BF00F8146F /* 98_validate_binary_search_tree.cpp */; };
+		FEA2E1E724BA190C00F8146F /* 94_binary_tree_inorder_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1E624BA190C00F8146F /* 94_binary_tree_inorder_traversal.cpp */; };
+		FEA2E1E924BA2B7C00F8146F /* 144_binary_tree_preorder_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1E824BA2B7C00F8146F /* 144_binary_tree_preorder_traversal.cpp */; };
+		FEA2E1EB24BA397C00F8146F /* 429_nary_tree_level_order_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1EA24BA397C00F8146F /* 429_nary_tree_level_order_traversal.cpp */; };
+		FEA2E1ED24BA4F1700F8146F /* 173_binary_search_tree_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1EC24BA4F1700F8146F /* 173_binary_search_tree_iterator.cpp */; };
+		FEA2E1EF24BB35AE00F8146F /* 230_kth_smallest_element_in_a_bst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1EE24BB35AE00F8146F /* 230_kth_smallest_element_in_a_bst.cpp */; };
+		FEA2E1F124BB36D600F8146F /* 95_unique_binary_search_tree_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1F024BB36D600F8146F /* 95_unique_binary_search_tree_2.cpp */; };
+		FEA2E1F324BC60F400F8146F /* 96_unique_binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1F224BC60F400F8146F /* 96_unique_binary_search_tree.cpp */; };
+		FEA2E1F524BC676700F8146F /* 103_bianry_tree_zigzag_level_order_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1F424BC676700F8146F /* 103_bianry_tree_zigzag_level_order_traversal.cpp */; };
+		FEA2E1F724BC689400F8146F /* 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1F624BC689400F8146F /* 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp */; };
+		FEA2E1F924BC694600F8146F /* 129_sum_root_to_leaf_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1F824BC694600F8146F /* 129_sum_root_to_leaf_numbers.cpp */; };
+		FEA2E1FB24BC6D9100F8146F /* 222_count_complete_tree_nodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1FA24BC6D9100F8146F /* 222_count_complete_tree_nodes.cpp */; };
+		FEA2E1FD24BC70B000F8146F /* 199_binary_tree_right_side_view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1FC24BC70B000F8146F /* 199_binary_tree_right_side_view.cpp */; };
+		FEA2E1FF24BC762700F8146F /* 450_delete_node_in_a_BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E1FE24BC762700F8146F /* 450_delete_node_in_a_BST.cpp */; };
+		FEA2E20124BCB2DB00F8146F /* 337_house_robber_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20024BCB2DB00F8146F /* 337_house_robber_3.cpp */; };
+		FEA2E20324BCD2E000F8146F /* 513_find_bottom_left_tree_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20224BCD2E000F8146F /* 513_find_bottom_left_tree_value.cpp */; };
+		FEA2E20524BCD57200F8146F /* 515_find_largest_value_in_each_tree_row.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20424BCD57200F8146F /* 515_find_largest_value_in_each_tree_row.cpp */; };
+		FEA2E20724BCD61500F8146F /* 623_add_one_row_to_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20624BCD61500F8146F /* 623_add_one_row_to_tree.cpp */; };
+		FEA2E20924BCE56B00F8146F /* 508_most_frequent_subtree_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20824BCE56B00F8146F /* 508_most_frequent_subtree_sum.cpp */; };
+		FEA2E20B24BCE8BD00F8146F /* 449_serialize_and_deserialize_bst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20A24BCE8BD00F8146F /* 449_serialize_and_deserialize_bst.cpp */; };
+		FEA2E20D24BCFC4100F8146F /* 116_populating_next_right_pointers_in_each_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20C24BCFC4100F8146F /* 116_populating_next_right_pointers_in_each_node.cpp */; };
+		FEA2E20F24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20E24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp */; };
+		FEA2E21124BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E21024BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp */; };
+		FEA2E21324BD08C100F8146F /* 563_binary_tree_tilt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E21224BD08C100F8146F /* 563_binary_tree_tilt.cpp */; };
+		FEE18AD024A1F223002603FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18ACF24A1F223002603FE /* main.cpp */; };
+		FEE18AD724A1F25E002603FE /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18AD624A1F25E002603FE /* node.cpp */; };
+		FEE18AD924A20E31002603FE /* 100_same_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18AD824A20E31002603FE /* 100_same_tree.cpp */; };
+		FEE18ADB24A2182D002603FE /* 101_symmetric_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18ADA24A2182D002603FE /* 101_symmetric_tree.cpp */; };
+		FEE18ADD24A228F3002603FE /* 104_maximum_depth_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18ADC24A228F3002603FE /* 104_maximum_depth_binary_tree.cpp */; };
+		FEE18ADF24A23558002603FE /* 102_binary_tree_level_order_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18ADE24A23558002603FE /* 102_binary_tree_level_order_traversal.cpp */; };
+		FEE18AE124A23AA4002603FE /* 226_invert_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18AE024A23AA4002603FE /* 226_invert_binary_tree.cpp */; };
+		FEE18AE324A2810C002603FE /* 235_lowest_common_ancester_of_bts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18AE224A2810C002603FE /* 235_lowest_common_ancester_of_bts.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEE18ACA24A1F223002603FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FEA2E1BE24B621C000F8146F /* 107_binary_tree_level_order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 107_binary_tree_level_order.cpp; sourceTree = "<group>"; };
+		FEA2E1C024B625CA00F8146F /* 637_average_of_levels_in_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 637_average_of_levels_in_binary_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1C224B62A6B00F8146F /* 108_convert_sorted_array_to_binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 108_convert_sorted_array_to_binary_search_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1C424B62B7900F8146F /* 111_minimum_depth_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 111_minimum_depth_binary_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1C624B71F1200F8146F /* 404_sum_of_left_leaves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 404_sum_of_left_leaves.cpp; sourceTree = "<group>"; };
+		FEA2E1C824B7250F00F8146F /* 437_path_sum_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 437_path_sum_3.cpp; sourceTree = "<group>"; };
+		FEA2E1CA24B736C600F8146F /* 501_find_mode_in_binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 501_find_mode_in_binary_search_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1CC24B737E600F8146F /* 530_minimum_absulute_difference_in_BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 530_minimum_absulute_difference_in_BST.cpp; sourceTree = "<group>"; };
+		FEA2E1CE24B7454200F8146F /* 538_convert_bst_to_greater_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 538_convert_bst_to_greater_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1D024B74C7A00F8146F /* 543_diameter_of_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 543_diameter_of_binary_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1D224B868BB00F8146F /* 572_subtree_of_another_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 572_subtree_of_another_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1D424B86F8A00F8146F /* 617_merge_two_binary_trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 617_merge_two_binary_trees.cpp; sourceTree = "<group>"; };
+		FEA2E1D624B8870D00F8146F /* 559_maximum_depth_of_nary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 559_maximum_depth_of_nary_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1D824B88A9C00F8146F /* 589_nary_tree_preorder_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 589_nary_tree_preorder_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1DA24B8A88100F8146F /* 590_nary_tree_postorder_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 590_nary_tree_postorder_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1DC24B8C61D00F8146F /* 257_binary_tree_paths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 257_binary_tree_paths.cpp; sourceTree = "<group>"; };
+		FEA2E1DE24B903FD00F8146F /* 110_balanced_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 110_balanced_binary_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1E024B9BACD00F8146F /* 110_path_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 110_path_sum.cpp; sourceTree = "<group>"; };
+		FEA2E1E224B9D54B00F8146F /* 113_path_sum_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 113_path_sum_3.cpp; sourceTree = "<group>"; };
+		FEA2E1E424B9F3BF00F8146F /* 98_validate_binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 98_validate_binary_search_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1E624BA190C00F8146F /* 94_binary_tree_inorder_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 94_binary_tree_inorder_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1E824BA2B7C00F8146F /* 144_binary_tree_preorder_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 144_binary_tree_preorder_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1EA24BA397C00F8146F /* 429_nary_tree_level_order_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 429_nary_tree_level_order_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1EC24BA4F1700F8146F /* 173_binary_search_tree_iterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 173_binary_search_tree_iterator.cpp; sourceTree = "<group>"; };
+		FEA2E1EE24BB35AE00F8146F /* 230_kth_smallest_element_in_a_bst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 230_kth_smallest_element_in_a_bst.cpp; sourceTree = "<group>"; };
+		FEA2E1F024BB36D600F8146F /* 95_unique_binary_search_tree_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 95_unique_binary_search_tree_2.cpp; sourceTree = "<group>"; };
+		FEA2E1F224BC60F400F8146F /* 96_unique_binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 96_unique_binary_search_tree.cpp; sourceTree = "<group>"; };
+		FEA2E1F424BC676700F8146F /* 103_bianry_tree_zigzag_level_order_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 103_bianry_tree_zigzag_level_order_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1F624BC689400F8146F /* 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp; sourceTree = "<group>"; };
+		FEA2E1F824BC694600F8146F /* 129_sum_root_to_leaf_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 129_sum_root_to_leaf_numbers.cpp; sourceTree = "<group>"; };
+		FEA2E1FA24BC6D9100F8146F /* 222_count_complete_tree_nodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 222_count_complete_tree_nodes.cpp; sourceTree = "<group>"; };
+		FEA2E1FC24BC70B000F8146F /* 199_binary_tree_right_side_view.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 199_binary_tree_right_side_view.cpp; sourceTree = "<group>"; };
+		FEA2E1FE24BC762700F8146F /* 450_delete_node_in_a_BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 450_delete_node_in_a_BST.cpp; sourceTree = "<group>"; };
+		FEA2E20024BCB2DB00F8146F /* 337_house_robber_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 337_house_robber_3.cpp; sourceTree = "<group>"; };
+		FEA2E20224BCD2E000F8146F /* 513_find_bottom_left_tree_value.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 513_find_bottom_left_tree_value.cpp; sourceTree = "<group>"; };
+		FEA2E20424BCD57200F8146F /* 515_find_largest_value_in_each_tree_row.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 515_find_largest_value_in_each_tree_row.cpp; sourceTree = "<group>"; };
+		FEA2E20624BCD61500F8146F /* 623_add_one_row_to_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 623_add_one_row_to_tree.cpp; sourceTree = "<group>"; };
+		FEA2E20824BCE56B00F8146F /* 508_most_frequent_subtree_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 508_most_frequent_subtree_sum.cpp; sourceTree = "<group>"; };
+		FEA2E20A24BCE8BD00F8146F /* 449_serialize_and_deserialize_bst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 449_serialize_and_deserialize_bst.cpp; sourceTree = "<group>"; };
+		FEA2E20C24BCFC4100F8146F /* 116_populating_next_right_pointers_in_each_node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 116_populating_next_right_pointers_in_each_node.cpp; sourceTree = "<group>"; };
+		FEA2E20E24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 117_populating_next_right_pointers_in_each_node_2.cpp; sourceTree = "<group>"; };
+		FEA2E21024BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 114_flatten_bianry_tree_to_linked_list.cpp; sourceTree = "<group>"; };
+		FEA2E21224BD08C100F8146F /* 563_binary_tree_tilt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 563_binary_tree_tilt.cpp; sourceTree = "<group>"; };
+		FEE18ACC24A1F223002603FE /* leetcode_tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_tree; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE18ACF24A1F223002603FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEE18AD624A1F25E002603FE /* node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		FEE18AD824A20E31002603FE /* 100_same_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 100_same_tree.cpp; sourceTree = "<group>"; };
+		FEE18ADA24A2182D002603FE /* 101_symmetric_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 101_symmetric_tree.cpp; sourceTree = "<group>"; };
+		FEE18ADC24A228F3002603FE /* 104_maximum_depth_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 104_maximum_depth_binary_tree.cpp; sourceTree = "<group>"; };
+		FEE18ADE24A23558002603FE /* 102_binary_tree_level_order_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 102_binary_tree_level_order_traversal.cpp; sourceTree = "<group>"; };
+		FEE18AE024A23AA4002603FE /* 226_invert_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 226_invert_binary_tree.cpp; sourceTree = "<group>"; };
+		FEE18AE224A2810C002603FE /* 235_lowest_common_ancester_of_bts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 235_lowest_common_ancester_of_bts.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE18AC924A1F223002603FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE18AC324A1F223002603FE = {
+			isa = PBXGroup;
+			children = (
+				FEE18ACE24A1F223002603FE /* leetcode_tree */,
+				FEE18ACD24A1F223002603FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE18ACD24A1F223002603FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE18ACC24A1F223002603FE /* leetcode_tree */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE18ACE24A1F223002603FE /* leetcode_tree */ = {
+			isa = PBXGroup;
+			children = (
+				FEE18ACF24A1F223002603FE /* main.cpp */,
+				FEA2E21224BD08C100F8146F /* 563_binary_tree_tilt.cpp */,
+				FEA2E21024BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp */,
+				FEA2E20C24BCFC4100F8146F /* 116_populating_next_right_pointers_in_each_node.cpp */,
+				FEA2E20E24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp */,
+				FEA2E20A24BCE8BD00F8146F /* 449_serialize_and_deserialize_bst.cpp */,
+				FEA2E20824BCE56B00F8146F /* 508_most_frequent_subtree_sum.cpp */,
+				FEA2E20624BCD61500F8146F /* 623_add_one_row_to_tree.cpp */,
+				FEA2E20424BCD57200F8146F /* 515_find_largest_value_in_each_tree_row.cpp */,
+				FEA2E20224BCD2E000F8146F /* 513_find_bottom_left_tree_value.cpp */,
+				FEA2E20024BCB2DB00F8146F /* 337_house_robber_3.cpp */,
+				FEA2E1FE24BC762700F8146F /* 450_delete_node_in_a_BST.cpp */,
+				FEA2E1FC24BC70B000F8146F /* 199_binary_tree_right_side_view.cpp */,
+				FEA2E1FA24BC6D9100F8146F /* 222_count_complete_tree_nodes.cpp */,
+				FEA2E1F824BC694600F8146F /* 129_sum_root_to_leaf_numbers.cpp */,
+				FEA2E1F624BC689400F8146F /* 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp */,
+				FEA2E1F424BC676700F8146F /* 103_bianry_tree_zigzag_level_order_traversal.cpp */,
+				FEA2E1F024BB36D600F8146F /* 95_unique_binary_search_tree_2.cpp */,
+				FEA2E1F224BC60F400F8146F /* 96_unique_binary_search_tree.cpp */,
+				FEA2E1EE24BB35AE00F8146F /* 230_kth_smallest_element_in_a_bst.cpp */,
+				FEA2E1EC24BA4F1700F8146F /* 173_binary_search_tree_iterator.cpp */,
+				FEA2E1EA24BA397C00F8146F /* 429_nary_tree_level_order_traversal.cpp */,
+				FEA2E1E824BA2B7C00F8146F /* 144_binary_tree_preorder_traversal.cpp */,
+				FEA2E1E624BA190C00F8146F /* 94_binary_tree_inorder_traversal.cpp */,
+				FEA2E1E424B9F3BF00F8146F /* 98_validate_binary_search_tree.cpp */,
+				FEA2E1E224B9D54B00F8146F /* 113_path_sum_3.cpp */,
+				FEA2E1E024B9BACD00F8146F /* 110_path_sum.cpp */,
+				FEA2E1DE24B903FD00F8146F /* 110_balanced_binary_tree.cpp */,
+				FEA2E1DC24B8C61D00F8146F /* 257_binary_tree_paths.cpp */,
+				FEA2E1D824B88A9C00F8146F /* 589_nary_tree_preorder_traversal.cpp */,
+				FEA2E1DA24B8A88100F8146F /* 590_nary_tree_postorder_traversal.cpp */,
+				FEA2E1D624B8870D00F8146F /* 559_maximum_depth_of_nary_tree.cpp */,
+				FEA2E1D424B86F8A00F8146F /* 617_merge_two_binary_trees.cpp */,
+				FEA2E1D224B868BB00F8146F /* 572_subtree_of_another_tree.cpp */,
+				FEA2E1D024B74C7A00F8146F /* 543_diameter_of_binary_tree.cpp */,
+				FEA2E1CE24B7454200F8146F /* 538_convert_bst_to_greater_tree.cpp */,
+				FEA2E1CC24B737E600F8146F /* 530_minimum_absulute_difference_in_BST.cpp */,
+				FEA2E1CA24B736C600F8146F /* 501_find_mode_in_binary_search_tree.cpp */,
+				FEA2E1C824B7250F00F8146F /* 437_path_sum_3.cpp */,
+				FEA2E1C624B71F1200F8146F /* 404_sum_of_left_leaves.cpp */,
+				FEA2E1C424B62B7900F8146F /* 111_minimum_depth_binary_tree.cpp */,
+				FEA2E1C224B62A6B00F8146F /* 108_convert_sorted_array_to_binary_search_tree.cpp */,
+				FEA2E1C024B625CA00F8146F /* 637_average_of_levels_in_binary_tree.cpp */,
+				FEE18AE224A2810C002603FE /* 235_lowest_common_ancester_of_bts.cpp */,
+				FEE18AE024A23AA4002603FE /* 226_invert_binary_tree.cpp */,
+				FEE18ADE24A23558002603FE /* 102_binary_tree_level_order_traversal.cpp */,
+				FEE18ADC24A228F3002603FE /* 104_maximum_depth_binary_tree.cpp */,
+				FEE18ADA24A2182D002603FE /* 101_symmetric_tree.cpp */,
+				FEE18AD624A1F25E002603FE /* node.cpp */,
+				FEE18AD824A20E31002603FE /* 100_same_tree.cpp */,
+				FEA2E1BE24B621C000F8146F /* 107_binary_tree_level_order.cpp */,
+			);
+			path = leetcode_tree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE18ACB24A1F223002603FE /* leetcode_tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE18AD324A1F223002603FE /* Build configuration list for PBXNativeTarget "leetcode_tree" */;
+			buildPhases = (
+				FEE18AC824A1F223002603FE /* Sources */,
+				FEE18AC924A1F223002603FE /* Frameworks */,
+				FEE18ACA24A1F223002603FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode_tree;
+			productName = leetcode_tree;
+			productReference = FEE18ACC24A1F223002603FE /* leetcode_tree */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE18AC424A1F223002603FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hadley;
+				TargetAttributes = {
+					FEE18ACB24A1F223002603FE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEE18AC724A1F223002603FE /* Build configuration list for PBXProject "leetcode_tree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE18AC324A1F223002603FE;
+			productRefGroup = FEE18ACD24A1F223002603FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE18ACB24A1F223002603FE /* leetcode_tree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE18AC824A1F223002603FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA2E1ED24BA4F1700F8146F /* 173_binary_search_tree_iterator.cpp in Sources */,
+				FEA2E20F24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp in Sources */,
+				FEA2E1E924BA2B7C00F8146F /* 144_binary_tree_preorder_traversal.cpp in Sources */,
+				FEA2E1C324B62A6B00F8146F /* 108_convert_sorted_array_to_binary_search_tree.cpp in Sources */,
+				FEA2E1D124B74C7A00F8146F /* 543_diameter_of_binary_tree.cpp in Sources */,
+				FEA2E1FB24BC6D9100F8146F /* 222_count_complete_tree_nodes.cpp in Sources */,
+				FEA2E1FD24BC70B000F8146F /* 199_binary_tree_right_side_view.cpp in Sources */,
+				FEA2E1F324BC60F400F8146F /* 96_unique_binary_search_tree.cpp in Sources */,
+				FEA2E20D24BCFC4100F8146F /* 116_populating_next_right_pointers_in_each_node.cpp in Sources */,
+				FEA2E1EF24BB35AE00F8146F /* 230_kth_smallest_element_in_a_bst.cpp in Sources */,
+				FEA2E1D324B868BB00F8146F /* 572_subtree_of_another_tree.cpp in Sources */,
+				FEA2E1F724BC689400F8146F /* 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp in Sources */,
+				FEA2E1C724B71F1200F8146F /* 404_sum_of_left_leaves.cpp in Sources */,
+				FEA2E21324BD08C100F8146F /* 563_binary_tree_tilt.cpp in Sources */,
+				FEA2E1E324B9D54B00F8146F /* 113_path_sum_3.cpp in Sources */,
+				FEA2E20524BCD57200F8146F /* 515_find_largest_value_in_each_tree_row.cpp in Sources */,
+				FEA2E1C524B62B7900F8146F /* 111_minimum_depth_binary_tree.cpp in Sources */,
+				FEA2E1DB24B8A88100F8146F /* 590_nary_tree_postorder_traversal.cpp in Sources */,
+				FEA2E1F924BC694600F8146F /* 129_sum_root_to_leaf_numbers.cpp in Sources */,
+				FEE18ADB24A2182D002603FE /* 101_symmetric_tree.cpp in Sources */,
+				FEE18AE124A23AA4002603FE /* 226_invert_binary_tree.cpp in Sources */,
+				FEA2E21124BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp in Sources */,
+				FEE18AD024A1F223002603FE /* main.cpp in Sources */,
+				FEE18AD924A20E31002603FE /* 100_same_tree.cpp in Sources */,
+				FEA2E1DD24B8C61D00F8146F /* 257_binary_tree_paths.cpp in Sources */,
+				FEA2E1E724BA190C00F8146F /* 94_binary_tree_inorder_traversal.cpp in Sources */,
+				FEE18ADD24A228F3002603FE /* 104_maximum_depth_binary_tree.cpp in Sources */,
+				FEA2E20124BCB2DB00F8146F /* 337_house_robber_3.cpp in Sources */,
+				FEA2E1BF24B621C000F8146F /* 107_binary_tree_level_order.cpp in Sources */,
+				FEA2E1C924B7250F00F8146F /* 437_path_sum_3.cpp in Sources */,
+				FEA2E1D924B88A9C00F8146F /* 589_nary_tree_preorder_traversal.cpp in Sources */,
+				FEA2E1D724B8870D00F8146F /* 559_maximum_depth_of_nary_tree.cpp in Sources */,
+				FEA2E1E524B9F3BF00F8146F /* 98_validate_binary_search_tree.cpp in Sources */,
+				FEA2E1CD24B737E600F8146F /* 530_minimum_absulute_difference_in_BST.cpp in Sources */,
+				FEA2E1E124B9BACD00F8146F /* 110_path_sum.cpp in Sources */,
+				FEA2E1CB24B736C600F8146F /* 501_find_mode_in_binary_search_tree.cpp in Sources */,
+				FEA2E1DF24B903FD00F8146F /* 110_balanced_binary_tree.cpp in Sources */,
+				FEA2E20724BCD61500F8146F /* 623_add_one_row_to_tree.cpp in Sources */,
+				FEA2E1FF24BC762700F8146F /* 450_delete_node_in_a_BST.cpp in Sources */,
+				FEE18AE324A2810C002603FE /* 235_lowest_common_ancester_of_bts.cpp in Sources */,
+				FEA2E20324BCD2E000F8146F /* 513_find_bottom_left_tree_value.cpp in Sources */,
+				FEA2E1F524BC676700F8146F /* 103_bianry_tree_zigzag_level_order_traversal.cpp in Sources */,
+				FEA2E1D524B86F8A00F8146F /* 617_merge_two_binary_trees.cpp in Sources */,
+				FEA2E20924BCE56B00F8146F /* 508_most_frequent_subtree_sum.cpp in Sources */,
+				FEA2E20B24BCE8BD00F8146F /* 449_serialize_and_deserialize_bst.cpp in Sources */,
+				FEE18ADF24A23558002603FE /* 102_binary_tree_level_order_traversal.cpp in Sources */,
+				FEA2E1EB24BA397C00F8146F /* 429_nary_tree_level_order_traversal.cpp in Sources */,
+				FEA2E1C124B625CA00F8146F /* 637_average_of_levels_in_binary_tree.cpp in Sources */,
+				FEE18AD724A1F25E002603FE /* node.cpp in Sources */,
+				FEA2E1F124BB36D600F8146F /* 95_unique_binary_search_tree_2.cpp in Sources */,
+				FEA2E1CF24B7454200F8146F /* 538_convert_bst_to_greater_tree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEE18AD124A1F223002603FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEE18AD224A1F223002603FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEE18AD424A1F223002603FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEE18AD524A1F223002603FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE18AC724A1F223002603FE /* Build configuration list for PBXProject "leetcode_tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE18AD124A1F223002603FE /* Debug */,
+				FEE18AD224A1F223002603FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE18AD324A1F223002603FE /* Build configuration list for PBXNativeTarget "leetcode_tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE18AD424A1F223002603FE /* Debug */,
+				FEE18AD524A1F223002603FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE18AC424A1F223002603FE /* Project object */;
+}
