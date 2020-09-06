@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE4A143824EEC8B30020446B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A143724EEC8B30020446B /* main.cpp */; };
+		FE4A143F24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A143E24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp */; };
+		FE4A144124EECD290020446B /* 46_permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A144024EECD290020446B /* 46_permutations.cpp */; };
+		FE4B817524F3AD0C001D6281 /* 39_combination_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B817424F3AD0C001D6281 /* 39_combination_sum.cpp */; };
+		FE4B817724F3AF1B001D6281 /* 40_combination_sum_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B817624F3AF1B001D6281 /* 40_combination_sum_2.cpp */; };
+		FE4B817924F3C579001D6281 /* 131_palindrome_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B817824F3C579001D6281 /* 131_palindrome_partitioning.cpp */; };
+		FE4B817B24F3D049001D6281 /* palindrome_permutation_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B817A24F3D049001D6281 /* palindrome_permutation_2.cpp */; };
+		FE4B817D24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B817C24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp */; };
+		FE4B817F24F40C51001D6281 /* 526_beautiful_arrangement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B817E24F40C51001D6281 /* 526_beautiful_arrangement.cpp */; };
+		FE4B818124F43AA8001D6281 /* 79_word_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B818024F43AA8001D6281 /* 79_word_search.cpp */; };
+		FE4B818324F45067001D6281 /* 22_generate_parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B818224F45067001D6281 /* 22_generate_parentheses.cpp */; };
+		FE4B818524F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B818424F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp */; };
+		FE4B818724F46325001D6281 /* 93_restore_ip_addresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4B818624F46325001D6281 /* 93_restore_ip_addresses.cpp */; };
+		FE8907D824F1601A00405612 /* 47_permutations_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907D724F1601A00405612 /* 47_permutations_2.cpp */; };
+		FE8907DA24F17FCD00405612 /* 77_combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907D924F17FCD00405612 /* 77_combinations.cpp */; };
+		FE8907DD24F1886100405612 /* 78_subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907DC24F1886100405612 /* 78_subsets.cpp */; };
+		FE8907DF24F1A17C00405612 /* 90_subsets_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907DE24F1A17C00405612 /* 90_subsets_2.cpp */; };
+		FE8907E124F1B71300405612 /* 254_factor_combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907E024F1B71300405612 /* 254_factor_combinations.cpp */; };
+		FE8907E324F1C5AB00405612 /* 216_combination_sum_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907E224F1C5AB00405612 /* 216_combination_sum_3.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE4A143224EEC8B30020446B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE4A143424EEC8B30020446B /* leetcode_backtracking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_backtracking; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4A143724EEC8B30020446B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE4A143E24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17_letter_combinations_of_a_phone_number.cpp; sourceTree = "<group>"; };
+		FE4A144024EECD290020446B /* 46_permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 46_permutations.cpp; sourceTree = "<group>"; };
+		FE4B817424F3AD0C001D6281 /* 39_combination_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 39_combination_sum.cpp; sourceTree = "<group>"; };
+		FE4B817624F3AF1B001D6281 /* 40_combination_sum_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 40_combination_sum_2.cpp; sourceTree = "<group>"; };
+		FE4B817824F3C579001D6281 /* 131_palindrome_partitioning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 131_palindrome_partitioning.cpp; sourceTree = "<group>"; };
+		FE4B817A24F3D049001D6281 /* palindrome_permutation_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome_permutation_2.cpp; sourceTree = "<group>"; };
+		FE4B817C24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 320_generalized_abbreviation.cpp; sourceTree = "<group>"; };
+		FE4B817E24F40C51001D6281 /* 526_beautiful_arrangement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 526_beautiful_arrangement.cpp; sourceTree = "<group>"; };
+		FE4B818024F43AA8001D6281 /* 79_word_search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 79_word_search.cpp; sourceTree = "<group>"; };
+		FE4B818224F45067001D6281 /* 22_generate_parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22_generate_parentheses.cpp; sourceTree = "<group>"; };
+		FE4B818424F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 211_design_add_and_search_words_data_structure.cpp; sourceTree = "<group>"; };
+		FE4B818624F46325001D6281 /* 93_restore_ip_addresses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 93_restore_ip_addresses.cpp; sourceTree = "<group>"; };
+		FE8907D724F1601A00405612 /* 47_permutations_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 47_permutations_2.cpp; sourceTree = "<group>"; };
+		FE8907D924F17FCD00405612 /* 77_combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 77_combinations.cpp; sourceTree = "<group>"; };
+		FE8907DC24F1886100405612 /* 78_subsets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 78_subsets.cpp; sourceTree = "<group>"; };
+		FE8907DE24F1A17C00405612 /* 90_subsets_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 90_subsets_2.cpp; sourceTree = "<group>"; };
+		FE8907E024F1B71300405612 /* 254_factor_combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 254_factor_combinations.cpp; sourceTree = "<group>"; };
+		FE8907E224F1C5AB00405612 /* 216_combination_sum_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 216_combination_sum_3.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE4A143124EEC8B30020446B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE4A142B24EEC8B30020446B = {
+			isa = PBXGroup;
+			children = (
+				FE4A143624EEC8B30020446B /* leetcode_backtracking */,
+				FE4A143524EEC8B30020446B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE4A143524EEC8B30020446B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4A143424EEC8B30020446B /* leetcode_backtracking */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE4A143624EEC8B30020446B /* leetcode_backtracking */ = {
+			isa = PBXGroup;
+			children = (
+				FE4A143724EEC8B30020446B /* main.cpp */,
+				FE4B818624F46325001D6281 /* 93_restore_ip_addresses.cpp */,
+				FE4B818424F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp */,
+				FE4B818224F45067001D6281 /* 22_generate_parentheses.cpp */,
+				FE4B818024F43AA8001D6281 /* 79_word_search.cpp */,
+				FE4B817E24F40C51001D6281 /* 526_beautiful_arrangement.cpp */,
+				FE4B817C24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp */,
+				FE4B817A24F3D049001D6281 /* palindrome_permutation_2.cpp */,
+				FE4B817824F3C579001D6281 /* 131_palindrome_partitioning.cpp */,
+				FE4B817624F3AF1B001D6281 /* 40_combination_sum_2.cpp */,
+				FE4B817424F3AD0C001D6281 /* 39_combination_sum.cpp */,
+				FE8907E224F1C5AB00405612 /* 216_combination_sum_3.cpp */,
+				FE8907E024F1B71300405612 /* 254_factor_combinations.cpp */,
+				FE8907DE24F1A17C00405612 /* 90_subsets_2.cpp */,
+				FE8907DC24F1886100405612 /* 78_subsets.cpp */,
+				FE8907D924F17FCD00405612 /* 77_combinations.cpp */,
+				FE8907D724F1601A00405612 /* 47_permutations_2.cpp */,
+				FE4A144024EECD290020446B /* 46_permutations.cpp */,
+				FE4A143E24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp */,
+			);
+			path = leetcode_backtracking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE4A143324EEC8B30020446B /* leetcode_backtracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4A143B24EEC8B30020446B /* Build configuration list for PBXNativeTarget "leetcode_backtracking" */;
+			buildPhases = (
+				FE4A143024EEC8B30020446B /* Sources */,
+				FE4A143124EEC8B30020446B /* Frameworks */,
+				FE4A143224EEC8B30020446B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode_backtracking;
+			productName = leetcode_backtracking;
+			productReference = FE4A143424EEC8B30020446B /* leetcode_backtracking */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE4A142C24EEC8B30020446B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hadley;
+				TargetAttributes = {
+					FE4A143324EEC8B30020446B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FE4A142F24EEC8B30020446B /* Build configuration list for PBXProject "leetcode_backtracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE4A142B24EEC8B30020446B;
+			productRefGroup = FE4A143524EEC8B30020446B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4A143324EEC8B30020446B /* leetcode_backtracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE4A143024EEC8B30020446B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4B818724F46325001D6281 /* 93_restore_ip_addresses.cpp in Sources */,
+				FE4B818524F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp in Sources */,
+				FE8907DD24F1886100405612 /* 78_subsets.cpp in Sources */,
+				FE8907D824F1601A00405612 /* 47_permutations_2.cpp in Sources */,
+				FE4B817924F3C579001D6281 /* 131_palindrome_partitioning.cpp in Sources */,
+				FE4B818124F43AA8001D6281 /* 79_word_search.cpp in Sources */,
+				FE8907E324F1C5AB00405612 /* 216_combination_sum_3.cpp in Sources */,
+				FE8907E124F1B71300405612 /* 254_factor_combinations.cpp in Sources */,
+				FE4A144124EECD290020446B /* 46_permutations.cpp in Sources */,
+				FE4B817B24F3D049001D6281 /* palindrome_permutation_2.cpp in Sources */,
+				FE4B817524F3AD0C001D6281 /* 39_combination_sum.cpp in Sources */,
+				FE4B817D24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp in Sources */,
+				FE4B817724F3AF1B001D6281 /* 40_combination_sum_2.cpp in Sources */,
+				FE8907DA24F17FCD00405612 /* 77_combinations.cpp in Sources */,
+				FE4A143F24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp in Sources */,
+				FE4B817F24F40C51001D6281 /* 526_beautiful_arrangement.cpp in Sources */,
+				FE8907DF24F1A17C00405612 /* 90_subsets_2.cpp in Sources */,
+				FE4A143824EEC8B30020446B /* main.cpp in Sources */,
+				FE4B818324F45067001D6281 /* 22_generate_parentheses.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE4A143924EEC8B30020446B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE4A143A24EEC8B30020446B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE4A143C24EEC8B30020446B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE4A143D24EEC8B30020446B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE4A142F24EEC8B30020446B /* Build configuration list for PBXProject "leetcode_backtracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4A143924EEC8B30020446B /* Debug */,
+				FE4A143A24EEC8B30020446B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4A143B24EEC8B30020446B /* Build configuration list for PBXNativeTarget "leetcode_backtracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4A143C24EEC8B30020446B /* Debug */,
+				FE4A143D24EEC8B30020446B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE4A142C24EEC8B30020446B /* Project object */;
+}
