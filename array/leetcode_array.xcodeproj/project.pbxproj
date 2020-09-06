@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE8F3E2D244DAE1E0015E0D1 /* 268_missing_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E2C244DAE1E0015E0D1 /* 268_missing_number.cpp */; };
+		FE8F3E2F244DB2100015E0D1 /* 283_move_zeros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E2E244DB2100015E0D1 /* 283_move_zeros.cpp */; };
+		FE8F3E31244DF21E0015E0D1 /* 414_third_maximum_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E30244DF21E0015E0D1 /* 414_third_maximum_number.cpp */; };
+		FE8F3E33244E0A120015E0D1 /* 448_find_all_numbers_disappeared_in_an_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E32244E0A120015E0D1 /* 448_find_all_numbers_disappeared_in_an_array.cpp */; };
+		FE8F3E35244E11CB0015E0D1 /* 485_max_consecutive_ones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E34244E11CB0015E0D1 /* 485_max_consecutive_ones.cpp */; };
+		FE8F3E37244E14AD0015E0D1 /* 509_fibonacci_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E36244E14AD0015E0D1 /* 509_fibonacci_number.cpp */; };
+		FE8F3E39244E164C0015E0D1 /* 532_k_diff_pairs_in_an_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E38244E164C0015E0D1 /* 532_k_diff_pairs_in_an_array.cpp */; };
+		FE8F3E3C244E270A0015E0D1 /* 561_array_partition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E3B244E270A0015E0D1 /* 561_array_partition.cpp */; };
+		FE8F3E3E244E2AA80015E0D1 /* 566_reshape_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E3D244E2AA80015E0D1 /* 566_reshape_matrix.cpp */; };
+		FE8F3E40244E31620015E0D1 /* 581_shortesst_unsorted_continuous_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E3F244E31620015E0D1 /* 581_shortesst_unsorted_continuous_subarray.cpp */; };
+		FEF8EAB32448307F004B94C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAB22448307F004B94C5 /* main.cpp */; };
+		FEF8EABA244830D5004B94C5 /* 1_two_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAB9244830D5004B94C5 /* 1_two_sum.cpp */; };
+		FEF8EABC24483DEC004B94C5 /* 26_remove_duplicates_from_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EABB24483DEC004B94C5 /* 26_remove_duplicates_from_sorted_array.cpp */; };
+		FEF8EABE24489FAF004B94C5 /* 27_remove_element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EABD24489FAF004B94C5 /* 27_remove_element.cpp */; };
+		FEF8EAC02448C2C1004B94C5 /* 35_search_insert_position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EABF2448C2C1004B94C5 /* 35_search_insert_position.cpp */; };
+		FEF8EAC2244999FB004B94C5 /* 53_Maximum_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAC1244999FB004B94C5 /* 53_Maximum_subarray.cpp */; };
+		FEF8EAC42449AAE7004B94C5 /* 66_plus_one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAC32449AAE7004B94C5 /* 66_plus_one.cpp */; };
+		FEF8EAC62449B363004B94C5 /* 88_merge_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAC52449B363004B94C5 /* 88_merge_sorted_array.cpp */; };
+		FEF8EAC82449DB6D004B94C5 /* 118_Pascal_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAC72449DB6D004B94C5 /* 118_Pascal_triangle.cpp */; };
+		FEF8EACA244A382E004B94C5 /* 119_pascal_triangle_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAC9244A382E004B94C5 /* 119_pascal_triangle_2.cpp */; };
+		FEF8EACC244A4341004B94C5 /* 121_best_time_buy_and_sell_stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EACB244A4341004B94C5 /* 121_best_time_buy_and_sell_stock.cpp */; };
+		FEF8EACE244A4CBF004B94C5 /* 122_best_time_buy_sell_stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EACD244A4CBF004B94C5 /* 122_best_time_buy_sell_stock.cpp */; };
+		FEF8EAD0244B30E4004B94C5 /* 167_two_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EACF244B30E4004B94C5 /* 167_two_sum.cpp */; };
+		FEF8EAD2244B3C29004B94C5 /* 169_Majority_Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAD1244B3C29004B94C5 /* 169_Majority_Element.cpp */; };
+		FEF8EAD4244B7ECA004B94C5 /* 189_rotate_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAD3244B7ECA004B94C5 /* 189_rotate_array.cpp */; };
+		FEF8EAD6244B8E2E004B94C5 /* 217_contains_duplciate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAD5244B8E2E004B94C5 /* 217_contains_duplciate.cpp */; };
+		FEF8EAD8244B8F42004B94C5 /* 219_contains_duplicate_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAD7244B8F42004B94C5 /* 219_contains_duplicate_2.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEF8EAAD2448307F004B94C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE8F3E2C244DAE1E0015E0D1 /* 268_missing_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 268_missing_number.cpp; sourceTree = "<group>"; };
+		FE8F3E2E244DB2100015E0D1 /* 283_move_zeros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 283_move_zeros.cpp; sourceTree = "<group>"; };
+		FE8F3E30244DF21E0015E0D1 /* 414_third_maximum_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 414_third_maximum_number.cpp; sourceTree = "<group>"; };
+		FE8F3E32244E0A120015E0D1 /* 448_find_all_numbers_disappeared_in_an_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 448_find_all_numbers_disappeared_in_an_array.cpp; sourceTree = "<group>"; };
+		FE8F3E34244E11CB0015E0D1 /* 485_max_consecutive_ones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 485_max_consecutive_ones.cpp; sourceTree = "<group>"; };
+		FE8F3E36244E14AD0015E0D1 /* 509_fibonacci_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 509_fibonacci_number.cpp; sourceTree = "<group>"; };
+		FE8F3E38244E164C0015E0D1 /* 532_k_diff_pairs_in_an_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 532_k_diff_pairs_in_an_array.cpp; sourceTree = "<group>"; };
+		FE8F3E3B244E270A0015E0D1 /* 561_array_partition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 561_array_partition.cpp; sourceTree = "<group>"; };
+		FE8F3E3D244E2AA80015E0D1 /* 566_reshape_matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 566_reshape_matrix.cpp; sourceTree = "<group>"; };
+		FE8F3E3F244E31620015E0D1 /* 581_shortesst_unsorted_continuous_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 581_shortesst_unsorted_continuous_subarray.cpp; sourceTree = "<group>"; };
+		FEF8EAAF2448307F004B94C5 /* leetcode_array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_array; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF8EAB22448307F004B94C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEF8EAB9244830D5004B94C5 /* 1_two_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1_two_sum.cpp; sourceTree = "<group>"; };
+		FEF8EABB24483DEC004B94C5 /* 26_remove_duplicates_from_sorted_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 26_remove_duplicates_from_sorted_array.cpp; sourceTree = "<group>"; };
+		FEF8EABD24489FAF004B94C5 /* 27_remove_element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 27_remove_element.cpp; sourceTree = "<group>"; };
+		FEF8EABF2448C2C1004B94C5 /* 35_search_insert_position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 35_search_insert_position.cpp; sourceTree = "<group>"; };
+		FEF8EAC1244999FB004B94C5 /* 53_Maximum_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 53_Maximum_subarray.cpp; sourceTree = "<group>"; };
+		FEF8EAC32449AAE7004B94C5 /* 66_plus_one.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 66_plus_one.cpp; sourceTree = "<group>"; };
+		FEF8EAC52449B363004B94C5 /* 88_merge_sorted_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 88_merge_sorted_array.cpp; sourceTree = "<group>"; };
+		FEF8EAC72449DB6D004B94C5 /* 118_Pascal_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 118_Pascal_triangle.cpp; sourceTree = "<group>"; };
+		FEF8EAC9244A382E004B94C5 /* 119_pascal_triangle_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 119_pascal_triangle_2.cpp; sourceTree = "<group>"; };
+		FEF8EACB244A4341004B94C5 /* 121_best_time_buy_and_sell_stock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 121_best_time_buy_and_sell_stock.cpp; sourceTree = "<group>"; };
+		FEF8EACD244A4CBF004B94C5 /* 122_best_time_buy_sell_stock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 122_best_time_buy_sell_stock.cpp; sourceTree = "<group>"; };
+		FEF8EACF244B30E4004B94C5 /* 167_two_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 167_two_sum.cpp; sourceTree = "<group>"; };
+		FEF8EAD1244B3C29004B94C5 /* 169_Majority_Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 169_Majority_Element.cpp; sourceTree = "<group>"; };
+		FEF8EAD3244B7ECA004B94C5 /* 189_rotate_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 189_rotate_array.cpp; sourceTree = "<group>"; };
+		FEF8EAD5244B8E2E004B94C5 /* 217_contains_duplciate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 217_contains_duplciate.cpp; sourceTree = "<group>"; };
+		FEF8EAD7244B8F42004B94C5 /* 219_contains_duplicate_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 219_contains_duplicate_2.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF8EAAC2448307F004B94C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF8EAA62448307F004B94C5 = {
+			isa = PBXGroup;
+			children = (
+				FEF8EAB12448307F004B94C5 /* leetcode_array */,
+				FEF8EAB02448307F004B94C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF8EAB02448307F004B94C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF8EAAF2448307F004B94C5 /* leetcode_array */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF8EAB12448307F004B94C5 /* leetcode_array */ = {
+			isa = PBXGroup;
+			children = (
+				FEF8EAB22448307F004B94C5 /* main.cpp */,
+				FE8F3E3F244E31620015E0D1 /* 581_shortesst_unsorted_continuous_subarray.cpp */,
+				FE8F3E3D244E2AA80015E0D1 /* 566_reshape_matrix.cpp */,
+				FE8F3E3B244E270A0015E0D1 /* 561_array_partition.cpp */,
+				FE8F3E38244E164C0015E0D1 /* 532_k_diff_pairs_in_an_array.cpp */,
+				FE8F3E36244E14AD0015E0D1 /* 509_fibonacci_number.cpp */,
+				FE8F3E34244E11CB0015E0D1 /* 485_max_consecutive_ones.cpp */,
+				FE8F3E32244E0A120015E0D1 /* 448_find_all_numbers_disappeared_in_an_array.cpp */,
+				FE8F3E30244DF21E0015E0D1 /* 414_third_maximum_number.cpp */,
+				FE8F3E2E244DB2100015E0D1 /* 283_move_zeros.cpp */,
+				FE8F3E2C244DAE1E0015E0D1 /* 268_missing_number.cpp */,
+				FEF8EAD7244B8F42004B94C5 /* 219_contains_duplicate_2.cpp */,
+				FEF8EAD5244B8E2E004B94C5 /* 217_contains_duplciate.cpp */,
+				FEF8EAD3244B7ECA004B94C5 /* 189_rotate_array.cpp */,
+				FEF8EAD1244B3C29004B94C5 /* 169_Majority_Element.cpp */,
+				FEF8EACF244B30E4004B94C5 /* 167_two_sum.cpp */,
+				FEF8EACD244A4CBF004B94C5 /* 122_best_time_buy_sell_stock.cpp */,
+				FEF8EACB244A4341004B94C5 /* 121_best_time_buy_and_sell_stock.cpp */,
+				FEF8EAC9244A382E004B94C5 /* 119_pascal_triangle_2.cpp */,
+				FEF8EAC72449DB6D004B94C5 /* 118_Pascal_triangle.cpp */,
+				FEF8EAC52449B363004B94C5 /* 88_merge_sorted_array.cpp */,
+				FEF8EAC32449AAE7004B94C5 /* 66_plus_one.cpp */,
+				FEF8EAC1244999FB004B94C5 /* 53_Maximum_subarray.cpp */,
+				FEF8EABD24489FAF004B94C5 /* 27_remove_element.cpp */,
+				FEF8EABB24483DEC004B94C5 /* 26_remove_duplicates_from_sorted_array.cpp */,
+				FEF8EAB9244830D5004B94C5 /* 1_two_sum.cpp */,
+				FEF8EABF2448C2C1004B94C5 /* 35_search_insert_position.cpp */,
+			);
+			path = leetcode_array;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF8EAAE2448307F004B94C5 /* leetcode_array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF8EAB62448307F004B94C5 /* Build configuration list for PBXNativeTarget "leetcode_array" */;
+			buildPhases = (
+				FEF8EAAB2448307F004B94C5 /* Sources */,
+				FEF8EAAC2448307F004B94C5 /* Frameworks */,
+				FEF8EAAD2448307F004B94C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode_array;
+			productName = leetcode_array;
+			productReference = FEF8EAAF2448307F004B94C5 /* leetcode_array */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF8EAA72448307F004B94C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hadley;
+				TargetAttributes = {
+					FEF8EAAE2448307F004B94C5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEF8EAAA2448307F004B94C5 /* Build configuration list for PBXProject "leetcode_array" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF8EAA62448307F004B94C5;
+			productRefGroup = FEF8EAB02448307F004B94C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF8EAAE2448307F004B94C5 /* leetcode_array */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF8EAAB2448307F004B94C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8F3E3C244E270A0015E0D1 /* 561_array_partition.cpp in Sources */,
+				FEF8EAD2244B3C29004B94C5 /* 169_Majority_Element.cpp in Sources */,
+				FEF8EABA244830D5004B94C5 /* 1_two_sum.cpp in Sources */,
+				FEF8EABE24489FAF004B94C5 /* 27_remove_element.cpp in Sources */,
+				FEF8EAD8244B8F42004B94C5 /* 219_contains_duplicate_2.cpp in Sources */,
+				FE8F3E2D244DAE1E0015E0D1 /* 268_missing_number.cpp in Sources */,
+				FE8F3E31244DF21E0015E0D1 /* 414_third_maximum_number.cpp in Sources */,
+				FE8F3E37244E14AD0015E0D1 /* 509_fibonacci_number.cpp in Sources */,
+				FEF8EAC82449DB6D004B94C5 /* 118_Pascal_triangle.cpp in Sources */,
+				FEF8EABC24483DEC004B94C5 /* 26_remove_duplicates_from_sorted_array.cpp in Sources */,
+				FEF8EAD4244B7ECA004B94C5 /* 189_rotate_array.cpp in Sources */,
+				FEF8EACE244A4CBF004B94C5 /* 122_best_time_buy_sell_stock.cpp in Sources */,
+				FEF8EAC2244999FB004B94C5 /* 53_Maximum_subarray.cpp in Sources */,
+				FEF8EACC244A4341004B94C5 /* 121_best_time_buy_and_sell_stock.cpp in Sources */,
+				FE8F3E35244E11CB0015E0D1 /* 485_max_consecutive_ones.cpp in Sources */,
+				FEF8EAD0244B30E4004B94C5 /* 167_two_sum.cpp in Sources */,
+				FEF8EAC42449AAE7004B94C5 /* 66_plus_one.cpp in Sources */,
+				FEF8EACA244A382E004B94C5 /* 119_pascal_triangle_2.cpp in Sources */,
+				FE8F3E40244E31620015E0D1 /* 581_shortesst_unsorted_continuous_subarray.cpp in Sources */,
+				FE8F3E33244E0A120015E0D1 /* 448_find_all_numbers_disappeared_in_an_array.cpp in Sources */,
+				FE8F3E39244E164C0015E0D1 /* 532_k_diff_pairs_in_an_array.cpp in Sources */,
+				FEF8EAC02448C2C1004B94C5 /* 35_search_insert_position.cpp in Sources */,
+				FEF8EAD6244B8E2E004B94C5 /* 217_contains_duplciate.cpp in Sources */,
+				FE8F3E2F244DB2100015E0D1 /* 283_move_zeros.cpp in Sources */,
+				FEF8EAB32448307F004B94C5 /* main.cpp in Sources */,
+				FEF8EAC62449B363004B94C5 /* 88_merge_sorted_array.cpp in Sources */,
+				FE8F3E3E244E2AA80015E0D1 /* 566_reshape_matrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEF8EAB42448307F004B94C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEF8EAB52448307F004B94C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEF8EAB72448307F004B94C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEF8EAB82448307F004B94C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF8EAAA2448307F004B94C5 /* Build configuration list for PBXProject "leetcode_array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF8EAB42448307F004B94C5 /* Debug */,
+				FEF8EAB52448307F004B94C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF8EAB62448307F004B94C5 /* Build configuration list for PBXNativeTarget "leetcode_array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF8EAB72448307F004B94C5 /* Debug */,
+				FEF8EAB82448307F004B94C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF8EAA72448307F004B94C5 /* Project object */;
+}
