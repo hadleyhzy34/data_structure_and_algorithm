@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0CBA3124E3EA1C00B87675 /* 263_ugly_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3024E3EA1C00B87675 /* 263_ugly_number.cpp */; };
+		FE0CBA3324E3EBE400B87675 /* 507_perfect_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3224E3EBE400B87675 /* 507_perfect_number.cpp */; };
+		FE0CBA3524E3F03500B87675 /* 598_range_addition_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3424E3F03500B87675 /* 598_range_addition_2.cpp */; };
+		FE0CBA3724E3F28800B87675 /* 246_strobogrammatic_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3624E3F28800B87675 /* 246_strobogrammatic_number.cpp */; };
+		FE0CBA3924E3F65B00B87675 /* 247_strobogrammatic_number_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3824E3F65B00B87675 /* 247_strobogrammatic_number_2.cpp */; };
+		FE0CBA3B24E40CB800B87675 /* 2_add_two_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3A24E40CB800B87675 /* 2_add_two_numbers.cpp */; };
+		FE0CBA3D24E41A3600B87675 /* 8_string_to_integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3C24E41A3600B87675 /* 8_string_to_integer.cpp */; };
+		FE0CBA3F24E4240900B87675 /* 12_integer_to_roman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA3E24E4240900B87675 /* 12_integer_to_roman.cpp */; };
+		FE0CBA4124E429D900B87675 /* 593_valid_square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4024E429D900B87675 /* 593_valid_square.cpp */; };
+		FE0CBA4324E4574E00B87675 /* 223_rectangle_area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4224E4574E00B87675 /* 223_rectangle_area.cpp */; };
+		FE0CBA4524E4627C00B87675 /* 313_super_ugly_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4424E4627C00B87675 /* 313_super_ugly_number.cpp */; };
+		FE0CBA4724E464D800B87675 /* 356_line_reflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4624E464D800B87675 /* 356_line_reflection.cpp */; };
+		FE0CBA4924E4754C00B87675 /* 360_sort_transformed_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4824E4754C00B87675 /* 360_sort_transformed_array.cpp */; };
+		FE0CBA4B24E47F4B00B87675 /* 372_super_pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4A24E47F4B00B87675 /* 372_super_pow.cpp */; };
+		FE0CBA4D24E482A800B87675 /* 397_integer_replacement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4C24E482A800B87675 /* 397_integer_replacement.cpp */; };
+		FE0CBA4F24E488CB00B87675 /* 400_nth_digit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4E24E488CB00B87675 /* 400_nth_digit.cpp */; };
+		FE0CBA5124E48E4100B87675 /* 469_convex_polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA5024E48E4100B87675 /* 469_convex_polygon.cpp */; };
+		FE1BDCD724E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCD624E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp */; };
+		FE1BDCD924E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCD824E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp */; };
+		FE1BDCDB24E5580800A3DBE1 /* 573_squirrel_simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCDA24E5580800A3DBE1 /* 573_squirrel_simulation.cpp */; };
+		FE1BDCDD24E55D0000A3DBE1 /* 43_multiply_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCDC24E55D0000A3DBE1 /* 43_multiply_strings.cpp */; };
+		FEC58AE724E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AE624E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp */; };
+		FEC58AE924E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AE824E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp */; };
+		FEC58AEB24E5B54C00BBBA5D /* 29_divide_two_integers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AEA24E5B54C00BBBA5D /* 29_divide_two_integers.cpp */; };
+		FEC58AED24E5B7AA00BBBA5D /* 553_optimal_division.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AEC24E5B7AA00BBBA5D /* 553_optimal_division.cpp */; };
+		FEC58AEF24E5BA4300BBBA5D /* 592_fraction_addition_and_subtraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AEE24E5BA4300BBBA5D /* 592_fraction_addition_and_subtraction.cpp */; };
+		FEC8EB5624E2C740009E9A1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB5524E2C740009E9A1D /* main.cpp */; };
+		FEC8EB5D24E2C754009E9A1D /* 7_reverse_integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB5C24E2C754009E9A1D /* 7_reverse_integer.cpp */; };
+		FEC8EB5F24E2D269009E9A1D /* 13_roman_to_integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB5E24E2D269009E9A1D /* 13_roman_to_integer.cpp */; };
+		FEC8EB6124E2DAC5009E9A1D /* 67_add_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6024E2DAC5009E9A1D /* 67_add_binary.cpp */; };
+		FEC8EB6324E2E2D7009E9A1D /* 168_excel_sheet_column_title.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6224E2E2D7009E9A1D /* 168_excel_sheet_column_title.cpp */; };
+		FEC8EB6524E301AF009E9A1D /* 171_excel_sheet_column_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6424E301AF009E9A1D /* 171_excel_sheet_column_number.cpp */; };
+		FEC8EB6724E302F8009E9A1D /* 172_factorial_trailing_zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6624E302F8009E9A1D /* 172_factorial_trailing_zeroes.cpp */; };
+		FEC8EB6924E31D03009E9A1D /* 202_happy_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6824E31D03009E9A1D /* 202_happy_number.cpp */; };
+		FEC8EB6B24E320B4009E9A1D /* 204_count_primes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6A24E320B4009E9A1D /* 204_count_primes.cpp */; };
+		FEC8EB6D24E32B8C009E9A1D /* 326_power_of_three.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6C24E32B8C009E9A1D /* 326_power_of_three.cpp */; };
+		FEC8EB6F24E337E7009E9A1D /* 628_maximum_product_of_three_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB6E24E337E7009E9A1D /* 628_maximum_product_of_three_numbers.cpp */; };
+		FEC8EB7124E33D93009E9A1D /* 633_sum_square_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB7024E33D93009E9A1D /* 633_sum_square_numbers.cpp */; };
+		FEC8EB7324E34243009E9A1D /* 258_add_digits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC8EB7224E34243009E9A1D /* 258_add_digits.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEC8EB5024E2C740009E9A1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE0CBA3024E3EA1C00B87675 /* 263_ugly_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 263_ugly_number.cpp; sourceTree = "<group>"; };
+		FE0CBA3224E3EBE400B87675 /* 507_perfect_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 507_perfect_number.cpp; sourceTree = "<group>"; };
+		FE0CBA3424E3F03500B87675 /* 598_range_addition_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 598_range_addition_2.cpp; sourceTree = "<group>"; };
+		FE0CBA3624E3F28800B87675 /* 246_strobogrammatic_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 246_strobogrammatic_number.cpp; sourceTree = "<group>"; };
+		FE0CBA3824E3F65B00B87675 /* 247_strobogrammatic_number_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 247_strobogrammatic_number_2.cpp; sourceTree = "<group>"; };
+		FE0CBA3A24E40CB800B87675 /* 2_add_two_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_add_two_numbers.cpp; sourceTree = "<group>"; };
+		FE0CBA3C24E41A3600B87675 /* 8_string_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8_string_to_integer.cpp; sourceTree = "<group>"; };
+		FE0CBA3E24E4240900B87675 /* 12_integer_to_roman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12_integer_to_roman.cpp; sourceTree = "<group>"; };
+		FE0CBA4024E429D900B87675 /* 593_valid_square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 593_valid_square.cpp; sourceTree = "<group>"; };
+		FE0CBA4224E4574E00B87675 /* 223_rectangle_area.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 223_rectangle_area.cpp; sourceTree = "<group>"; };
+		FE0CBA4424E4627C00B87675 /* 313_super_ugly_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 313_super_ugly_number.cpp; sourceTree = "<group>"; };
+		FE0CBA4624E464D800B87675 /* 356_line_reflection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 356_line_reflection.cpp; sourceTree = "<group>"; };
+		FE0CBA4824E4754C00B87675 /* 360_sort_transformed_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 360_sort_transformed_array.cpp; sourceTree = "<group>"; };
+		FE0CBA4A24E47F4B00B87675 /* 372_super_pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 372_super_pow.cpp; sourceTree = "<group>"; };
+		FE0CBA4C24E482A800B87675 /* 397_integer_replacement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 397_integer_replacement.cpp; sourceTree = "<group>"; };
+		FE0CBA4E24E488CB00B87675 /* 400_nth_digit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 400_nth_digit.cpp; sourceTree = "<group>"; };
+		FE0CBA5024E48E4100B87675 /* 469_convex_polygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 469_convex_polygon.cpp; sourceTree = "<group>"; };
+		FE1BDCD624E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 478_generate_random_point_in_a_circle.cpp; sourceTree = "<group>"; };
+		FE1BDCD824E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 537_complex_number_multiplcation.cpp; sourceTree = "<group>"; };
+		FE1BDCDA24E5580800A3DBE1 /* 573_squirrel_simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 573_squirrel_simulation.cpp; sourceTree = "<group>"; };
+		FE1BDCDC24E55D0000A3DBE1 /* 43_multiply_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 43_multiply_strings.cpp; sourceTree = "<group>"; };
+		FEC58AE624E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 453_minimum_moves_to_equal_array_elements.cpp; sourceTree = "<group>"; };
+		FEC58AE824E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 462_minimum_moves_to_equal_array_elements_2.cpp; sourceTree = "<group>"; };
+		FEC58AEA24E5B54C00BBBA5D /* 29_divide_two_integers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 29_divide_two_integers.cpp; sourceTree = "<group>"; };
+		FEC58AEC24E5B7AA00BBBA5D /* 553_optimal_division.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 553_optimal_division.cpp; sourceTree = "<group>"; };
+		FEC58AEE24E5BA4300BBBA5D /* 592_fraction_addition_and_subtraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 592_fraction_addition_and_subtraction.cpp; sourceTree = "<group>"; };
+		FEC8EB5224E2C740009E9A1D /* leetcode_math */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_math; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC8EB5524E2C740009E9A1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEC8EB5C24E2C754009E9A1D /* 7_reverse_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7_reverse_integer.cpp; sourceTree = "<group>"; };
+		FEC8EB5E24E2D269009E9A1D /* 13_roman_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13_roman_to_integer.cpp; sourceTree = "<group>"; };
+		FEC8EB6024E2DAC5009E9A1D /* 67_add_binary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 67_add_binary.cpp; sourceTree = "<group>"; };
+		FEC8EB6224E2E2D7009E9A1D /* 168_excel_sheet_column_title.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 168_excel_sheet_column_title.cpp; sourceTree = "<group>"; };
+		FEC8EB6424E301AF009E9A1D /* 171_excel_sheet_column_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 171_excel_sheet_column_number.cpp; sourceTree = "<group>"; };
+		FEC8EB6624E302F8009E9A1D /* 172_factorial_trailing_zeroes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 172_factorial_trailing_zeroes.cpp; sourceTree = "<group>"; };
+		FEC8EB6824E31D03009E9A1D /* 202_happy_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 202_happy_number.cpp; sourceTree = "<group>"; };
+		FEC8EB6A24E320B4009E9A1D /* 204_count_primes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 204_count_primes.cpp; sourceTree = "<group>"; };
+		FEC8EB6C24E32B8C009E9A1D /* 326_power_of_three.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 326_power_of_three.cpp; sourceTree = "<group>"; };
+		FEC8EB6E24E337E7009E9A1D /* 628_maximum_product_of_three_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 628_maximum_product_of_three_numbers.cpp; sourceTree = "<group>"; };
+		FEC8EB7024E33D93009E9A1D /* 633_sum_square_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 633_sum_square_numbers.cpp; sourceTree = "<group>"; };
+		FEC8EB7224E34243009E9A1D /* 258_add_digits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 258_add_digits.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC8EB4F24E2C740009E9A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC8EB4924E2C740009E9A1D = {
+			isa = PBXGroup;
+			children = (
+				FEC8EB5424E2C740009E9A1D /* leetcode_math */,
+				FEC8EB5324E2C740009E9A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC8EB5324E2C740009E9A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8EB5224E2C740009E9A1D /* leetcode_math */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC8EB5424E2C740009E9A1D /* leetcode_math */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8EB5524E2C740009E9A1D /* main.cpp */,
+				FEC58AEE24E5BA4300BBBA5D /* 592_fraction_addition_and_subtraction.cpp */,
+				FEC58AEC24E5B7AA00BBBA5D /* 553_optimal_division.cpp */,
+				FEC58AEA24E5B54C00BBBA5D /* 29_divide_two_integers.cpp */,
+				FEC58AE824E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp */,
+				FEC58AE624E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp */,
+				FE1BDCDC24E55D0000A3DBE1 /* 43_multiply_strings.cpp */,
+				FE1BDCDA24E5580800A3DBE1 /* 573_squirrel_simulation.cpp */,
+				FE1BDCD824E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp */,
+				FE1BDCD624E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp */,
+				FE0CBA5024E48E4100B87675 /* 469_convex_polygon.cpp */,
+				FE0CBA4E24E488CB00B87675 /* 400_nth_digit.cpp */,
+				FE0CBA4C24E482A800B87675 /* 397_integer_replacement.cpp */,
+				FE0CBA4A24E47F4B00B87675 /* 372_super_pow.cpp */,
+				FE0CBA4824E4754C00B87675 /* 360_sort_transformed_array.cpp */,
+				FE0CBA4424E4627C00B87675 /* 313_super_ugly_number.cpp */,
+				FE0CBA4624E464D800B87675 /* 356_line_reflection.cpp */,
+				FE0CBA4224E4574E00B87675 /* 223_rectangle_area.cpp */,
+				FE0CBA4024E429D900B87675 /* 593_valid_square.cpp */,
+				FE0CBA3E24E4240900B87675 /* 12_integer_to_roman.cpp */,
+				FE0CBA3C24E41A3600B87675 /* 8_string_to_integer.cpp */,
+				FE0CBA3A24E40CB800B87675 /* 2_add_two_numbers.cpp */,
+				FE0CBA3824E3F65B00B87675 /* 247_strobogrammatic_number_2.cpp */,
+				FE0CBA3624E3F28800B87675 /* 246_strobogrammatic_number.cpp */,
+				FE0CBA3424E3F03500B87675 /* 598_range_addition_2.cpp */,
+				FE0CBA3224E3EBE400B87675 /* 507_perfect_number.cpp */,
+				FE0CBA3024E3EA1C00B87675 /* 263_ugly_number.cpp */,
+				FEC8EB7224E34243009E9A1D /* 258_add_digits.cpp */,
+				FEC8EB7024E33D93009E9A1D /* 633_sum_square_numbers.cpp */,
+				FEC8EB6E24E337E7009E9A1D /* 628_maximum_product_of_three_numbers.cpp */,
+				FEC8EB6C24E32B8C009E9A1D /* 326_power_of_three.cpp */,
+				FEC8EB6A24E320B4009E9A1D /* 204_count_primes.cpp */,
+				FEC8EB6824E31D03009E9A1D /* 202_happy_number.cpp */,
+				FEC8EB6624E302F8009E9A1D /* 172_factorial_trailing_zeroes.cpp */,
+				FEC8EB6424E301AF009E9A1D /* 171_excel_sheet_column_number.cpp */,
+				FEC8EB6224E2E2D7009E9A1D /* 168_excel_sheet_column_title.cpp */,
+				FEC8EB6024E2DAC5009E9A1D /* 67_add_binary.cpp */,
+				FEC8EB5E24E2D269009E9A1D /* 13_roman_to_integer.cpp */,
+				FEC8EB5C24E2C754009E9A1D /* 7_reverse_integer.cpp */,
+			);
+			path = leetcode_math;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC8EB5124E2C740009E9A1D /* leetcode_math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC8EB5924E2C740009E9A1D /* Build configuration list for PBXNativeTarget "leetcode_math" */;
+			buildPhases = (
+				FEC8EB4E24E2C740009E9A1D /* Sources */,
+				FEC8EB4F24E2C740009E9A1D /* Frameworks */,
+				FEC8EB5024E2C740009E9A1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode_math;
+			productName = leetcode_math;
+			productReference = FEC8EB5224E2C740009E9A1D /* leetcode_math */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC8EB4A24E2C740009E9A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hadley;
+				TargetAttributes = {
+					FEC8EB5124E2C740009E9A1D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEC8EB4D24E2C740009E9A1D /* Build configuration list for PBXProject "leetcode_math" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC8EB4924E2C740009E9A1D;
+			productRefGroup = FEC8EB5324E2C740009E9A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC8EB5124E2C740009E9A1D /* leetcode_math */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC8EB4E24E2C740009E9A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC8EB6324E2E2D7009E9A1D /* 168_excel_sheet_column_title.cpp in Sources */,
+				FE0CBA4724E464D800B87675 /* 356_line_reflection.cpp in Sources */,
+				FEC8EB5F24E2D269009E9A1D /* 13_roman_to_integer.cpp in Sources */,
+				FEC58AE724E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp in Sources */,
+				FE1BDCDD24E55D0000A3DBE1 /* 43_multiply_strings.cpp in Sources */,
+				FEC58AEB24E5B54C00BBBA5D /* 29_divide_two_integers.cpp in Sources */,
+				FEC8EB6924E31D03009E9A1D /* 202_happy_number.cpp in Sources */,
+				FEC8EB7324E34243009E9A1D /* 258_add_digits.cpp in Sources */,
+				FE0CBA5124E48E4100B87675 /* 469_convex_polygon.cpp in Sources */,
+				FEC8EB6724E302F8009E9A1D /* 172_factorial_trailing_zeroes.cpp in Sources */,
+				FE1BDCD924E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp in Sources */,
+				FE1BDCD724E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp in Sources */,
+				FE0CBA4324E4574E00B87675 /* 223_rectangle_area.cpp in Sources */,
+				FE0CBA3D24E41A3600B87675 /* 8_string_to_integer.cpp in Sources */,
+				FEC8EB6F24E337E7009E9A1D /* 628_maximum_product_of_three_numbers.cpp in Sources */,
+				FEC8EB6B24E320B4009E9A1D /* 204_count_primes.cpp in Sources */,
+				FE0CBA3524E3F03500B87675 /* 598_range_addition_2.cpp in Sources */,
+				FE0CBA3F24E4240900B87675 /* 12_integer_to_roman.cpp in Sources */,
+				FE1BDCDB24E5580800A3DBE1 /* 573_squirrel_simulation.cpp in Sources */,
+				FEC8EB7124E33D93009E9A1D /* 633_sum_square_numbers.cpp in Sources */,
+				FE0CBA3B24E40CB800B87675 /* 2_add_two_numbers.cpp in Sources */,
+				FEC58AE924E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp in Sources */,
+				FEC8EB6D24E32B8C009E9A1D /* 326_power_of_three.cpp in Sources */,
+				FE0CBA4D24E482A800B87675 /* 397_integer_replacement.cpp in Sources */,
+				FE0CBA4924E4754C00B87675 /* 360_sort_transformed_array.cpp in Sources */,
+				FE0CBA4124E429D900B87675 /* 593_valid_square.cpp in Sources */,
+				FEC8EB6524E301AF009E9A1D /* 171_excel_sheet_column_number.cpp in Sources */,
+				FE0CBA3724E3F28800B87675 /* 246_strobogrammatic_number.cpp in Sources */,
+				FE0CBA4B24E47F4B00B87675 /* 372_super_pow.cpp in Sources */,
+				FE0CBA3924E3F65B00B87675 /* 247_strobogrammatic_number_2.cpp in Sources */,
+				FEC8EB5624E2C740009E9A1D /* main.cpp in Sources */,
+				FEC8EB5D24E2C754009E9A1D /* 7_reverse_integer.cpp in Sources */,
+				FE0CBA3324E3EBE400B87675 /* 507_perfect_number.cpp in Sources */,
+				FEC58AED24E5B7AA00BBBA5D /* 553_optimal_division.cpp in Sources */,
+				FE0CBA4F24E488CB00B87675 /* 400_nth_digit.cpp in Sources */,
+				FEC8EB6124E2DAC5009E9A1D /* 67_add_binary.cpp in Sources */,
+				FE0CBA3124E3EA1C00B87675 /* 263_ugly_number.cpp in Sources */,
+				FE0CBA4524E4627C00B87675 /* 313_super_ugly_number.cpp in Sources */,
+				FEC58AEF24E5BA4300BBBA5D /* 592_fraction_addition_and_subtraction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEC8EB5724E2C740009E9A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEC8EB5824E2C740009E9A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEC8EB5A24E2C740009E9A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEC8EB5B24E2C740009E9A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC8EB4D24E2C740009E9A1D /* Build configuration list for PBXProject "leetcode_math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC8EB5724E2C740009E9A1D /* Debug */,
+				FEC8EB5824E2C740009E9A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC8EB5924E2C740009E9A1D /* Build configuration list for PBXNativeTarget "leetcode_math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC8EB5A24E2C740009E9A1D /* Debug */,
+				FEC8EB5B24E2C740009E9A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC8EB4A24E2C740009E9A1D /* Project object */;
+}

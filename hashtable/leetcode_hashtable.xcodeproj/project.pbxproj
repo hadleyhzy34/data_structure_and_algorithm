@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE4A140C24ED60CC0020446B /* 347_top_k_frequent_elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A140B24ED60CC0020446B /* 347_top_k_frequent_elements.cpp */; };
+		FE4A140E24ED801D0020446B /* 451_sort_characters_by_frequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A140D24ED801D0020446B /* 451_sort_characters_by_frequency.cpp */; };
+		FE4A141024EDA2B50020446B /* 325_maximum_size_subarray_sum_equals_K.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A140F24EDA2B50020446B /* 325_maximum_size_subarray_sum_equals_K.cpp */; };
+		FE4A141224EDAD290020446B /* 311_sparse_matrix_multiplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141124EDAD290020446B /* 311_sparse_matrix_multiplication.cpp */; };
+		FE4A141424EDC2AC0020446B /* 290_word_pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141324EDC2AC0020446B /* 290_word_pattern.cpp */; };
+		FE4A141624EDC8720020446B /* 149_max_points_on_a_line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141524EDC8720020446B /* 149_max_points_on_a_line.cpp */; };
+		FE4A141824EDD4A20020446B /* 249_group_shifted_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141724EDD4A20020446B /* 249_group_shifted_strings.cpp */; };
+		FE4A141A24EDE1060020446B /* 560_subarray_sum_equals_k.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141924EDE1060020446B /* 560_subarray_sum_equals_k.cpp */; };
+		FE4A141C24EDE90E0020446B /* 525_contiguous_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141B24EDE90E0020446B /* 525_contiguous_array.cpp */; };
+		FE4A141E24EDEC830020446B /* 438_find_all_anagrams_in_a_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141D24EDEC830020446B /* 438_find_all_anagrams_in_a_string.cpp */; };
+		FE4A142024EE6C330020446B /* 599_minimum_index_sum_of_two_lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A141F24EE6C330020446B /* 599_minimum_index_sum_of_two_lists.cpp */; };
+		FE4A142224EE6F240020446B /* 359_logger_rate_limiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A142124EE6F240020446B /* 359_logger_rate_limiter.cpp */; };
+		FE4A142424EE77990020446B /* 447_number_of_boomerangs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A142324EE77990020446B /* 447_number_of_boomerangs.cpp */; };
+		FE4A142624EE9C740020446B /* 380_insert_delete_getRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A142524EE9C740020446B /* 380_insert_delete_getRandom.cpp */; };
+		FE4A142824EEB2D80020446B /* 554_brick_wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A142724EEB2D80020446B /* 554_brick_wall.cpp */; };
+		FE4A142A24EEB5070020446B /* 355_design_twitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A142924EEB5070020446B /* 355_design_twitter.cpp */; };
+		FE5694CB24EBC505009DAA9C /* 36_valid_sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5694CA24EBC505009DAA9C /* 36_valid_sudoku.cpp */; };
+		FE5694CD24EBCB02009DAA9C /* 49_group_anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5694CC24EBCB02009DAA9C /* 49_group_anagrams.cpp */; };
+		FE5694CF24EBDF76009DAA9C /* 138_copy_list_with_random_pointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5694CE24EBDF76009DAA9C /* 138_copy_list_with_random_pointer.cpp */; };
+		FE5694D124EBEAF1009DAA9C /* 159_longest_substring_with_at_most_two_distinct_characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5694D024EBEAF1009DAA9C /* 159_longest_substring_with_at_most_two_distinct_characters.cpp */; };
+		FE5694D324EC005A009DAA9C /* 187_repeated_dna_sequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5694D224EC005A009DAA9C /* 187_repeated_dna_sequences.cpp */; };
+		FE5694D524EC02A9009DAA9C /* 244_shortest_world_distance_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5694D424EC02A9009DAA9C /* 244_shortest_world_distance_2.cpp */; };
+		FEC58B3C24E7FFA600BBBA5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B3B24E7FFA600BBBA5D /* main.cpp */; };
+		FEC58B4324E7FFB700BBBA5D /* 1_two_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4224E7FFB700BBBA5D /* 1_two_sum.cpp */; };
+		FEC58B4524E8083300BBBA5D /* 170_two_sum_3_data_structure_design.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4424E8083300BBBA5D /* 170_two_sum_3_data_structure_design.cpp */; };
+		FEC58B4724E818A900BBBA5D /* 205_isomorphic_strigns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4624E818A900BBBA5D /* 205_isomorphic_strigns.cpp */; };
+		FEC58B4924E81CD300BBBA5D /* 266_palindrome_permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4824E81CD300BBBA5D /* 266_palindrome_permutation.cpp */; };
+		FEC58B4B24E8227F00BBBA5D /* 387_first_unique_character_in_a_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4A24E8227F00BBBA5D /* 387_first_unique_character_in_a_string.cpp */; };
+		FEC58B4D24E8232C00BBBA5D /* 409_longest_palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4C24E8232C00BBBA5D /* 409_longest_palindrome.cpp */; };
+		FEC58B4F24E828B100BBBA5D /* 463_island_perimeter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B4E24E828B100BBBA5D /* 463_island_perimeter.cpp */; };
+		FEC58B5124E82AD400BBBA5D /* 594_longest_harmonious_subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B5024E82AD400BBBA5D /* 594_longest_harmonious_subsequence.cpp */; };
+		FEC58B5324E84E6400BBBA5D /* 624_maximum_distance_in_arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B5224E84E6400BBBA5D /* 624_maximum_distance_in_arrays.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEC58B3624E7FFA600BBBA5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE4A140B24ED60CC0020446B /* 347_top_k_frequent_elements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 347_top_k_frequent_elements.cpp; sourceTree = "<group>"; };
+		FE4A140D24ED801D0020446B /* 451_sort_characters_by_frequency.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 451_sort_characters_by_frequency.cpp; sourceTree = "<group>"; };
+		FE4A140F24EDA2B50020446B /* 325_maximum_size_subarray_sum_equals_K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 325_maximum_size_subarray_sum_equals_K.cpp; sourceTree = "<group>"; };
+		FE4A141124EDAD290020446B /* 311_sparse_matrix_multiplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 311_sparse_matrix_multiplication.cpp; sourceTree = "<group>"; };
+		FE4A141324EDC2AC0020446B /* 290_word_pattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 290_word_pattern.cpp; sourceTree = "<group>"; };
+		FE4A141524EDC8720020446B /* 149_max_points_on_a_line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 149_max_points_on_a_line.cpp; sourceTree = "<group>"; };
+		FE4A141724EDD4A20020446B /* 249_group_shifted_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 249_group_shifted_strings.cpp; sourceTree = "<group>"; };
+		FE4A141924EDE1060020446B /* 560_subarray_sum_equals_k.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 560_subarray_sum_equals_k.cpp; sourceTree = "<group>"; };
+		FE4A141B24EDE90E0020446B /* 525_contiguous_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 525_contiguous_array.cpp; sourceTree = "<group>"; };
+		FE4A141D24EDEC830020446B /* 438_find_all_anagrams_in_a_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 438_find_all_anagrams_in_a_string.cpp; sourceTree = "<group>"; };
+		FE4A141F24EE6C330020446B /* 599_minimum_index_sum_of_two_lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 599_minimum_index_sum_of_two_lists.cpp; sourceTree = "<group>"; };
+		FE4A142124EE6F240020446B /* 359_logger_rate_limiter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 359_logger_rate_limiter.cpp; sourceTree = "<group>"; };
+		FE4A142324EE77990020446B /* 447_number_of_boomerangs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 447_number_of_boomerangs.cpp; sourceTree = "<group>"; };
+		FE4A142524EE9C740020446B /* 380_insert_delete_getRandom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 380_insert_delete_getRandom.cpp; sourceTree = "<group>"; };
+		FE4A142724EEB2D80020446B /* 554_brick_wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 554_brick_wall.cpp; sourceTree = "<group>"; };
+		FE4A142924EEB5070020446B /* 355_design_twitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 355_design_twitter.cpp; sourceTree = "<group>"; };
+		FE5694CA24EBC505009DAA9C /* 36_valid_sudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 36_valid_sudoku.cpp; sourceTree = "<group>"; };
+		FE5694CC24EBCB02009DAA9C /* 49_group_anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 49_group_anagrams.cpp; sourceTree = "<group>"; };
+		FE5694CE24EBDF76009DAA9C /* 138_copy_list_with_random_pointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 138_copy_list_with_random_pointer.cpp; sourceTree = "<group>"; };
+		FE5694D024EBEAF1009DAA9C /* 159_longest_substring_with_at_most_two_distinct_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 159_longest_substring_with_at_most_two_distinct_characters.cpp; sourceTree = "<group>"; };
+		FE5694D224EC005A009DAA9C /* 187_repeated_dna_sequences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 187_repeated_dna_sequences.cpp; sourceTree = "<group>"; };
+		FE5694D424EC02A9009DAA9C /* 244_shortest_world_distance_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 244_shortest_world_distance_2.cpp; sourceTree = "<group>"; };
+		FEC58B3824E7FFA600BBBA5D /* leetcode_hashtable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_hashtable; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC58B3B24E7FFA600BBBA5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEC58B4224E7FFB700BBBA5D /* 1_two_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1_two_sum.cpp; sourceTree = "<group>"; };
+		FEC58B4424E8083300BBBA5D /* 170_two_sum_3_data_structure_design.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 170_two_sum_3_data_structure_design.cpp; sourceTree = "<group>"; };
+		FEC58B4624E818A900BBBA5D /* 205_isomorphic_strigns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 205_isomorphic_strigns.cpp; sourceTree = "<group>"; };
+		FEC58B4824E81CD300BBBA5D /* 266_palindrome_permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 266_palindrome_permutation.cpp; sourceTree = "<group>"; };
+		FEC58B4A24E8227F00BBBA5D /* 387_first_unique_character_in_a_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 387_first_unique_character_in_a_string.cpp; sourceTree = "<group>"; };
+		FEC58B4C24E8232C00BBBA5D /* 409_longest_palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 409_longest_palindrome.cpp; sourceTree = "<group>"; };
+		FEC58B4E24E828B100BBBA5D /* 463_island_perimeter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 463_island_perimeter.cpp; sourceTree = "<group>"; };
+		FEC58B5024E82AD400BBBA5D /* 594_longest_harmonious_subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 594_longest_harmonious_subsequence.cpp; sourceTree = "<group>"; };
+		FEC58B5224E84E6400BBBA5D /* 624_maximum_distance_in_arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 624_maximum_distance_in_arrays.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC58B3524E7FFA600BBBA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC58B2F24E7FFA600BBBA5D = {
+			isa = PBXGroup;
+			children = (
+				FEC58B3A24E7FFA600BBBA5D /* leetcode_hashtable */,
+				FEC58B3924E7FFA600BBBA5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC58B3924E7FFA600BBBA5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC58B3824E7FFA600BBBA5D /* leetcode_hashtable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC58B3A24E7FFA600BBBA5D /* leetcode_hashtable */ = {
+			isa = PBXGroup;
+			children = (
+				FEC58B3B24E7FFA600BBBA5D /* main.cpp */,
+				FE4A142924EEB5070020446B /* 355_design_twitter.cpp */,
+				FE4A142724EEB2D80020446B /* 554_brick_wall.cpp */,
+				FE4A142524EE9C740020446B /* 380_insert_delete_getRandom.cpp */,
+				FE4A142324EE77990020446B /* 447_number_of_boomerangs.cpp */,
+				FE4A142124EE6F240020446B /* 359_logger_rate_limiter.cpp */,
+				FE4A141F24EE6C330020446B /* 599_minimum_index_sum_of_two_lists.cpp */,
+				FE4A141D24EDEC830020446B /* 438_find_all_anagrams_in_a_string.cpp */,
+				FE4A141B24EDE90E0020446B /* 525_contiguous_array.cpp */,
+				FE4A141924EDE1060020446B /* 560_subarray_sum_equals_k.cpp */,
+				FE4A141724EDD4A20020446B /* 249_group_shifted_strings.cpp */,
+				FE4A141524EDC8720020446B /* 149_max_points_on_a_line.cpp */,
+				FE4A141324EDC2AC0020446B /* 290_word_pattern.cpp */,
+				FE4A141124EDAD290020446B /* 311_sparse_matrix_multiplication.cpp */,
+				FE4A140F24EDA2B50020446B /* 325_maximum_size_subarray_sum_equals_K.cpp */,
+				FE4A140D24ED801D0020446B /* 451_sort_characters_by_frequency.cpp */,
+				FE4A140B24ED60CC0020446B /* 347_top_k_frequent_elements.cpp */,
+				FE5694D424EC02A9009DAA9C /* 244_shortest_world_distance_2.cpp */,
+				FE5694D224EC005A009DAA9C /* 187_repeated_dna_sequences.cpp */,
+				FE5694D024EBEAF1009DAA9C /* 159_longest_substring_with_at_most_two_distinct_characters.cpp */,
+				FE5694CE24EBDF76009DAA9C /* 138_copy_list_with_random_pointer.cpp */,
+				FE5694CC24EBCB02009DAA9C /* 49_group_anagrams.cpp */,
+				FE5694CA24EBC505009DAA9C /* 36_valid_sudoku.cpp */,
+				FEC58B5224E84E6400BBBA5D /* 624_maximum_distance_in_arrays.cpp */,
+				FEC58B5024E82AD400BBBA5D /* 594_longest_harmonious_subsequence.cpp */,
+				FEC58B4E24E828B100BBBA5D /* 463_island_perimeter.cpp */,
+				FEC58B4C24E8232C00BBBA5D /* 409_longest_palindrome.cpp */,
+				FEC58B4A24E8227F00BBBA5D /* 387_first_unique_character_in_a_string.cpp */,
+				FEC58B4824E81CD300BBBA5D /* 266_palindrome_permutation.cpp */,
+				FEC58B4624E818A900BBBA5D /* 205_isomorphic_strigns.cpp */,
+				FEC58B4424E8083300BBBA5D /* 170_two_sum_3_data_structure_design.cpp */,
+				FEC58B4224E7FFB700BBBA5D /* 1_two_sum.cpp */,
+			);
+			path = leetcode_hashtable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC58B3724E7FFA600BBBA5D /* leetcode_hashtable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC58B3F24E7FFA600BBBA5D /* Build configuration list for PBXNativeTarget "leetcode_hashtable" */;
+			buildPhases = (
+				FEC58B3424E7FFA600BBBA5D /* Sources */,
+				FEC58B3524E7FFA600BBBA5D /* Frameworks */,
+				FEC58B3624E7FFA600BBBA5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode_hashtable;
+			productName = leetcode_hashtable;
+			productReference = FEC58B3824E7FFA600BBBA5D /* leetcode_hashtable */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC58B3024E7FFA600BBBA5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hadley;
+				TargetAttributes = {
+					FEC58B3724E7FFA600BBBA5D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEC58B3324E7FFA600BBBA5D /* Build configuration list for PBXProject "leetcode_hashtable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC58B2F24E7FFA600BBBA5D;
+			productRefGroup = FEC58B3924E7FFA600BBBA5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC58B3724E7FFA600BBBA5D /* leetcode_hashtable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC58B3424E7FFA600BBBA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4A141224EDAD290020446B /* 311_sparse_matrix_multiplication.cpp in Sources */,
+				FE4A141A24EDE1060020446B /* 560_subarray_sum_equals_k.cpp in Sources */,
+				FE4A140E24ED801D0020446B /* 451_sort_characters_by_frequency.cpp in Sources */,
+				FE4A142824EEB2D80020446B /* 554_brick_wall.cpp in Sources */,
+				FEC58B4924E81CD300BBBA5D /* 266_palindrome_permutation.cpp in Sources */,
+				FEC58B5124E82AD400BBBA5D /* 594_longest_harmonious_subsequence.cpp in Sources */,
+				FE4A140C24ED60CC0020446B /* 347_top_k_frequent_elements.cpp in Sources */,
+				FEC58B4524E8083300BBBA5D /* 170_two_sum_3_data_structure_design.cpp in Sources */,
+				FEC58B4B24E8227F00BBBA5D /* 387_first_unique_character_in_a_string.cpp in Sources */,
+				FE4A141624EDC8720020446B /* 149_max_points_on_a_line.cpp in Sources */,
+				FE5694CD24EBCB02009DAA9C /* 49_group_anagrams.cpp in Sources */,
+				FE5694D324EC005A009DAA9C /* 187_repeated_dna_sequences.cpp in Sources */,
+				FEC58B4324E7FFB700BBBA5D /* 1_two_sum.cpp in Sources */,
+				FE4A142224EE6F240020446B /* 359_logger_rate_limiter.cpp in Sources */,
+				FE4A141024EDA2B50020446B /* 325_maximum_size_subarray_sum_equals_K.cpp in Sources */,
+				FE4A142A24EEB5070020446B /* 355_design_twitter.cpp in Sources */,
+				FEC58B5324E84E6400BBBA5D /* 624_maximum_distance_in_arrays.cpp in Sources */,
+				FE5694CB24EBC505009DAA9C /* 36_valid_sudoku.cpp in Sources */,
+				FEC58B4F24E828B100BBBA5D /* 463_island_perimeter.cpp in Sources */,
+				FE4A142024EE6C330020446B /* 599_minimum_index_sum_of_two_lists.cpp in Sources */,
+				FE4A141E24EDEC830020446B /* 438_find_all_anagrams_in_a_string.cpp in Sources */,
+				FE4A141C24EDE90E0020446B /* 525_contiguous_array.cpp in Sources */,
+				FE4A141824EDD4A20020446B /* 249_group_shifted_strings.cpp in Sources */,
+				FEC58B3C24E7FFA600BBBA5D /* main.cpp in Sources */,
+				FE5694D524EC02A9009DAA9C /* 244_shortest_world_distance_2.cpp in Sources */,
+				FEC58B4D24E8232C00BBBA5D /* 409_longest_palindrome.cpp in Sources */,
+				FEC58B4724E818A900BBBA5D /* 205_isomorphic_strigns.cpp in Sources */,
+				FE5694CF24EBDF76009DAA9C /* 138_copy_list_with_random_pointer.cpp in Sources */,
+				FE4A141424EDC2AC0020446B /* 290_word_pattern.cpp in Sources */,
+				FE4A142424EE77990020446B /* 447_number_of_boomerangs.cpp in Sources */,
+				FE5694D124EBEAF1009DAA9C /* 159_longest_substring_with_at_most_two_distinct_characters.cpp in Sources */,
+				FE4A142624EE9C740020446B /* 380_insert_delete_getRandom.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEC58B3D24E7FFA600BBBA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEC58B3E24E7FFA600BBBA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEC58B4024E7FFA600BBBA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEC58B4124E7FFA600BBBA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC58B3324E7FFA600BBBA5D /* Build configuration list for PBXProject "leetcode_hashtable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC58B3D24E7FFA600BBBA5D /* Debug */,
+				FEC58B3E24E7FFA600BBBA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC58B3F24E7FFA600BBBA5D /* Build configuration list for PBXNativeTarget "leetcode_hashtable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC58B4024E7FFA600BBBA5D /* Debug */,
+				FEC58B4124E7FFA600BBBA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC58B3024E7FFA600BBBA5D /* Project object */;
+}

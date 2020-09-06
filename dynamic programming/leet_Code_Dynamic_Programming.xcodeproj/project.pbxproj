@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE7A5BBD24D05F6C00F99435 /* 361_bomb_enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7A5BBC24D05F6C00F99435 /* 361_bomb_enemy.cpp */; };
+		FE84701F24BF6505005401D6 /* 264_ugly_number_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE84701E24BF6505005401D6 /* 264_ugly_number_2.cpp */; };
+		FE8E141524C596A90091A539 /* 300_longest_increasing_subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141424C596A90091A539 /* 300_longest_increasing_subsequence.cpp */; };
+		FE8E141724C5B2CC0091A539 /* 304_range_sum_query_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141624C5B2CC0091A539 /* 304_range_sum_query_2d.cpp */; };
+		FE8E141924C5D79F0091A539 /* 309_best_time_to_buy_and_sell_stock_with_cooldown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141824C5D79F0091A539 /* 309_best_time_to_buy_and_sell_stock_with_cooldown.cpp */; };
+		FE8E141B24C5D8BC0091A539 /* 322_coin_change.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141A24C5D8BC0091A539 /* 322_coin_change.cpp */; };
+		FE8E141D24C5E4CA0091A539 /* 338_counting_bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141C24C5E4CA0091A539 /* 338_counting_bits.cpp */; };
+		FE8E141F24C5EC230091A539 /* 343_integer_break.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141E24C5EC230091A539 /* 343_integer_break.cpp */; };
+		FE8E142124C5F14A0091A539 /* 351_android_unlock_patterns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142024C5F14A0091A539 /* 351_android_unlock_patterns.cpp */; };
+		FE8E142324C5F1B30091A539 /* 368_largest_divisible_subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142224C5F1B30091A539 /* 368_largest_divisible_subset.cpp */; };
+		FE8E142524C6003B0091A539 /* 376_wiggle_subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142424C6003B0091A539 /* 376_wiggle_subsequence.cpp */; };
+		FE8E142724C609D80091A539 /* 377_combination_sum_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142624C609D80091A539 /* 377_combination_sum_4.cpp */; };
+		FE8E142924C6DC1C0091A539 /* 413_arithmetic_slices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142824C6DC1C0091A539 /* 413_arithmetic_slices.cpp */; };
+		FE8E142B24C6E9630091A539 /* 416_partition_equal_subset_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142A24C6E9630091A539 /* 416_partition_equal_subset_sum.cpp */; };
+		FE8E142D24C6FD920091A539 /* 474_ones_and_zeros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142C24C6FD920091A539 /* 474_ones_and_zeros.cpp */; };
+		FE8E142F24C70C980091A539 /* 467_unique_substrings_in_wraparound_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E142E24C70C980091A539 /* 467_unique_substrings_in_wraparound_string.cpp */; };
+		FE8E143124C73B790091A539 /* 494_target_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E143024C73B790091A539 /* 494_target_sum.cpp */; };
+		FE8E143324C74E6B0091A539 /* 516_longest_palindromic_subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E143224C74E6B0091A539 /* 516_longest_palindromic_subsequence.cpp */; };
+		FE8E143524C850D90091A539 /* 523_continuous_subarray_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E143424C850D90091A539 /* 523_continuous_subarray_sum.cpp */; };
+		FE8E143724C8621F0091A539 /* 486_predict_the_winter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E143624C8621F0091A539 /* 486_predict_the_winter.cpp */; };
+		FE8E143924C862560091A539 /* 418_sentence_screen_fitting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E143824C862560091A539 /* 418_sentence_screen_fitting.cpp */; };
+		FE8E143B24C8759B0091A539 /* 357_count_numbers_with_unique_digits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E143A24C8759B0091A539 /* 357_count_numbers_with_unique_digits.cpp */; };
+		FEA1182A24D99B09000B578A /* 576_out_boundary_paths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA1182924D99B09000B578A /* 576_out_boundary_paths.cpp */; };
+		FEA2E22124BD8A6400F8146F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E22024BD8A6400F8146F /* main.cpp */; };
+		FEA2E22824BD8ACD00F8146F /* 70_climbing_stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E22724BD8ACD00F8146F /* 70_climbing_stairs.cpp */; };
+		FEA2E22A24BD8FB000F8146F /* 198_house_robber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E22924BD8FB000F8146F /* 198_house_robber.cpp */; };
+		FEA2E22C24BD9BE100F8146F /* 213_house_robber_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E22B24BD9BE100F8146F /* 213_house_robber_2.cpp */; };
+		FEA2E22E24BD9E9E00F8146F /* 256_paint_house.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E22D24BD9E9E00F8146F /* 256_paint_house.cpp */; };
+		FEA2E23024BDA20A00F8146F /* 276_paint_fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E22F24BDA20A00F8146F /* 276_paint_fence.cpp */; };
+		FEA2E23224BDBA0C00F8146F /* 303_range_sum_query_immutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23124BDBA0C00F8146F /* 303_range_sum_query_immutable.cpp */; };
+		FEA2E23424BDBE7600F8146F /* 392_is_subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23324BDBE7600F8146F /* 392_is_subsequence.cpp */; };
+		FEA2E23624BDC3FA00F8146F /* 5_longest_palindromic_substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23524BDC3FA00F8146F /* 5_longest_palindromic_substring.cpp */; };
+		FEA2E23824BDFAB100F8146F /* 62_unique_paths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23724BDFAB100F8146F /* 62_unique_paths.cpp */; };
+		FEA2E23A24BE041400F8146F /* 63_unique_paths_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23924BE041400F8146F /* 63_unique_paths_2.cpp */; };
+		FEA2E23C24BE0BBA00F8146F /* 64_minimum_path_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23B24BE0BBA00F8146F /* 64_minimum_path_sum.cpp */; };
+		FEA2E23E24BE0F5100F8146F /* 91_decode_ways.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23D24BE0F5100F8146F /* 91_decode_ways.cpp */; };
+		FEA2E24024BE161A00F8146F /* 120_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E23F24BE161A00F8146F /* 120_triangle.cpp */; };
+		FEA2E24224BE446700F8146F /* 139_word_break.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E24124BE446700F8146F /* 139_word_break.cpp */; };
+		FEA2E24424BF127000F8146F /* 152_maximum_product_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E24324BF127000F8146F /* 152_maximum_product_subarray.cpp */; };
+		FEA2E24624BF267C00F8146F /* 221_maximal_square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E24524BF267C00F8146F /* 221_maximal_square.cpp */; };
+		FED9523424C1A51B0000E812 /* 279_perfect_squares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FED9523324C1A51B0000E812 /* 279_perfect_squares.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEA2E21B24BD8A6400F8146F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE7A5BBC24D05F6C00F99435 /* 361_bomb_enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 361_bomb_enemy.cpp; sourceTree = "<group>"; };
+		FE84701E24BF6505005401D6 /* 264_ugly_number_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 264_ugly_number_2.cpp; sourceTree = "<group>"; };
+		FE8E141424C596A90091A539 /* 300_longest_increasing_subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 300_longest_increasing_subsequence.cpp; sourceTree = "<group>"; };
+		FE8E141624C5B2CC0091A539 /* 304_range_sum_query_2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 304_range_sum_query_2d.cpp; sourceTree = "<group>"; };
+		FE8E141824C5D79F0091A539 /* 309_best_time_to_buy_and_sell_stock_with_cooldown.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 309_best_time_to_buy_and_sell_stock_with_cooldown.cpp; sourceTree = "<group>"; };
+		FE8E141A24C5D8BC0091A539 /* 322_coin_change.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 322_coin_change.cpp; sourceTree = "<group>"; };
+		FE8E141C24C5E4CA0091A539 /* 338_counting_bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 338_counting_bits.cpp; sourceTree = "<group>"; };
+		FE8E141E24C5EC230091A539 /* 343_integer_break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 343_integer_break.cpp; sourceTree = "<group>"; };
+		FE8E142024C5F14A0091A539 /* 351_android_unlock_patterns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 351_android_unlock_patterns.cpp; sourceTree = "<group>"; };
+		FE8E142224C5F1B30091A539 /* 368_largest_divisible_subset.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 368_largest_divisible_subset.cpp; sourceTree = "<group>"; };
+		FE8E142424C6003B0091A539 /* 376_wiggle_subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 376_wiggle_subsequence.cpp; sourceTree = "<group>"; };
+		FE8E142624C609D80091A539 /* 377_combination_sum_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 377_combination_sum_4.cpp; sourceTree = "<group>"; };
+		FE8E142824C6DC1C0091A539 /* 413_arithmetic_slices.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 413_arithmetic_slices.cpp; sourceTree = "<group>"; };
+		FE8E142A24C6E9630091A539 /* 416_partition_equal_subset_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 416_partition_equal_subset_sum.cpp; sourceTree = "<group>"; };
+		FE8E142C24C6FD920091A539 /* 474_ones_and_zeros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 474_ones_and_zeros.cpp; sourceTree = "<group>"; };
+		FE8E142E24C70C980091A539 /* 467_unique_substrings_in_wraparound_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 467_unique_substrings_in_wraparound_string.cpp; sourceTree = "<group>"; };
+		FE8E143024C73B790091A539 /* 494_target_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 494_target_sum.cpp; sourceTree = "<group>"; };
+		FE8E143224C74E6B0091A539 /* 516_longest_palindromic_subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 516_longest_palindromic_subsequence.cpp; sourceTree = "<group>"; };
+		FE8E143424C850D90091A539 /* 523_continuous_subarray_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 523_continuous_subarray_sum.cpp; sourceTree = "<group>"; };
+		FE8E143624C8621F0091A539 /* 486_predict_the_winter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 486_predict_the_winter.cpp; sourceTree = "<group>"; };
+		FE8E143824C862560091A539 /* 418_sentence_screen_fitting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 418_sentence_screen_fitting.cpp; sourceTree = "<group>"; };
+		FE8E143A24C8759B0091A539 /* 357_count_numbers_with_unique_digits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 357_count_numbers_with_unique_digits.cpp; sourceTree = "<group>"; };
+		FEA1182924D99B09000B578A /* 576_out_boundary_paths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 576_out_boundary_paths.cpp; sourceTree = "<group>"; };
+		FEA2E21D24BD8A6400F8146F /* leet_Code_Dynamic_Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leet_Code_Dynamic_Programming; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA2E22024BD8A6400F8146F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEA2E22724BD8ACD00F8146F /* 70_climbing_stairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 70_climbing_stairs.cpp; sourceTree = "<group>"; };
+		FEA2E22924BD8FB000F8146F /* 198_house_robber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 198_house_robber.cpp; sourceTree = "<group>"; };
+		FEA2E22B24BD9BE100F8146F /* 213_house_robber_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 213_house_robber_2.cpp; sourceTree = "<group>"; };
+		FEA2E22D24BD9E9E00F8146F /* 256_paint_house.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 256_paint_house.cpp; sourceTree = "<group>"; };
+		FEA2E22F24BDA20A00F8146F /* 276_paint_fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 276_paint_fence.cpp; sourceTree = "<group>"; };
+		FEA2E23124BDBA0C00F8146F /* 303_range_sum_query_immutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 303_range_sum_query_immutable.cpp; sourceTree = "<group>"; };
+		FEA2E23324BDBE7600F8146F /* 392_is_subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 392_is_subsequence.cpp; sourceTree = "<group>"; };
+		FEA2E23524BDC3FA00F8146F /* 5_longest_palindromic_substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5_longest_palindromic_substring.cpp; sourceTree = "<group>"; };
+		FEA2E23724BDFAB100F8146F /* 62_unique_paths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 62_unique_paths.cpp; sourceTree = "<group>"; };
+		FEA2E23924BE041400F8146F /* 63_unique_paths_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 63_unique_paths_2.cpp; sourceTree = "<group>"; };
+		FEA2E23B24BE0BBA00F8146F /* 64_minimum_path_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 64_minimum_path_sum.cpp; sourceTree = "<group>"; };
+		FEA2E23D24BE0F5100F8146F /* 91_decode_ways.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 91_decode_ways.cpp; sourceTree = "<group>"; };
+		FEA2E23F24BE161A00F8146F /* 120_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 120_triangle.cpp; sourceTree = "<group>"; };
+		FEA2E24124BE446700F8146F /* 139_word_break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 139_word_break.cpp; sourceTree = "<group>"; };
+		FEA2E24324BF127000F8146F /* 152_maximum_product_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 152_maximum_product_subarray.cpp; sourceTree = "<group>"; };
+		FEA2E24524BF267C00F8146F /* 221_maximal_square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 221_maximal_square.cpp; sourceTree = "<group>"; };
+		FED9523324C1A51B0000E812 /* 279_perfect_squares.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 279_perfect_squares.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA2E21A24BD8A6400F8146F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA2E21424BD8A6400F8146F = {
+			isa = PBXGroup;
+			children = (
+				FEA2E21F24BD8A6400F8146F /* leet_Code_Dynamic_Programming */,
+				FEA2E21E24BD8A6400F8146F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA2E21E24BD8A6400F8146F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA2E21D24BD8A6400F8146F /* leet_Code_Dynamic_Programming */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA2E21F24BD8A6400F8146F /* leet_Code_Dynamic_Programming */ = {
+			isa = PBXGroup;
+			children = (
+				FEA2E22024BD8A6400F8146F /* main.cpp */,
+				FEA1182924D99B09000B578A /* 576_out_boundary_paths.cpp */,
+				FE7A5BBC24D05F6C00F99435 /* 361_bomb_enemy.cpp */,
+				FE8E143A24C8759B0091A539 /* 357_count_numbers_with_unique_digits.cpp */,
+				FE8E143824C862560091A539 /* 418_sentence_screen_fitting.cpp */,
+				FE8E143624C8621F0091A539 /* 486_predict_the_winter.cpp */,
+				FE8E143424C850D90091A539 /* 523_continuous_subarray_sum.cpp */,
+				FE8E143224C74E6B0091A539 /* 516_longest_palindromic_subsequence.cpp */,
+				FE8E143024C73B790091A539 /* 494_target_sum.cpp */,
+				FE8E142E24C70C980091A539 /* 467_unique_substrings_in_wraparound_string.cpp */,
+				FE8E142C24C6FD920091A539 /* 474_ones_and_zeros.cpp */,
+				FE8E142A24C6E9630091A539 /* 416_partition_equal_subset_sum.cpp */,
+				FE8E142824C6DC1C0091A539 /* 413_arithmetic_slices.cpp */,
+				FE8E142624C609D80091A539 /* 377_combination_sum_4.cpp */,
+				FE8E142424C6003B0091A539 /* 376_wiggle_subsequence.cpp */,
+				FE8E142224C5F1B30091A539 /* 368_largest_divisible_subset.cpp */,
+				FE8E142024C5F14A0091A539 /* 351_android_unlock_patterns.cpp */,
+				FE8E141E24C5EC230091A539 /* 343_integer_break.cpp */,
+				FE8E141C24C5E4CA0091A539 /* 338_counting_bits.cpp */,
+				FE8E141A24C5D8BC0091A539 /* 322_coin_change.cpp */,
+				FE8E141824C5D79F0091A539 /* 309_best_time_to_buy_and_sell_stock_with_cooldown.cpp */,
+				FE8E141624C5B2CC0091A539 /* 304_range_sum_query_2d.cpp */,
+				FE8E141424C596A90091A539 /* 300_longest_increasing_subsequence.cpp */,
+				FED9523324C1A51B0000E812 /* 279_perfect_squares.cpp */,
+				FE84701E24BF6505005401D6 /* 264_ugly_number_2.cpp */,
+				FEA2E24524BF267C00F8146F /* 221_maximal_square.cpp */,
+				FEA2E24324BF127000F8146F /* 152_maximum_product_subarray.cpp */,
+				FEA2E24124BE446700F8146F /* 139_word_break.cpp */,
+				FEA2E23F24BE161A00F8146F /* 120_triangle.cpp */,
+				FEA2E23D24BE0F5100F8146F /* 91_decode_ways.cpp */,
+				FEA2E23B24BE0BBA00F8146F /* 64_minimum_path_sum.cpp */,
+				FEA2E23924BE041400F8146F /* 63_unique_paths_2.cpp */,
+				FEA2E23724BDFAB100F8146F /* 62_unique_paths.cpp */,
+				FEA2E23524BDC3FA00F8146F /* 5_longest_palindromic_substring.cpp */,
+				FEA2E23324BDBE7600F8146F /* 392_is_subsequence.cpp */,
+				FEA2E23124BDBA0C00F8146F /* 303_range_sum_query_immutable.cpp */,
+				FEA2E22F24BDA20A00F8146F /* 276_paint_fence.cpp */,
+				FEA2E22D24BD9E9E00F8146F /* 256_paint_house.cpp */,
+				FEA2E22B24BD9BE100F8146F /* 213_house_robber_2.cpp */,
+				FEA2E22924BD8FB000F8146F /* 198_house_robber.cpp */,
+				FEA2E22724BD8ACD00F8146F /* 70_climbing_stairs.cpp */,
+			);
+			path = leet_Code_Dynamic_Programming;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA2E21C24BD8A6400F8146F /* leet_Code_Dynamic_Programming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA2E22424BD8A6400F8146F /* Build configuration list for PBXNativeTarget "leet_Code_Dynamic_Programming" */;
+			buildPhases = (
+				FEA2E21924BD8A6400F8146F /* Sources */,
+				FEA2E21A24BD8A6400F8146F /* Frameworks */,
+				FEA2E21B24BD8A6400F8146F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leet_Code_Dynamic_Programming;
+			productName = leet_Code_Dynamic_Programming;
+			productReference = FEA2E21D24BD8A6400F8146F /* leet_Code_Dynamic_Programming */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA2E21524BD8A6400F8146F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hadley;
+				TargetAttributes = {
+					FEA2E21C24BD8A6400F8146F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEA2E21824BD8A6400F8146F /* Build configuration list for PBXProject "leet_Code_Dynamic_Programming" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA2E21424BD8A6400F8146F;
+			productRefGroup = FEA2E21E24BD8A6400F8146F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA2E21C24BD8A6400F8146F /* leet_Code_Dynamic_Programming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA2E21924BD8A6400F8146F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA2E23024BDA20A00F8146F /* 276_paint_fence.cpp in Sources */,
+				FE8E142B24C6E9630091A539 /* 416_partition_equal_subset_sum.cpp in Sources */,
+				FE8E143724C8621F0091A539 /* 486_predict_the_winter.cpp in Sources */,
+				FE8E142324C5F1B30091A539 /* 368_largest_divisible_subset.cpp in Sources */,
+				FE8E141B24C5D8BC0091A539 /* 322_coin_change.cpp in Sources */,
+				FE8E142924C6DC1C0091A539 /* 413_arithmetic_slices.cpp in Sources */,
+				FE8E141724C5B2CC0091A539 /* 304_range_sum_query_2d.cpp in Sources */,
+				FE8E141524C596A90091A539 /* 300_longest_increasing_subsequence.cpp in Sources */,
+				FEA2E22E24BD9E9E00F8146F /* 256_paint_house.cpp in Sources */,
+				FE7A5BBD24D05F6C00F99435 /* 361_bomb_enemy.cpp in Sources */,
+				FEA2E23A24BE041400F8146F /* 63_unique_paths_2.cpp in Sources */,
+				FE8E142724C609D80091A539 /* 377_combination_sum_4.cpp in Sources */,
+				FE8E142524C6003B0091A539 /* 376_wiggle_subsequence.cpp in Sources */,
+				FEA2E23424BDBE7600F8146F /* 392_is_subsequence.cpp in Sources */,
+				FE8E143124C73B790091A539 /* 494_target_sum.cpp in Sources */,
+				FE8E142F24C70C980091A539 /* 467_unique_substrings_in_wraparound_string.cpp in Sources */,
+				FEA2E23824BDFAB100F8146F /* 62_unique_paths.cpp in Sources */,
+				FEA2E24624BF267C00F8146F /* 221_maximal_square.cpp in Sources */,
+				FE8E143524C850D90091A539 /* 523_continuous_subarray_sum.cpp in Sources */,
+				FED9523424C1A51B0000E812 /* 279_perfect_squares.cpp in Sources */,
+				FEA2E23E24BE0F5100F8146F /* 91_decode_ways.cpp in Sources */,
+				FEA1182A24D99B09000B578A /* 576_out_boundary_paths.cpp in Sources */,
+				FE8E143924C862560091A539 /* 418_sentence_screen_fitting.cpp in Sources */,
+				FE8E141D24C5E4CA0091A539 /* 338_counting_bits.cpp in Sources */,
+				FEA2E23C24BE0BBA00F8146F /* 64_minimum_path_sum.cpp in Sources */,
+				FEA2E22C24BD9BE100F8146F /* 213_house_robber_2.cpp in Sources */,
+				FE8E143B24C8759B0091A539 /* 357_count_numbers_with_unique_digits.cpp in Sources */,
+				FEA2E23624BDC3FA00F8146F /* 5_longest_palindromic_substring.cpp in Sources */,
+				FEA2E24024BE161A00F8146F /* 120_triangle.cpp in Sources */,
+				FE8E141F24C5EC230091A539 /* 343_integer_break.cpp in Sources */,
+				FEA2E22124BD8A6400F8146F /* main.cpp in Sources */,
+				FEA2E22A24BD8FB000F8146F /* 198_house_robber.cpp in Sources */,
+				FEA2E24424BF127000F8146F /* 152_maximum_product_subarray.cpp in Sources */,
+				FEA2E23224BDBA0C00F8146F /* 303_range_sum_query_immutable.cpp in Sources */,
+				FEA2E24224BE446700F8146F /* 139_word_break.cpp in Sources */,
+				FE8E141924C5D79F0091A539 /* 309_best_time_to_buy_and_sell_stock_with_cooldown.cpp in Sources */,
+				FEA2E22824BD8ACD00F8146F /* 70_climbing_stairs.cpp in Sources */,
+				FE8E142124C5F14A0091A539 /* 351_android_unlock_patterns.cpp in Sources */,
+				FE8E142D24C6FD920091A539 /* 474_ones_and_zeros.cpp in Sources */,
+				FE8E143324C74E6B0091A539 /* 516_longest_palindromic_subsequence.cpp in Sources */,
+				FE84701F24BF6505005401D6 /* 264_ugly_number_2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEA2E22224BD8A6400F8146F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEA2E22324BD8A6400F8146F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEA2E22524BD8A6400F8146F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEA2E22624BD8A6400F8146F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA2E21824BD8A6400F8146F /* Build configuration list for PBXProject "leet_Code_Dynamic_Programming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA2E22224BD8A6400F8146F /* Debug */,
+				FEA2E22324BD8A6400F8146F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA2E22424BD8A6400F8146F /* Build configuration list for PBXNativeTarget "leet_Code_Dynamic_Programming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA2E22524BD8A6400F8146F /* Debug */,
+				FEA2E22624BD8A6400F8146F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA2E21524BD8A6400F8146F /* Project object */;
+}
