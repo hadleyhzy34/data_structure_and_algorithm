@@ -1,4 +1,12 @@
 # Graph
+## Topic
+* [Graph Representation]
+* [DFS and BFS]
+* [Detect Cycle](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Detect%20Cycle.md)
+* [Topological Sort](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Topological%20Sort.md)
+* [Shortest Paths](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Shortest%20Paths.md)
+* [Max Flow](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Max%20Flow.md)
+
 ## Graph Representation
 ### using vector for graph representation
 ```c++
@@ -37,10 +45,4 @@ public:
     vector<Node*> neighbors; //adjacent nodes that connected to this node
 }
 ```
-## Topic
-* [DFS and BFS]
-* [Detect Cycle](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Detect%20Cycle.md)
-* [Topological Sort](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Topological%20Sort.md)
-* [Shortest Paths](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Shortest%20Paths.md)
-* [Max Flow](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/Max%20Flow.md)
 
