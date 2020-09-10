@@ -68,4 +68,20 @@ void Graph::DFS(){
 
 
 ## Breadth First Search for a Graph
-
+```c++
+void Graph::BFS(){
+    bool *visited = new bool[V];
+    for(int i = 0; i < V; i++)
+        visited[i] = false;
+    q.push(0);
+    while(!q.empty()){
+        for (auto it = adj[q.top()].begin(); it != adj[q.top()].end(); ++it) {
+            if (!visited[*it]) {
+                q.push(*it);
+                cout<<*it<<" ";
+            }
+        }
+        q.pop();
+    }
+}
+```

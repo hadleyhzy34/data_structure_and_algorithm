@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <vector>
 #include <list>
+#include <queue>
 using namespace std;
 
 
@@ -39,6 +40,7 @@ class graph
     void DFSUtil(int v, bool visited[]);
     void DFS(); //dfs approach to print graph nodes
     void BFS(); //bfs approach to print graph nodes
+    queue<int> q;
 }
 
 void Graph::DFSUtil(int v , bool visited[]) {
@@ -53,7 +55,6 @@ void Graph::DFSUtil(int v , bool visited[]) {
 }
 
 void Graph::DFS(){
-    
     // Mark all the vertices as not visited
     bool *visited = new bool[V];
     for(int i = 0; i < V; i++)
@@ -62,6 +63,24 @@ void Graph::DFS(){
     for(int i = 0; i < V; i++)
         if(visited[i] == false)
             DFSUtil(i, visited);
+}
+
+void Graph::BFS(){
+    bool *visited = new bool[V];
+    for(int i = 0; i < V; i++)
+        visited[i] = false;
+    q.push(0);
+    visited[0]=true;
+    while(!q.empty()){
+        for (auto it = adj[q.top()].begin(); it != adj[q.top()].end(); ++it) {
+            if (!visited[*it]) {
+                q.push(*it);
+                cout<<*it<<" ";
+                visited[*it]=true;
+            }
+        }
+        q.pop();
+    }
 }
 //using vector for graph node representation
 class Node{
