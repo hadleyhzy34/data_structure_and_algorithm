@@ -1,7 +1,7 @@
 # Graph
 ## Topic
-* [Graph Representation](https://github.com/hadleyhzy34/data_structure_and_algorithm/tree/master/graph#graph-representation)
-* [DFS and BFS](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/DFS%20and%20BFS.md)
+* [Graph Representation](#graph-representation)
+* [DFS and BFS](#dfs-and-bfs)
 * [Detect Cycle](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/content/Detect%20Cycle.md)
 * [Topological Sort](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/content/Topological%20Sort.md)
 * [Shortest Paths](https://github.com/hadleyhzy34/data_structure_and_algorithm/blob/master/graph/content/Shortest%20Paths.md)
