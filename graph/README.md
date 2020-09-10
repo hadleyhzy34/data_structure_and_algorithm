@@ -74,11 +74,13 @@ void Graph::BFS(){
     for(int i = 0; i < V; i++)
         visited[i] = false;
     q.push(0);
+    visited[0]=true;
     while(!q.empty()){
         for (auto it = adj[q.top()].begin(); it != adj[q.top()].end(); ++it) {
             if (!visited[*it]) {
                 q.push(*it);
                 cout<<*it<<" ";
+                visited[*it]=true;
             }
         }
         q.pop();
