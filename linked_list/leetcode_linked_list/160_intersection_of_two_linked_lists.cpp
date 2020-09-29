@@ -2,28 +2,30 @@
 //  160_intersection_of_two_linked_lists.cpp
 //  leetcode_linked_list
 //
-//  Created by Hadley on 14.04.20.
+//  Created by Hadley on 25.09.20.
 //  Copyright © 2020 Hadley. All rights reserved.
 //
 
 #include <stdio.h>
+#include <vector>
+#include <unordered_set>
+#include <unordered_map>
 #include "83_Remove_duplicats_from_sorted_list.cpp"
+using namespace std;
 
-//class Solution160 {
-//public:
-//    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-//        int a_count=1;
-//        int b_count=1;
-//        while(headA->next){
-//            headA=headA->next;
-//            a_count++;
-//        }
-//        while(headB->next){
-//            headB=headB->next;
-//            b_count++;
-//        }
-//        int count=(a_count>b_count?a_count:b_count);
-//        while(head)
-//
-//    }
-//};
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        unordered_map<ListNode*,int>map;
+        while(headA){
+            map[headA]++;
+            headA=headA->next;
+        }
+        while(headB){
+            map[headB]++;
+            if(map[headB]==2)break;
+            headB=headB->next;
+        }
+        return headB;
+    }
+};

@@ -73,8 +73,13 @@ int main(int argc, const char * argv[]) {
 //    Solution219 test1;
 //    test1.containsNearbyDuplicate(data8, 2);
     //test414
-    Solution414 test1;
-    cout<<test1.thirdMax(data9);
+//    Solution414 test1;
+//    cout<<test1.thirdMax(data9);
+    
+    //test min_element
+//    vector<int> num={1,1};
+//    auto min=*min_element(num.begin(), num.end());
+//    cout<<min<<endl;
     
     return 0;
 }

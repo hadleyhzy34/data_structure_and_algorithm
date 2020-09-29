@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3786FE2520C856003C48F2 /* 283_move_zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3786FD2520C856003C48F2 /* 283_move_zeroes.cpp */; };
 		FEC58AFD24E68C7B00BBBA5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AFC24E68C7B00BBBA5D /* main.cpp */; };
 		FEC58B0424E68CBD00BBBA5D /* 28_implement_strstr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B0324E68CBD00BBBA5D /* 28_implement_strstr.cpp */; };
 		FEC58B0624E692E900BBBA5D /* 88_merge_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58B0524E692E900BBBA5D /* 88_merge_sorted_array.cpp */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE3786FD2520C856003C48F2 /* 283_move_zeroes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 283_move_zeroes.cpp; sourceTree = "<group>"; };
 		FEC58AF924E68C7B00BBBA5D /* Leetcode_two_pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode_two_pointers; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC58AFC24E68C7B00BBBA5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FEC58B0324E68CBD00BBBA5D /* 28_implement_strstr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 28_implement_strstr.cpp; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC58AFC24E68C7B00BBBA5D /* main.cpp */,
+				FE3786FD2520C856003C48F2 /* 283_move_zeroes.cpp */,
 				FEC58B2D24E7F45A00BBBA5D /* 567_permutation_in_string.cpp */,
 				FEC58B2B24E750CB00BBBA5D /* 487_max_consecutive_ones_2.cpp */,
 				FEC58B2924E748FB00BBBA5D /* 424_longest_repeating_character_replacement.cpp */,
@@ -191,6 +194,7 @@
 				FEC58B2424E7280600BBBA5D /* 142_linked_list_cycle_2.cpp in Sources */,
 				FEC58B2824E747B600BBBA5D /* 287_find_the_duplicate_number.cpp in Sources */,
 				FEC58B2A24E748FB00BBBA5D /* 424_longest_repeating_character_replacement.cpp in Sources */,
+				FE3786FE2520C856003C48F2 /* 283_move_zeroes.cpp in Sources */,
 				FEC58B2024E7136D00BBBA5D /* 80_remove_duplicated_from_sorted_array_2.cpp in Sources */,
 				FEC58B1224E69F8200BBBA5D /* 3_longest_substring_without_repeating_characters.cpp in Sources */,
 				FEC58B1424E6ACE100BBBA5D /* 11_container_with_most_water.cpp in Sources */,

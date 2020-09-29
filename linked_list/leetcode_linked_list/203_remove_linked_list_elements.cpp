@@ -14,18 +14,35 @@ class Solution203 {
 public:
     ListNode* removeElements(ListNode* head, int val) {
         ListNode dummy{0};
-//        dummy.next = head;
-        ListNode* output = &dummy;
-        while(head){
-            if(head->val==val){
-                head=head->next;
-                continue;
-            }
-//            std::cout<<head->val<<std::endl;
-            output->next=head;
+        
+        while(head&&head->val==val){
             head=head->next;
-            output=output->next;
-            std::cout<<output->val<<std::endl;
+        }
+        
+        ListNode* res=head;
+        dummy.next=res;
+        
+        while(head){
+            if(head->next){
+                if(head->next->val==val){
+                    head->next=head->next->next;
+                    head=head->next;
+                    res=res->next;
+                }else{
+                    res->next=head->next;
+                    
+                }
+            }
+            if(head->next->val!=val){
+                
+            }
+            if(head->val!=val){
+                res=head;
+                res=res->next;
+                head=head->next;
+            }else{
+                head=head->next;
+            }
         }
         return dummy.next;
     }

@@ -7,7 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE37872F2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872E2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp */; };
+		FE3787312523AB90003C48F2 /* 422_valid_word_square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787302523AB90003C48F2 /* 422_valid_word_square.cpp */; };
+		FE3787332523C08A003C48F2 /* 492_construct_rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787322523C08A003C48F2 /* 492_construct_rectangle.cpp */; };
+		FE3787352523C302003C48F2 /* 500_keyboard_row.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787342523C301003C48F2 /* 500_keyboard_row.cpp */; };
+		FE5CA3BC251B9BE20017BAA5 /* 157_read_n_characters_given_read4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3BB251B9BE20017BAA5 /* 157_read_n_characters_given_read4.cpp */; };
+		FE5CA3BE251BA8540017BAA5 /* 161_one_edit_distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3BD251BA8540017BAA5 /* 161_one_edit_distance.cpp */; };
+		FE5CA3C0251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3BF251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp */; };
+		FE5CA3C2251BC9510017BAA5 /* 227_basic_calculator_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3C1251BC9510017BAA5 /* 227_basic_calculator_2.cpp */; };
+		FE5CA3C4251BE1BD0017BAA5 /* 249_group_shifted_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3C3251BE1BD0017BAA5 /* 249_group_shifted_strings.cpp */; };
+		FE5CA3C6251BE5EC0017BAA5 /* 271_encode_and_decode_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3C5251BE5EC0017BAA5 /* 271_encode_and_decode_strings.cpp */; };
+		FE5CA3C8251BFA8C0017BAA5 /* 293_flip_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3C7251BFA8C0017BAA5 /* 293_flip_game.cpp */; };
+		FE5CA3CA251BFBCF0017BAA5 /* 294_flip_game_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3C9251BFBCF0017BAA5 /* 294_flip_game_2.cpp */; };
+		FE5CA3CC251C012F0017BAA5 /* 383_ransom_note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3CB251C012F0017BAA5 /* 383_ransom_note.cpp */; };
+		FE5CA3CE251C04430017BAA5 /* 408_valid_word_abbreviation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3CD251C04430017BAA5 /* 408_valid_word_abbreviation.cpp */; };
+		FE5CA3D0251C0C210017BAA5 /* 415_add_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3CF251C0C210017BAA5 /* 415_add_strings.cpp */; };
+		FE5CA3D2251C115E0017BAA5 /* 434_number of_segments_in_a_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3D1251C115E0017BAA5 /* 434_number of_segments_in_a_string.cpp */; };
+		FE5CA3D4251C12960017BAA5 /* 459_repeated_substring_pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3D3251C12960017BAA5 /* 459_repeated_substring_pattern.cpp */; };
+		FE5CA3D6251C88040017BAA5 /* 556_next_greater_element_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3D5251C88030017BAA5 /* 556_next_greater_element_3.cpp */; };
+		FE5CA3D8251C9B8E0017BAA5 /* 31_next_permutaion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3D7251C9B8E0017BAA5 /* 31_next_permutaion.cpp */; };
+		FE5CA3DA251C9F6B0017BAA5 /* 557_reverse_words_in_a_string_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3D9251C9F6B0017BAA5 /* 557_reverse_words_in_a_string_3.cpp */; };
+		FE5CA3DC251CA3A70017BAA5 /* 583_delete_operation_for_two_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3DB251CA3A70017BAA5 /* 583_delete_operation_for_two_strings.cpp */; };
+		FE5CA3DE251CA5270017BAA5 /* 606_contruct_string_from_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3DD251CA5270017BAA5 /* 606_contruct_string_from_binary_tree.cpp */; };
+		FE5CA3E0251CAAC50017BAA5 /* 520_detect_capital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3DF251CAAC50017BAA5 /* 520_detect_capital.cpp */; };
+		FE5CA3E2251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3E1251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp */; };
+		FE5CA3E4251CC6090017BAA5 /* 551_student_attendance_record_i.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3E3251CC6090017BAA5 /* 551_student_attendance_record_i.cpp */; };
+		FE5CA3E6251CC78D0017BAA5 /* 541_reverse_string_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3E5251CC78D0017BAA5 /* 541_reverse_string_2.cpp */; };
+		FE5CA3E8251CCA430017BAA5 /* 544_output_contest_matches.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3E7251CCA430017BAA5 /* 544_output_contest_matches.cpp */; };
 		FE694424251A787F002A6734 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694423251A787F002A6734 /* main.cpp */; };
+		FE69442B251A7BAF002A6734 /* 6_zigzag_conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE69442A251A7BAF002A6734 /* 6_zigzag_conversion.cpp */; };
+		FE69442D251A96DC002A6734 /* 14_longest_common_prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE69442C251A96DC002A6734 /* 14_longest_common_prefix.cpp */; };
+		FE69442F251A99FC002A6734 /* 38_count_say.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE69442E251A99FC002A6734 /* 38_count_say.cpp */; };
+		FE694431251A9DE1002A6734 /* 58_length_of_last_word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */; };
+		FE694433251AA128002A6734 /* 91_decode_ways.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694432251AA128002A6734 /* 91_decode_ways.cpp */; };
+		FE694435251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +56,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE37872E2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 404_sum_of_left_leaves.cpp; sourceTree = "<group>"; };
+		FE3787302523AB90003C48F2 /* 422_valid_word_square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 422_valid_word_square.cpp; sourceTree = "<group>"; };
+		FE3787322523C08A003C48F2 /* 492_construct_rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 492_construct_rectangle.cpp; sourceTree = "<group>"; };
+		FE3787342523C301003C48F2 /* 500_keyboard_row.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 500_keyboard_row.cpp; sourceTree = "<group>"; };
+		FE5CA3BB251B9BE20017BAA5 /* 157_read_n_characters_given_read4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 157_read_n_characters_given_read4.cpp; sourceTree = "<group>"; };
+		FE5CA3BD251BA8540017BAA5 /* 161_one_edit_distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 161_one_edit_distance.cpp; sourceTree = "<group>"; };
+		FE5CA3BF251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 186_reverse_words_in_a_string_2.cpp; sourceTree = "<group>"; };
+		FE5CA3C1251BC9510017BAA5 /* 227_basic_calculator_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 227_basic_calculator_2.cpp; sourceTree = "<group>"; };
+		FE5CA3C3251BE1BD0017BAA5 /* 249_group_shifted_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 249_group_shifted_strings.cpp; sourceTree = "<group>"; };
+		FE5CA3C5251BE5EC0017BAA5 /* 271_encode_and_decode_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 271_encode_and_decode_strings.cpp; sourceTree = "<group>"; };
+		FE5CA3C7251BFA8C0017BAA5 /* 293_flip_game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 293_flip_game.cpp; sourceTree = "<group>"; };
+		FE5CA3C9251BFBCF0017BAA5 /* 294_flip_game_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 294_flip_game_2.cpp; sourceTree = "<group>"; };
+		FE5CA3CB251C012F0017BAA5 /* 383_ransom_note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 383_ransom_note.cpp; sourceTree = "<group>"; };
+		FE5CA3CD251C04430017BAA5 /* 408_valid_word_abbreviation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 408_valid_word_abbreviation.cpp; sourceTree = "<group>"; };
+		FE5CA3CF251C0C210017BAA5 /* 415_add_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 415_add_strings.cpp; sourceTree = "<group>"; };
+		FE5CA3D1251C115E0017BAA5 /* 434_number of_segments_in_a_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "434_number of_segments_in_a_string.cpp"; sourceTree = "<group>"; };
+		FE5CA3D3251C12960017BAA5 /* 459_repeated_substring_pattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 459_repeated_substring_pattern.cpp; sourceTree = "<group>"; };
+		FE5CA3D5251C88030017BAA5 /* 556_next_greater_element_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 556_next_greater_element_3.cpp; sourceTree = "<group>"; };
+		FE5CA3D7251C9B8E0017BAA5 /* 31_next_permutaion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 31_next_permutaion.cpp; sourceTree = "<group>"; };
+		FE5CA3D9251C9F6B0017BAA5 /* 557_reverse_words_in_a_string_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 557_reverse_words_in_a_string_3.cpp; sourceTree = "<group>"; };
+		FE5CA3DB251CA3A70017BAA5 /* 583_delete_operation_for_two_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 583_delete_operation_for_two_strings.cpp; sourceTree = "<group>"; };
+		FE5CA3DD251CA5270017BAA5 /* 606_contruct_string_from_binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 606_contruct_string_from_binary_tree.cpp; sourceTree = "<group>"; };
+		FE5CA3DF251CAAC50017BAA5 /* 520_detect_capital.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 520_detect_capital.cpp; sourceTree = "<group>"; };
+		FE5CA3E1251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 536_construct_binary_tree_from_string.cpp; sourceTree = "<group>"; };
+		FE5CA3E3251CC6090017BAA5 /* 551_student_attendance_record_i.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 551_student_attendance_record_i.cpp; sourceTree = "<group>"; };
+		FE5CA3E5251CC78D0017BAA5 /* 541_reverse_string_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 541_reverse_string_2.cpp; sourceTree = "<group>"; };
+		FE5CA3E7251CCA430017BAA5 /* 544_output_contest_matches.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 544_output_contest_matches.cpp; sourceTree = "<group>"; };
 		FE694420251A787F002A6734 /* string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = string; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE694423251A787F002A6734 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE69442A251A7BAF002A6734 /* 6_zigzag_conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6_zigzag_conversion.cpp; sourceTree = "<group>"; };
+		FE69442C251A96DC002A6734 /* 14_longest_common_prefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14_longest_common_prefix.cpp; sourceTree = "<group>"; };
+		FE69442E251A99FC002A6734 /* 38_count_say.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 38_count_say.cpp; sourceTree = "<group>"; };
+		FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 58_length_of_last_word.cpp; sourceTree = "<group>"; };
+		FE694432251AA128002A6734 /* 91_decode_ways.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 91_decode_ways.cpp; sourceTree = "<group>"; };
+		FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 151_reverse_words_in_a_string.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +124,39 @@
 			isa = PBXGroup;
 			children = (
 				FE694423251A787F002A6734 /* main.cpp */,
+				FE3787342523C301003C48F2 /* 500_keyboard_row.cpp */,
+				FE3787322523C08A003C48F2 /* 492_construct_rectangle.cpp */,
+				FE3787302523AB90003C48F2 /* 422_valid_word_square.cpp */,
+				FE37872E2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp */,
+				FE5CA3E7251CCA430017BAA5 /* 544_output_contest_matches.cpp */,
+				FE5CA3E5251CC78D0017BAA5 /* 541_reverse_string_2.cpp */,
+				FE5CA3E3251CC6090017BAA5 /* 551_student_attendance_record_i.cpp */,
+				FE5CA3E1251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp */,
+				FE5CA3DF251CAAC50017BAA5 /* 520_detect_capital.cpp */,
+				FE5CA3DD251CA5270017BAA5 /* 606_contruct_string_from_binary_tree.cpp */,
+				FE5CA3DB251CA3A70017BAA5 /* 583_delete_operation_for_two_strings.cpp */,
+				FE5CA3D9251C9F6B0017BAA5 /* 557_reverse_words_in_a_string_3.cpp */,
+				FE5CA3D7251C9B8E0017BAA5 /* 31_next_permutaion.cpp */,
+				FE5CA3D5251C88030017BAA5 /* 556_next_greater_element_3.cpp */,
+				FE5CA3D3251C12960017BAA5 /* 459_repeated_substring_pattern.cpp */,
+				FE5CA3D1251C115E0017BAA5 /* 434_number of_segments_in_a_string.cpp */,
+				FE5CA3CF251C0C210017BAA5 /* 415_add_strings.cpp */,
+				FE5CA3CD251C04430017BAA5 /* 408_valid_word_abbreviation.cpp */,
+				FE5CA3CB251C012F0017BAA5 /* 383_ransom_note.cpp */,
+				FE5CA3C9251BFBCF0017BAA5 /* 294_flip_game_2.cpp */,
+				FE5CA3C7251BFA8C0017BAA5 /* 293_flip_game.cpp */,
+				FE5CA3C5251BE5EC0017BAA5 /* 271_encode_and_decode_strings.cpp */,
+				FE5CA3C3251BE1BD0017BAA5 /* 249_group_shifted_strings.cpp */,
+				FE5CA3C1251BC9510017BAA5 /* 227_basic_calculator_2.cpp */,
+				FE5CA3BF251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp */,
+				FE5CA3BD251BA8540017BAA5 /* 161_one_edit_distance.cpp */,
+				FE5CA3BB251B9BE20017BAA5 /* 157_read_n_characters_given_read4.cpp */,
+				FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */,
+				FE694432251AA128002A6734 /* 91_decode_ways.cpp */,
+				FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */,
+				FE69442E251A99FC002A6734 /* 38_count_say.cpp */,
+				FE69442A251A7BAF002A6734 /* 6_zigzag_conversion.cpp */,
+				FE69442C251A96DC002A6734 /* 14_longest_common_prefix.cpp */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -119,7 +218,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5CA3D8251C9B8E0017BAA5 /* 31_next_permutaion.cpp in Sources */,
+				FE5CA3E6251CC78D0017BAA5 /* 541_reverse_string_2.cpp in Sources */,
+				FE5CA3CE251C04430017BAA5 /* 408_valid_word_abbreviation.cpp in Sources */,
+				FE5CA3E8251CCA430017BAA5 /* 544_output_contest_matches.cpp in Sources */,
+				FE3787332523C08A003C48F2 /* 492_construct_rectangle.cpp in Sources */,
+				FE5CA3C2251BC9510017BAA5 /* 227_basic_calculator_2.cpp in Sources */,
+				FE69442F251A99FC002A6734 /* 38_count_say.cpp in Sources */,
+				FE5CA3D2251C115E0017BAA5 /* 434_number of_segments_in_a_string.cpp in Sources */,
+				FE5CA3E4251CC6090017BAA5 /* 551_student_attendance_record_i.cpp in Sources */,
+				FE3787352523C302003C48F2 /* 500_keyboard_row.cpp in Sources */,
+				FE5CA3BC251B9BE20017BAA5 /* 157_read_n_characters_given_read4.cpp in Sources */,
+				FE5CA3C6251BE5EC0017BAA5 /* 271_encode_and_decode_strings.cpp in Sources */,
+				FE5CA3E0251CAAC50017BAA5 /* 520_detect_capital.cpp in Sources */,
+				FE5CA3BE251BA8540017BAA5 /* 161_one_edit_distance.cpp in Sources */,
+				FE69442D251A96DC002A6734 /* 14_longest_common_prefix.cpp in Sources */,
+				FE5CA3D0251C0C210017BAA5 /* 415_add_strings.cpp in Sources */,
+				FE5CA3DE251CA5270017BAA5 /* 606_contruct_string_from_binary_tree.cpp in Sources */,
+				FE5CA3D6251C88040017BAA5 /* 556_next_greater_element_3.cpp in Sources */,
+				FE5CA3CC251C012F0017BAA5 /* 383_ransom_note.cpp in Sources */,
+				FE5CA3DA251C9F6B0017BAA5 /* 557_reverse_words_in_a_string_3.cpp in Sources */,
+				FE694435251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp in Sources */,
+				FE5CA3D4251C12960017BAA5 /* 459_repeated_substring_pattern.cpp in Sources */,
+				FE5CA3C4251BE1BD0017BAA5 /* 249_group_shifted_strings.cpp in Sources */,
+				FE37872F2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp in Sources */,
+				FE69442B251A7BAF002A6734 /* 6_zigzag_conversion.cpp in Sources */,
+				FE5CA3C8251BFA8C0017BAA5 /* 293_flip_game.cpp in Sources */,
+				FE5CA3CA251BFBCF0017BAA5 /* 294_flip_game_2.cpp in Sources */,
+				FE5CA3DC251CA3A70017BAA5 /* 583_delete_operation_for_two_strings.cpp in Sources */,
 				FE694424251A787F002A6734 /* main.cpp in Sources */,
+				FE5CA3C0251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp in Sources */,
+				FE3787312523AB90003C48F2 /* 422_valid_word_square.cpp in Sources */,
+				FE694431251A9DE1002A6734 /* 58_length_of_last_word.cpp in Sources */,
+				FE5CA3E2251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp in Sources */,
+				FE694433251AA128002A6734 /* 91_decode_ways.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

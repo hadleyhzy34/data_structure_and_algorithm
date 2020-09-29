@@ -36,25 +36,36 @@ struct node{
 //    n->right = NULL;
 //    return n;
 //}
+int solution(int n) {
+    int d[31];
+    int l = 0;
+    while (n > 0) {
+        d[l] = n % 2;
+        n /= 2;
+        l++;
+    }
+    for(int i=0;i<=4;i++){
+        cout<<d[i]<<" ";
+    }
+    for (int p = 1; p <= l/2; ++p) {
+        bool ok = true;
+        for (int i = 0; i < l - p; ++i) {
+            if (d[i] != d[i + p]) {
+                ok = false;
+                break;
+            }
+        }
+        cout<<p<<" "<<ok<<endl;
+        if (ok) {
+            return p;
+        }
+    }
+    return -1;
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    TreeNode *root = new TreeNode(1);
-    root->left=new TreeNode(2);
-    root->right=new TreeNode(3);
-    root->left->left = new TreeNode(4);
-    root->left->right = new TreeNode(5);
-    
-    
-    TreeNode *t = new TreeNode(10);
-//    Solution437 test1;
-//    test1.pathSum(root, 3);
-    
-//    Solution110 test;
-//    test.isBalanced(t);
-    
-    Solution199 test1;
-    test1.rightSideView(root);
+    int n=21;
+    cout<<solution(21);
     
     return 0;
 }

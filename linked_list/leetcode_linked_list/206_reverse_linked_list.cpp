@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include "83_Remove_duplicats_from_sorted_list.cpp"
 #include <string>
+#include <stack>
 #include <iostream>
 using namespace std;
 
@@ -69,3 +70,27 @@ public:
 //        }
 //};
 //
+class Solution206_3 {
+public:
+    ListNode* reverseList(ListNode* head) {
+        if(!head)return nullptr;
+        stack<ListNode*>s;
+        while(head){
+            s.push(head);
+            head=head->next;
+        }
+        cout<<s.top()->val<<endl;
+        ListNode* res=s.top();
+        while(!s.empty()){
+            ListNode* temp=s.top();
+            s.pop();
+            // cout<<s.top()->val<<endl;
+            if(!s.empty()){
+                temp->next=s.top();
+            }else{
+                temp->next=nullptr;
+            }
+        }
+        return res;
+    }
+};

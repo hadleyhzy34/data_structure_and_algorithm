@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE5CA3EC251D43440017BAA5 /* 53_maximum_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3EB251D43440017BAA5 /* 53_maximum_subarray.cpp */; };
 		FE7A5BBD24D05F6C00F99435 /* 361_bomb_enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7A5BBC24D05F6C00F99435 /* 361_bomb_enemy.cpp */; };
 		FE84701F24BF6505005401D6 /* 264_ugly_number_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE84701E24BF6505005401D6 /* 264_ugly_number_2.cpp */; };
 		FE8E141524C596A90091A539 /* 300_longest_increasing_subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8E141424C596A90091A539 /* 300_longest_increasing_subsequence.cpp */; };
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE5CA3EB251D43440017BAA5 /* 53_maximum_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 53_maximum_subarray.cpp; sourceTree = "<group>"; };
 		FE7A5BBC24D05F6C00F99435 /* 361_bomb_enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 361_bomb_enemy.cpp; sourceTree = "<group>"; };
 		FE84701E24BF6505005401D6 /* 264_ugly_number_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 264_ugly_number_2.cpp; sourceTree = "<group>"; };
 		FE8E141424C596A90091A539 /* 300_longest_increasing_subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 300_longest_increasing_subsequence.cpp; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				FEA2E22024BD8A6400F8146F /* main.cpp */,
+				FE5CA3EB251D43440017BAA5 /* 53_maximum_subarray.cpp */,
 				FEA1182924D99B09000B578A /* 576_out_boundary_paths.cpp */,
 				FE7A5BBC24D05F6C00F99435 /* 361_bomb_enemy.cpp */,
 				FE8E143A24C8759B0091A539 /* 357_count_numbers_with_unique_digits.cpp */,
@@ -246,6 +249,7 @@
 				FE8E141B24C5D8BC0091A539 /* 322_coin_change.cpp in Sources */,
 				FE8E142924C6DC1C0091A539 /* 413_arithmetic_slices.cpp in Sources */,
 				FE8E141724C5B2CC0091A539 /* 304_range_sum_query_2d.cpp in Sources */,
+				FE5CA3EC251D43440017BAA5 /* 53_maximum_subarray.cpp in Sources */,
 				FE8E141524C596A90091A539 /* 300_longest_increasing_subsequence.cpp in Sources */,
 				FEA2E22E24BD9E9E00F8146F /* 256_paint_house.cpp in Sources */,
 				FE7A5BBD24D05F6C00F99435 /* 361_bomb_enemy.cpp in Sources */,

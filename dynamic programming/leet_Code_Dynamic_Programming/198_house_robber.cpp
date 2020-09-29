@@ -36,5 +36,27 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    int rob(vector<int>& nums) {
+        if(nums.empty())return 0;
+        int dp[nums.size()];
+        int m=nums[0];
+        for(int i=0;i<nums.size();i++){
+            if(i==0){
+                dp[i]=nums[0];
+            }else if(i==1){
+                dp[i]=nums[1];
+            }else if(i==2){
+                dp[i]=nums[i]+dp[0];
+            }else{
+                dp[i]=nums[i]+max(dp[i-2],dp[i-3]);
+            }
+            m=max(m,dp[i]);
+        }
+        return m;
+    }
+};
+
 
 

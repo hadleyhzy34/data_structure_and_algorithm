@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <vector>
+#include <deque>
 using namespace std;
 
 
@@ -33,3 +34,27 @@ public:
         return nums;
     }
 };
+
+class Solution119_2 {
+public:
+    vector<int> getRow(int rowIndex) {
+        if(rowIndex==0){return {1};}
+         if(rowIndex==1){return {1,1};}
+
+        vector<int> nums{1,1};
+         
+         for(int i=2;i<=rowIndex;i++){
+             for(int j=0;j<nums.size()-1;j++){
+                 nums[j]=nums[j]+nums[j+1];
+             }
+             nums.insert(nums.begin(), 1);
+             // for(auto &x:nums){
+             //     cout<<x<<" ";
+             // }
+             // cout<<endl;
+         }
+         return nums;
+    }
+};
+
+

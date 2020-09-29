@@ -24,11 +24,11 @@ public:
     int reverse(int x) {
         int output=0;
         while(x!=0){
-            if(output<=INT_MAX/10&&output>=INT_MIN/10){
+            if(output>INT_MAX/10||output<INT_MIN/10||output==INT_MAX/10&&x%10>7||output==INT_MIN/10&&x%10<-8){
+                return 0;
+            }else{
                 output=output*10+x%10;
                 x=x/10;
-            }else{
-                return 0;
             }
         }
         return output;
