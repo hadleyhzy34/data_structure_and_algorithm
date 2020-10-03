@@ -39,38 +39,41 @@ public:
 class Solution2 {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
-        vector<int>range;
-        vector<int>range1;
+                pair<int,int>range;
+
         for(int i=1;i<nums.size();i++){
-            if(nums[i-1]>nums[i]){
-                range.push_back(i-1);
+            if(nums[i]<nums[i-1]){
+                range.first=i-1;
                 break;
             }
         }
-        if(range.empty()){return 0;}
-        for(int i=nums.size()-1;i>0;i--){
-            if(nums[i-1]>nums[i]){
-                range.push_back(i);
+
+        for(int i=nums.size()-1;i>=1;i--){
+            if(nums[i]<nums[i-1]){
+                range.second=i;
                 break;
             }
         }
         
-        int max=*max_element(nums.begin()+range[0], nums.begin()+range[1]+1);
-        int min=*min_element(nums.begin()+range[0], nums.begin()+range[1]+1);
-
+        if(range.first==0&&range.second==0)return 0;
+        cout<<range.first<<" "<<range.second<<endl;
+        
+        int min=*min_element(nums.begin()+range.first,nums.begin()+range.second+1);
+        int max=*max_element(nums.begin()+range.first,nums.begin()+range.second+1);
+        
         for(int i=0;i<nums.size();i++){
-            if(min<nums[i]){
-                range1.push_back(i);
+            if(nums[i]>min){
+                range.first=i;
                 break;
             }
         }
 
-        for(int i=nums.size()-1;i>=0;i--){
-            if(max>nums[i]){
-                range1.push_back(i);
+        for(int i=nums.size()-1;i>=1;i--){
+            if(nums[i]<max){
+                range.second=i;
                 break;
             }
         }
-        return range1[1]-range1[0]+1;
+        return range.second-range.first+1;
     }
 };

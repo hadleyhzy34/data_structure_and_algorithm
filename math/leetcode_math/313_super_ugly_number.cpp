@@ -19,12 +19,12 @@
 #include <numeric>
 using namespace std;
 
-class Solution {
-public:
-    int nthSuperUglyNumber(int n, vector<int>& primes) {
-        auto size=primes.size();
-        vector<int> L(size,0);
-        
-        
-    }
-};
+//class Solution {
+//public:
+//    int nthSuperUglyNumber(int n, vector<int>& primes) {
+//        auto size=primes.size();
+//        vector<int> L(size,0);
+//        
+//        
+//    }
+//};

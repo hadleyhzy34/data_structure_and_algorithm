@@ -53,3 +53,21 @@ public:
         return false;
     }
 };
+
+class Solution2 {
+public:
+    bool dfs(TreeNode* s, TreeNode* t){
+        if(!s&&!t)return true;
+        if(!s||!t)return false;
+        if(s->val==t->val){
+            return dfs(s->left,t->left)&&dfs(s->right,t->right);
+        }else{
+            return false;
+        }
+    }
+    bool isSubtree(TreeNode* s, TreeNode* t) {
+        if(!s&&!t)return true;
+        if(!s||!t)return false;
+        return dfs(s,t)||isSubtree(s->left, t)||isSubtree(s->right, t);
+    }
+};

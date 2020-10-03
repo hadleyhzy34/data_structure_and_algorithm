@@ -24,10 +24,12 @@
 		FE0CBA4D24E482A800B87675 /* 397_integer_replacement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4C24E482A800B87675 /* 397_integer_replacement.cpp */; };
 		FE0CBA4F24E488CB00B87675 /* 400_nth_digit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA4E24E488CB00B87675 /* 400_nth_digit.cpp */; };
 		FE0CBA5124E48E4100B87675 /* 469_convex_polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE0CBA5024E48E4100B87675 /* 469_convex_polygon.cpp */; };
+		FE1A5CD42526074F00098E3A /* 405_convert_a_number_to_hexidecimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CD32526074F00098E3A /* 405_convert_a_number_to_hexidecimal.cpp */; };
 		FE1BDCD724E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCD624E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp */; };
 		FE1BDCD924E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCD824E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp */; };
 		FE1BDCDB24E5580800A3DBE1 /* 573_squirrel_simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCDA24E5580800A3DBE1 /* 573_squirrel_simulation.cpp */; };
 		FE1BDCDD24E55D0000A3DBE1 /* 43_multiply_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1BDCDC24E55D0000A3DBE1 /* 43_multiply_strings.cpp */; };
+		FE3787372523D373003C48F2 /* 504_base_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787362523D373003C48F2 /* 504_base_7.cpp */; };
 		FEC58AE724E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AE624E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp */; };
 		FEC58AE924E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AE824E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp */; };
 		FEC58AEB24E5B54C00BBBA5D /* 29_divide_two_integers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC58AEA24E5B54C00BBBA5D /* 29_divide_two_integers.cpp */; };
@@ -78,10 +80,12 @@
 		FE0CBA4C24E482A800B87675 /* 397_integer_replacement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 397_integer_replacement.cpp; sourceTree = "<group>"; };
 		FE0CBA4E24E488CB00B87675 /* 400_nth_digit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 400_nth_digit.cpp; sourceTree = "<group>"; };
 		FE0CBA5024E48E4100B87675 /* 469_convex_polygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 469_convex_polygon.cpp; sourceTree = "<group>"; };
+		FE1A5CD32526074F00098E3A /* 405_convert_a_number_to_hexidecimal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 405_convert_a_number_to_hexidecimal.cpp; sourceTree = "<group>"; };
 		FE1BDCD624E53BF200A3DBE1 /* 478_generate_random_point_in_a_circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 478_generate_random_point_in_a_circle.cpp; sourceTree = "<group>"; };
 		FE1BDCD824E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 537_complex_number_multiplcation.cpp; sourceTree = "<group>"; };
 		FE1BDCDA24E5580800A3DBE1 /* 573_squirrel_simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 573_squirrel_simulation.cpp; sourceTree = "<group>"; };
 		FE1BDCDC24E55D0000A3DBE1 /* 43_multiply_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 43_multiply_strings.cpp; sourceTree = "<group>"; };
+		FE3787362523D373003C48F2 /* 504_base_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 504_base_7.cpp; sourceTree = "<group>"; };
 		FEC58AE624E59C1100BBBA5D /* 453_minimum_moves_to_equal_array_elements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 453_minimum_moves_to_equal_array_elements.cpp; sourceTree = "<group>"; };
 		FEC58AE824E5ADCD00BBBA5D /* 462_minimum_moves_to_equal_array_elements_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 462_minimum_moves_to_equal_array_elements_2.cpp; sourceTree = "<group>"; };
 		FEC58AEA24E5B54C00BBBA5D /* 29_divide_two_integers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 29_divide_two_integers.cpp; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				FEC8EB5524E2C740009E9A1D /* main.cpp */,
+				FE1A5CD32526074F00098E3A /* 405_convert_a_number_to_hexidecimal.cpp */,
+				FE3787362523D373003C48F2 /* 504_base_7.cpp */,
 				FEC58AEE24E5BA4300BBBA5D /* 592_fraction_addition_and_subtraction.cpp */,
 				FEC58AEC24E5B7AA00BBBA5D /* 553_optimal_division.cpp */,
 				FEC58AEA24E5B54C00BBBA5D /* 29_divide_two_integers.cpp */,
@@ -240,7 +246,9 @@
 				FE1BDCDD24E55D0000A3DBE1 /* 43_multiply_strings.cpp in Sources */,
 				FEC58AEB24E5B54C00BBBA5D /* 29_divide_two_integers.cpp in Sources */,
 				FEC8EB6924E31D03009E9A1D /* 202_happy_number.cpp in Sources */,
+				FE1A5CD42526074F00098E3A /* 405_convert_a_number_to_hexidecimal.cpp in Sources */,
 				FEC8EB7324E34243009E9A1D /* 258_add_digits.cpp in Sources */,
+				FE3787372523D373003C48F2 /* 504_base_7.cpp in Sources */,
 				FE0CBA5124E48E4100B87675 /* 469_convex_polygon.cpp in Sources */,
 				FEC8EB6724E302F8009E9A1D /* 172_factorial_trailing_zeroes.cpp in Sources */,
 				FE1BDCD924E5434F00A3DBE1 /* 537_complex_number_multiplcation.cpp in Sources */,

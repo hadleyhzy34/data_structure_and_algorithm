@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1A5CE02527198800098E3A /* 2_ad_two_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CDF2527198800098E3A /* 2_ad_two_numbers.cpp */; };
 		FE37870025210A11003C48F2 /* 346_moving_average_from_data_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3786FF25210A11003C48F2 /* 346_moving_average_from_data_stream.cpp */; };
 		FE5CA3EA251D31BB0017BAA5 /* 21_merge_two_sorted_lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3E9251D31BB0017BAA5 /* 21_merge_two_sorted_lists.cpp */; };
 		FE5CA3EE251D4B110017BAA5 /* 83_remove_duplicates_from_sorted_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5CA3ED251D4B110017BAA5 /* 83_remove_duplicates_from_sorted_list.cpp */; };
+		FE63A18F2528667900A005AF /* 24_swap_node_in_pairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE63A18E2528667900A005AF /* 24_swap_node_in_pairs.cpp */; };
+		FE63A19125286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE63A19025286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp */; };
 		FE67DA27251E0DE900F73498 /* 160_intersection_of_two_linked_lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE67DA26251E0DE900F73498 /* 160_intersection_of_two_linked_lists.cpp */; };
 		FE937935244463CF0036F1B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE937934244463CF0036F1B5 /* main.cpp */; };
 		FE93793C244465900036F1B5 /* 21_merge_sorted_lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE93793B244465900036F1B5 /* 21_merge_sorted_lists.cpp */; };
@@ -34,9 +37,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE1A5CDF2527198800098E3A /* 2_ad_two_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_ad_two_numbers.cpp; sourceTree = "<group>"; };
 		FE3786FF25210A11003C48F2 /* 346_moving_average_from_data_stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 346_moving_average_from_data_stream.cpp; sourceTree = "<group>"; };
 		FE5CA3E9251D31BB0017BAA5 /* 21_merge_two_sorted_lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21_merge_two_sorted_lists.cpp; sourceTree = "<group>"; };
 		FE5CA3ED251D4B110017BAA5 /* 83_remove_duplicates_from_sorted_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 83_remove_duplicates_from_sorted_list.cpp; sourceTree = "<group>"; };
+		FE63A18E2528667900A005AF /* 24_swap_node_in_pairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 24_swap_node_in_pairs.cpp; sourceTree = "<group>"; };
+		FE63A19025286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 19_remove_nth_node_from_end_of_list.cpp; sourceTree = "<group>"; };
 		FE67DA26251E0DE900F73498 /* 160_intersection_of_two_linked_lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 160_intersection_of_two_linked_lists.cpp; sourceTree = "<group>"; };
 		FE937931244463CF0036F1B5 /* leetcode_linked_list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_linked_list; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE937934244463CF0036F1B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				FE937934244463CF0036F1B5 /* main.cpp */,
+				FE63A19025286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp */,
+				FE63A18E2528667900A005AF /* 24_swap_node_in_pairs.cpp */,
+				FE1A5CDF2527198800098E3A /* 2_ad_two_numbers.cpp */,
 				FE3786FF25210A11003C48F2 /* 346_moving_average_from_data_stream.cpp */,
 				FE67DA26251E0DE900F73498 /* 160_intersection_of_two_linked_lists.cpp */,
 				FE5CA3ED251D4B110017BAA5 /* 83_remove_duplicates_from_sorted_list.cpp */,
@@ -153,13 +162,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF8EAA324471B1B004B94C5 /* 206_reverse_linked_list.cpp in Sources */,
+				FE1A5CE02527198800098E3A /* 2_ad_two_numbers.cpp in Sources */,
 				FE37870025210A11003C48F2 /* 346_moving_average_from_data_stream.cpp in Sources */,
 				FE5CA3EA251D31BB0017BAA5 /* 21_merge_two_sorted_lists.cpp in Sources */,
 				FE9379462445FFF30036F1B5 /* 141_linked_list_cycle.cpp in Sources */,
 				FE93793C244465900036F1B5 /* 21_merge_sorted_lists.cpp in Sources */,
 				FE937948244643980036F1B5 /* 203_remove_linked_list_elements.cpp in Sources */,
 				FE93793E244478010036F1B5 /* singly_linked_list_tutorial.cpp in Sources */,
+				FE63A19125286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp in Sources */,
 				FEF8EAA52447793B004B94C5 /* 234_palindrome_linked_list.cpp in Sources */,
+				FE63A18F2528667900A005AF /* 24_swap_node_in_pairs.cpp in Sources */,
 				FE5CA3EE251D4B110017BAA5 /* 83_remove_duplicates_from_sorted_list.cpp in Sources */,
 				FE937935244463CF0036F1B5 /* main.cpp in Sources */,
 				FE9379422445BDE10036F1B5 /* 83_Remove_duplicats_from_sorted_list.cpp in Sources */,

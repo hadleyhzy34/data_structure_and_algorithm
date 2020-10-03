@@ -66,5 +66,33 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    vector<int> res;
+    int maxFre=0,curFre=0,pre=INT_MIN;
+    void dfs(TreeNode* root){
+        if(!root)return;
+        dfs(root->left);
+        if(pre==root->val){
+            curFre++;
+        }else{
+            curFre=1;
+            pre=curFre;
+        }
+        if(curFre>maxFre){
+            res.clear();
+            maxFre=curFre;
+            res.push_back(root->val);
+        }else if(curFre==maxFre){
+            res.push_back(root->val);
+        }
+        dfs(root->right);
+    }
+    vector<int> findMode(TreeNode* root) {
+        dfs(root);
+        return res;
+    }
+};
+
 
 

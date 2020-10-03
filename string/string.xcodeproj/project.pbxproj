@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1A5CDC2526497A00098E3A /* 482_license_key_formatting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CDB2526497A00098E3A /* 482_license_key_formatting.cpp */; };
+		FE1A5CE225271F2200098E3A /* 3_longest_substring_without_repeating_characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CE125271F2200098E3A /* 3_longest_substring_without_repeating_characters.cpp */; };
+		FE1A5CE42527224900098E3A /* 5_longest_palindromic_substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CE32527224900098E3A /* 5_longest_palindromic_substring.cpp */; };
+		FE1A5CEC25273C4900098E3A /* 49_group_anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CEB25273C4900098E3A /* 49_group_anagrams.cpp */; };
+		FE1A5CEE25273DB100098E3A /* 54_spiral_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CED25273DB100098E3A /* 54_spiral_matrix.cpp */; };
 		FE37872F2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872E2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp */; };
 		FE3787312523AB90003C48F2 /* 422_valid_word_square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787302523AB90003C48F2 /* 422_valid_word_square.cpp */; };
 		FE3787332523C08A003C48F2 /* 492_construct_rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787322523C08A003C48F2 /* 492_construct_rectangle.cpp */; };
@@ -56,6 +61,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE1A5CDB2526497A00098E3A /* 482_license_key_formatting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 482_license_key_formatting.cpp; sourceTree = "<group>"; };
+		FE1A5CE125271F2200098E3A /* 3_longest_substring_without_repeating_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3_longest_substring_without_repeating_characters.cpp; sourceTree = "<group>"; };
+		FE1A5CE32527224900098E3A /* 5_longest_palindromic_substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5_longest_palindromic_substring.cpp; sourceTree = "<group>"; };
+		FE1A5CEB25273C4900098E3A /* 49_group_anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 49_group_anagrams.cpp; sourceTree = "<group>"; };
+		FE1A5CED25273DB100098E3A /* 54_spiral_matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 54_spiral_matrix.cpp; sourceTree = "<group>"; };
 		FE37872E2523A5BF003C48F2 /* 404_sum_of_left_leaves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 404_sum_of_left_leaves.cpp; sourceTree = "<group>"; };
 		FE3787302523AB90003C48F2 /* 422_valid_word_square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 422_valid_word_square.cpp; sourceTree = "<group>"; };
 		FE3787322523C08A003C48F2 /* 492_construct_rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 492_construct_rectangle.cpp; sourceTree = "<group>"; };
@@ -124,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				FE694423251A787F002A6734 /* main.cpp */,
+				FE1A5CED25273DB100098E3A /* 54_spiral_matrix.cpp */,
+				FE1A5CEB25273C4900098E3A /* 49_group_anagrams.cpp */,
+				FE1A5CE32527224900098E3A /* 5_longest_palindromic_substring.cpp */,
+				FE1A5CDB2526497A00098E3A /* 482_license_key_formatting.cpp */,
 				FE3787342523C301003C48F2 /* 500_keyboard_row.cpp */,
 				FE3787322523C08A003C48F2 /* 492_construct_rectangle.cpp */,
 				FE3787302523AB90003C48F2 /* 422_valid_word_square.cpp */,
@@ -157,6 +171,7 @@
 				FE69442E251A99FC002A6734 /* 38_count_say.cpp */,
 				FE69442A251A7BAF002A6734 /* 6_zigzag_conversion.cpp */,
 				FE69442C251A96DC002A6734 /* 14_longest_common_prefix.cpp */,
+				FE1A5CE125271F2200098E3A /* 3_longest_substring_without_repeating_characters.cpp */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -221,6 +236,7 @@
 				FE5CA3D8251C9B8E0017BAA5 /* 31_next_permutaion.cpp in Sources */,
 				FE5CA3E6251CC78D0017BAA5 /* 541_reverse_string_2.cpp in Sources */,
 				FE5CA3CE251C04430017BAA5 /* 408_valid_word_abbreviation.cpp in Sources */,
+				FE1A5CDC2526497A00098E3A /* 482_license_key_formatting.cpp in Sources */,
 				FE5CA3E8251CCA430017BAA5 /* 544_output_contest_matches.cpp in Sources */,
 				FE3787332523C08A003C48F2 /* 492_construct_rectangle.cpp in Sources */,
 				FE5CA3C2251BC9510017BAA5 /* 227_basic_calculator_2.cpp in Sources */,
@@ -236,8 +252,11 @@
 				FE5CA3D0251C0C210017BAA5 /* 415_add_strings.cpp in Sources */,
 				FE5CA3DE251CA5270017BAA5 /* 606_contruct_string_from_binary_tree.cpp in Sources */,
 				FE5CA3D6251C88040017BAA5 /* 556_next_greater_element_3.cpp in Sources */,
+				FE1A5CE225271F2200098E3A /* 3_longest_substring_without_repeating_characters.cpp in Sources */,
 				FE5CA3CC251C012F0017BAA5 /* 383_ransom_note.cpp in Sources */,
+				FE1A5CEE25273DB100098E3A /* 54_spiral_matrix.cpp in Sources */,
 				FE5CA3DA251C9F6B0017BAA5 /* 557_reverse_words_in_a_string_3.cpp in Sources */,
+				FE1A5CE42527224900098E3A /* 5_longest_palindromic_substring.cpp in Sources */,
 				FE694435251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp in Sources */,
 				FE5CA3D4251C12960017BAA5 /* 459_repeated_substring_pattern.cpp in Sources */,
 				FE5CA3C4251BE1BD0017BAA5 /* 249_group_shifted_strings.cpp in Sources */,
@@ -249,6 +268,7 @@
 				FE694424251A787F002A6734 /* main.cpp in Sources */,
 				FE5CA3C0251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp in Sources */,
 				FE3787312523AB90003C48F2 /* 422_valid_word_square.cpp in Sources */,
+				FE1A5CEC25273C4900098E3A /* 49_group_anagrams.cpp in Sources */,
 				FE694431251A9DE1002A6734 /* 58_length_of_last_word.cpp in Sources */,
 				FE5CA3E2251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp in Sources */,
 				FE694433251AA128002A6734 /* 91_decode_ways.cpp in Sources */,

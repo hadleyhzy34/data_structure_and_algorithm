@@ -72,3 +72,30 @@ public:
         return res;
     }
 };
+
+class Solution3 {
+public:
+    string convert(string s, int numRows) {
+        if(numRows==1)return s;
+        
+        vector<string> res(min(int(s.size()),numRows));
+        bool goingdown = false;
+        int i=0;
+        for(auto &c:s){
+            if(i==0||i==res.size()-1)goingdown=!goingdown;
+            if(goingdown){
+                res[i].push_back(c);
+                i++;
+            }else{
+                res[i].push_back(c);
+                i--;
+            }
+        }
+        string r;
+        for(auto &x:res){
+            r+=x;
+        }
+        return r;
+    }
+};
+

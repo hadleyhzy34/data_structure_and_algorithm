@@ -32,3 +32,18 @@ public:
         return s;
     }
 };
+
+class Solution2 {
+public:
+    string reverseStr(string s, int k) {
+        int cnt=0;
+        for(;2*cnt*k<s.size();cnt++){
+            if(2*cnt*k+k<s.size()){
+               reverse(s.begin()+2*cnt*k,s.begin()+2*cnt*k+k);
+            }else{
+               reverse(s.begin()+2*cnt*k,s.end());
+            }
+        }
+        return s;
+    }
+};

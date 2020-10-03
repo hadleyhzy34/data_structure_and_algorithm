@@ -53,15 +53,15 @@ public:
     }
 };
 
-class Solution2 {
+class Solution3 {
 public:
     int res=0;
-    int depth(TreeNode* root){
-        if(!root)return 0;
-        int l=depth(root->left);
-        int r=depth(root->right);
-        res=max(res,l+r);
-        return max(l,r)+1;
+    int depth(TreeNode* node){
+        if(!node)return 0;
+        int l=depth(node->left);
+        int r=depth(node->right);
+        res+=abs(l-r);
+        return l+r+node->val;
     }
     int diameterOfBinaryTree(TreeNode* root) {
         if(!root) return 0;
@@ -70,6 +70,20 @@ public:
     }
 };
 
+class Solution4 {
+public:
+    int sum(TreeNode* node){
+        if(!node)return 0;
+        int l=sum(node->left);
+        int r=sum(node->right);
+
+        return l+r+node->val;
+    }
+    int findTilt(TreeNode* root) {
+        if(!root) return 0;
+        return abs(sum(root->left)-sum(root->right))+findTilt(root->left)+findTilt(root->right);
+    }
+};
 
 
 

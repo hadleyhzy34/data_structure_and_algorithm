@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1A5CD2252603E100098E3A /* 506_relative_ranks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CD1252603E100098E3A /* 506_relative_ranks.cpp */; };
+		FE1A5CD62526278A00098E3A /* 415_add_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5CD52526278A00098E3A /* 415_add_strings.cpp */; };
 		FE37872B252343CC003C48F2 /* 41_first_missing_positive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872A252343CC003C48F2 /* 41_first_missing_positive.cpp */; };
 		FE4A140C24ED60CC0020446B /* 347_top_k_frequent_elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A140B24ED60CC0020446B /* 347_top_k_frequent_elements.cpp */; };
 		FE4A140E24ED801D0020446B /* 451_sort_characters_by_frequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A140D24ED801D0020446B /* 451_sort_characters_by_frequency.cpp */; };
@@ -55,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE1A5CD1252603E100098E3A /* 506_relative_ranks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 506_relative_ranks.cpp; sourceTree = "<group>"; };
+		FE1A5CD52526278A00098E3A /* 415_add_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 415_add_strings.cpp; sourceTree = "<group>"; };
 		FE37872A252343CC003C48F2 /* 41_first_missing_positive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 41_first_missing_positive.cpp; sourceTree = "<group>"; };
 		FE4A140B24ED60CC0020446B /* 347_top_k_frequent_elements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 347_top_k_frequent_elements.cpp; sourceTree = "<group>"; };
 		FE4A140D24ED801D0020446B /* 451_sort_characters_by_frequency.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 451_sort_characters_by_frequency.cpp; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				FEC58B3B24E7FFA600BBBA5D /* main.cpp */,
+				FE1A5CD52526278A00098E3A /* 415_add_strings.cpp */,
+				FE1A5CD1252603E100098E3A /* 506_relative_ranks.cpp */,
 				FE37872A252343CC003C48F2 /* 41_first_missing_positive.cpp */,
 				FE4A142924EEB5070020446B /* 355_design_twitter.cpp */,
 				FE4A142724EEB2D80020446B /* 554_brick_wall.cpp */,
@@ -220,6 +226,7 @@
 				FE4A140E24ED801D0020446B /* 451_sort_characters_by_frequency.cpp in Sources */,
 				FE4A142824EEB2D80020446B /* 554_brick_wall.cpp in Sources */,
 				FEC58B4924E81CD300BBBA5D /* 266_palindrome_permutation.cpp in Sources */,
+				FE1A5CD2252603E100098E3A /* 506_relative_ranks.cpp in Sources */,
 				FEC58B5124E82AD400BBBA5D /* 594_longest_harmonious_subsequence.cpp in Sources */,
 				FE4A140C24ED60CC0020446B /* 347_top_k_frequent_elements.cpp in Sources */,
 				FEC58B4524E8083300BBBA5D /* 170_two_sum_3_data_structure_design.cpp in Sources */,
@@ -245,6 +252,7 @@
 				FE5694CF24EBDF76009DAA9C /* 138_copy_list_with_random_pointer.cpp in Sources */,
 				FE37872B252343CC003C48F2 /* 41_first_missing_positive.cpp in Sources */,
 				FE4A141424EDC2AC0020446B /* 290_word_pattern.cpp in Sources */,
+				FE1A5CD62526278A00098E3A /* 415_add_strings.cpp in Sources */,
 				FE4A142424EE77990020446B /* 447_number_of_boomerangs.cpp in Sources */,
 				FE5694D124EBEAF1009DAA9C /* 159_longest_substring_with_at_most_two_distinct_characters.cpp in Sources */,
 				FE4A142624EE9C740020446B /* 380_insert_delete_getRandom.cpp in Sources */,

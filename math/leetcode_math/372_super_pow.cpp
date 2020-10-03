@@ -21,10 +21,10 @@ using namespace std;
 
 
 
-class Solution {
-public:
-    int superPow(int a, vector<int>& b) {
-        int x=log10(INT_MAX)/log10(a);
-        
-    }
-};
+//class Solution {
+//public:
+//    int superPow(int a, vector<int>& b) {
+//        int x=log10(INT_MAX)/log10(a);
+//        
+//    }
+//};

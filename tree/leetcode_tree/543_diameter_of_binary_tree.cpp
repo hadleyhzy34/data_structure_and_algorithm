@@ -48,3 +48,51 @@ public:
     }
 };
 
+class solution{
+public:
+    int res=0;
+    int depth(TreeNode* root){
+        if(!root)return 0;
+        int l=depth(root->left);
+        int r=depth(root->right);
+        res=max(res,l+r);
+        return max(l,r)+1;
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        if(!root) return 0;
+        depth(root);
+        return res;
+    }
+};
+
+class solution3{
+public:
+    int depth(TreeNode* root){
+        if(!root)return 0;
+        if(!root->left&&!root->right)return 0;
+        int l=depth(root->left);
+        int r=depth(root->right);
+        return max(l,r)+1;
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        if(!root) return 0;
+        int l=root->left?depth(root->left)+1:0;
+        int r=root->right?depth(root->right)+1:0;
+        int tilt=l+r;
+        return max(tilt, max(diameterOfBinaryTree(root->left), diameterOfBinaryTree(root->right)));
+    }
+};
+
+class solution4{
+public:
+    int depth(TreeNode* root){
+        if(!root)return 0;
+        int l=depth(root->left);
+        int r=depth(root->right);
+        return max(l,r)+1;
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        if(!root) return 0;
+        return max(depth(root->left)+depth(root->right),max(diameterOfBinaryTree(root->left), diameterOfBinaryTree(root->right)));
+    }
+};

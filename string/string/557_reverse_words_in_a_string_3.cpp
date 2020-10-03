@@ -58,3 +58,20 @@ public:
         return s;
     }
 };
+
+class solution3{
+public:
+    string reverseWords(string s){
+        for(int i=0;i<s.size();i++){
+            int j=i;
+            while(i<s.size()&&!isspace(s[i]))i++;
+            if(j<i){
+                string temp=s.substr(i,i-1-j+1);
+                reverse(temp.begin(), temp.end());
+                s.replace(j, i-j, temp);
+                i--;
+            }
+        }
+        return s;
+    }
+};
