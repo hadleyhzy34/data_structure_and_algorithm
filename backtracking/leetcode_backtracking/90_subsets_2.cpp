@@ -77,3 +77,48 @@ public:
         return res;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution3 {
+public:
+    void subsets(vector<vector<int>>&res,vector<int>&nums,vector<int>&subset,int index){
+        if(index==nums.size())return;
+        for(int i=index;i<nums.size();i++){
+            if(i!=index&&nums[i]==nums[i-1])continue;
+            subset.push_back(nums[i]);
+            res.push_back(subset);
+            subsets(res, nums, subset, i+1);
+            subset.pop_back();
+        }
+    }
+    
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        vector<int> subset;
+        vector<vector<int>>res={{}};
+        subsets(res, nums, subset, 0);
+        return res;
+    }
+};

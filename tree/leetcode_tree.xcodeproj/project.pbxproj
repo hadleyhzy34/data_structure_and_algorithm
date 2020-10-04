@@ -53,6 +53,7 @@
 		FEA2E20F24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E20E24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp */; };
 		FEA2E21124BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E21024BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp */; };
 		FEA2E21324BD08C100F8146F /* 563_binary_tree_tilt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEA2E21224BD08C100F8146F /* 563_binary_tree_tilt.cpp */; };
+		FEB8DE59252A3504007B2765 /* 94_binary_tree_inorder_tree_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8DE58252A3504007B2765 /* 94_binary_tree_inorder_tree_traversal.cpp */; };
 		FEE18AD024A1F223002603FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18ACF24A1F223002603FE /* main.cpp */; };
 		FEE18AD724A1F25E002603FE /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18AD624A1F25E002603FE /* node.cpp */; };
 		FEE18AD924A20E31002603FE /* 100_same_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE18AD824A20E31002603FE /* 100_same_tree.cpp */; };
@@ -122,6 +123,7 @@
 		FEA2E20E24BD03F900F8146F /* 117_populating_next_right_pointers_in_each_node_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 117_populating_next_right_pointers_in_each_node_2.cpp; sourceTree = "<group>"; };
 		FEA2E21024BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 114_flatten_bianry_tree_to_linked_list.cpp; sourceTree = "<group>"; };
 		FEA2E21224BD08C100F8146F /* 563_binary_tree_tilt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 563_binary_tree_tilt.cpp; sourceTree = "<group>"; };
+		FEB8DE58252A3504007B2765 /* 94_binary_tree_inorder_tree_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 94_binary_tree_inorder_tree_traversal.cpp; sourceTree = "<group>"; };
 		FEE18ACC24A1F223002603FE /* leetcode_tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_tree; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE18ACF24A1F223002603FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FEE18AD624A1F25E002603FE /* node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				FEE18ACF24A1F223002603FE /* main.cpp */,
+				FEB8DE58252A3504007B2765 /* 94_binary_tree_inorder_tree_traversal.cpp */,
 				FE378703252127C4003C48F2 /* codility_test.cpp */,
 				FE3787012521165A003C48F2 /* 235_lowest_common_ancestor_of_a_binary_search_tree.cpp */,
 				FE67DA22251DF98000F73498 /* 112_paht_sum.cpp */,
@@ -317,6 +320,7 @@
 				FEA2E1CB24B736C600F8146F /* 501_find_mode_in_binary_search_tree.cpp in Sources */,
 				FEA2E1DF24B903FD00F8146F /* 110_balanced_binary_tree.cpp in Sources */,
 				FEA2E20724BCD61500F8146F /* 623_add_one_row_to_tree.cpp in Sources */,
+				FEB8DE59252A3504007B2765 /* 94_binary_tree_inorder_tree_traversal.cpp in Sources */,
 				FEA2E1FF24BC762700F8146F /* 450_delete_node_in_a_BST.cpp in Sources */,
 				FEE18AE324A2810C002603FE /* 235_lowest_common_ancester_of_bts.cpp in Sources */,
 				FEA2E20324BCD2E000F8146F /* 513_find_bottom_left_tree_value.cpp in Sources */,

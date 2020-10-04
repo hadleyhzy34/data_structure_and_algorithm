@@ -60,3 +60,33 @@ public:
         return res;
     }
 };
+
+
+
+
+
+
+
+
+
+
+class Solution3 {
+public:
+    void combinations(int n, int l, int t,int k, vector<int>&subset, vector<vector<int>> &res){
+        if(t==k){
+            res.push_back(subset);
+            return;
+        }
+        for(int i=l;i<=n;i++){
+            subset.push_back(i);
+            combinations(n, l+1, t+1,k, subset, res);
+            subset.pop_back();
+        }
+    }
+    vector<vector<int>> combine(int n, int k) {
+        vector<vector<int>>res;
+        vector<int>subset;
+        combinations(n, 1, 0, k, subset, res);
+        return res;
+    }
+};

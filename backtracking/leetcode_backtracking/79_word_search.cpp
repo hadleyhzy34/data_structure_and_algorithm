@@ -142,3 +142,46 @@ public:
         return false;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution4 {
+public:
+    bool checkBoard(vector<vector<char>>& board, string word, int index,int i, int j){
+        if(i<0||j<0||i>=board.size()||j>=board[i].size()||word[index]!=board[i][j])return false;
+
+        if(index==word.size()-1)return true;
+        
+    char temp=board[i][j];
+    board[i][j]='1';
+        
+        bool res=checkBoard(board, word, index+1, i-1, j)||checkBoard(board, word, index+1, i+1, j)||checkBoard(board, word, index+1, i, j-1)||checkBoard(board, word, index+1, i, j+1);
+    board[i][j]=temp;
+        return res;
+    }
+
+    bool exist(vector<vector<char>>& board, string word) {
+
+        for(int i=0;i<board.size();i++){
+            for(int j=0;j<board[i].size();j++){
+                if(word[0]==board[i][j]){
+                    if(checkBoard(board, word, 0, i, j)){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+};
+

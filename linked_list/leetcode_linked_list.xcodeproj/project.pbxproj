@@ -20,6 +20,9 @@
 		FE9379422445BDE10036F1B5 /* 83_Remove_duplicats_from_sorted_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE9379412445BDE10036F1B5 /* 83_Remove_duplicats_from_sorted_list.cpp */; };
 		FE9379462445FFF30036F1B5 /* 141_linked_list_cycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE9379452445FFF30036F1B5 /* 141_linked_list_cycle.cpp */; };
 		FE937948244643980036F1B5 /* 203_remove_linked_list_elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE937947244643980036F1B5 /* 203_remove_linked_list_elements.cpp */; };
+		FEB8DE4325290F2D007B2765 /* 61_rotate_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8DE4225290F2D007B2765 /* 61_rotate_list.cpp */; };
+		FEB8DE512529EB2F007B2765 /* 82_remove_duplicates_from_sorted_list_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8DE502529EB2F007B2765 /* 82_remove_duplicates_from_sorted_list_2.cpp */; };
+		FEB8DE552529F9E4007B2765 /* 92_reverse_linked_list_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8DE542529F9E4007B2765 /* 92_reverse_linked_list_2.cpp */; };
 		FEF8EAA324471B1B004B94C5 /* 206_reverse_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAA224471B1B004B94C5 /* 206_reverse_linked_list.cpp */; };
 		FEF8EAA52447793B004B94C5 /* 234_palindrome_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEF8EAA42447793B004B94C5 /* 234_palindrome_linked_list.cpp */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,9 @@
 		FE9379412445BDE10036F1B5 /* 83_Remove_duplicats_from_sorted_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 83_Remove_duplicats_from_sorted_list.cpp; sourceTree = "<group>"; };
 		FE9379452445FFF30036F1B5 /* 141_linked_list_cycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 141_linked_list_cycle.cpp; sourceTree = "<group>"; };
 		FE937947244643980036F1B5 /* 203_remove_linked_list_elements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 203_remove_linked_list_elements.cpp; sourceTree = "<group>"; };
+		FEB8DE4225290F2D007B2765 /* 61_rotate_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 61_rotate_list.cpp; sourceTree = "<group>"; };
+		FEB8DE502529EB2F007B2765 /* 82_remove_duplicates_from_sorted_list_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 82_remove_duplicates_from_sorted_list_2.cpp; sourceTree = "<group>"; };
+		FEB8DE542529F9E4007B2765 /* 92_reverse_linked_list_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 92_reverse_linked_list_2.cpp; sourceTree = "<group>"; };
 		FEF8EAA224471B1B004B94C5 /* 206_reverse_linked_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 206_reverse_linked_list.cpp; sourceTree = "<group>"; };
 		FEF8EAA42447793B004B94C5 /* 234_palindrome_linked_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 234_palindrome_linked_list.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				FE937934244463CF0036F1B5 /* main.cpp */,
+				FEB8DE542529F9E4007B2765 /* 92_reverse_linked_list_2.cpp */,
+				FEB8DE502529EB2F007B2765 /* 82_remove_duplicates_from_sorted_list_2.cpp */,
+				FEB8DE4225290F2D007B2765 /* 61_rotate_list.cpp */,
 				FE63A19025286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp */,
 				FE63A18E2528667900A005AF /* 24_swap_node_in_pairs.cpp */,
 				FE1A5CDF2527198800098E3A /* 2_ad_two_numbers.cpp */,
@@ -164,6 +173,7 @@
 				FEF8EAA324471B1B004B94C5 /* 206_reverse_linked_list.cpp in Sources */,
 				FE1A5CE02527198800098E3A /* 2_ad_two_numbers.cpp in Sources */,
 				FE37870025210A11003C48F2 /* 346_moving_average_from_data_stream.cpp in Sources */,
+				FEB8DE4325290F2D007B2765 /* 61_rotate_list.cpp in Sources */,
 				FE5CA3EA251D31BB0017BAA5 /* 21_merge_two_sorted_lists.cpp in Sources */,
 				FE9379462445FFF30036F1B5 /* 141_linked_list_cycle.cpp in Sources */,
 				FE93793C244465900036F1B5 /* 21_merge_sorted_lists.cpp in Sources */,
@@ -171,10 +181,12 @@
 				FE93793E244478010036F1B5 /* singly_linked_list_tutorial.cpp in Sources */,
 				FE63A19125286A8A00A005AF /* 19_remove_nth_node_from_end_of_list.cpp in Sources */,
 				FEF8EAA52447793B004B94C5 /* 234_palindrome_linked_list.cpp in Sources */,
+				FEB8DE552529F9E4007B2765 /* 92_reverse_linked_list_2.cpp in Sources */,
 				FE63A18F2528667900A005AF /* 24_swap_node_in_pairs.cpp in Sources */,
 				FE5CA3EE251D4B110017BAA5 /* 83_remove_duplicates_from_sorted_list.cpp in Sources */,
 				FE937935244463CF0036F1B5 /* main.cpp in Sources */,
 				FE9379422445BDE10036F1B5 /* 83_Remove_duplicats_from_sorted_list.cpp in Sources */,
+				FEB8DE512529EB2F007B2765 /* 82_remove_duplicates_from_sorted_list_2.cpp in Sources */,
 				FE67DA27251E0DE900F73498 /* 160_intersection_of_two_linked_lists.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

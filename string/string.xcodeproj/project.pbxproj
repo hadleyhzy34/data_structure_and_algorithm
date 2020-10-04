@@ -46,6 +46,7 @@
 		FE694431251A9DE1002A6734 /* 58_length_of_last_word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */; };
 		FE694433251AA128002A6734 /* 91_decode_ways.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694432251AA128002A6734 /* 91_decode_ways.cpp */; };
 		FE694435251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */; };
+		FEB8DE4B2529B6BF007B2765 /* 12_integer_to_roman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8DE4A2529B6BF007B2765 /* 12_integer_to_roman.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +102,7 @@
 		FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 58_length_of_last_word.cpp; sourceTree = "<group>"; };
 		FE694432251AA128002A6734 /* 91_decode_ways.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 91_decode_ways.cpp; sourceTree = "<group>"; };
 		FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 151_reverse_words_in_a_string.cpp; sourceTree = "<group>"; };
+		FEB8DE4A2529B6BF007B2765 /* 12_integer_to_roman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12_integer_to_roman.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				FE694423251A787F002A6734 /* main.cpp */,
+				FEB8DE4A2529B6BF007B2765 /* 12_integer_to_roman.cpp */,
 				FE1A5CED25273DB100098E3A /* 54_spiral_matrix.cpp */,
 				FE1A5CEB25273C4900098E3A /* 49_group_anagrams.cpp */,
 				FE1A5CE32527224900098E3A /* 5_longest_palindromic_substring.cpp */,
@@ -247,6 +250,7 @@
 				FE5CA3BC251B9BE20017BAA5 /* 157_read_n_characters_given_read4.cpp in Sources */,
 				FE5CA3C6251BE5EC0017BAA5 /* 271_encode_and_decode_strings.cpp in Sources */,
 				FE5CA3E0251CAAC50017BAA5 /* 520_detect_capital.cpp in Sources */,
+				FEB8DE4B2529B6BF007B2765 /* 12_integer_to_roman.cpp in Sources */,
 				FE5CA3BE251BA8540017BAA5 /* 161_one_edit_distance.cpp in Sources */,
 				FE69442D251A96DC002A6734 /* 14_longest_common_prefix.cpp in Sources */,
 				FE5CA3D0251C0C210017BAA5 /* 415_add_strings.cpp in Sources */,

@@ -38,3 +38,34 @@ public:
         return res;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution2 {
+public:
+    void subsets(int index,vector<int>&nums, vector<int>&subset, vector<vector<int>>&res){
+        if(index==nums.size())return;
+        for(int i=index;i<nums.size();i++){
+            subset.push_back(nums[i]);
+            res.push_back(subset);
+            subsets(index+1, nums, subset, res);
+            subset.pop_back();
+        }
+    }
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<int>subset;
+        vector<vector<int>>res={{}};
+        subsets(0, nums, subset, res);
+        return res;
+    }
+};
