@@ -42,19 +42,15 @@ public:
         vector<int>res;
         stack<TreeNode*>s;
         if(!root)return {};
-        s.push(root);
         
-        TreeNode* node=root->left;
-
-        while(!s.empty()||node){
-            while(node){
-                s.push(node);
-                node=node->left;
+        while(!s.empty()||root){
+            while(root){
+                s.push(root);
+                root=root->left;
             }
+            
             res.push_back(s.top()->val);
-            if(s.top()->right){
-                node=s.top()->right;
-            }
+            root=s.top()->right;
             s.pop();
         }
         return res;

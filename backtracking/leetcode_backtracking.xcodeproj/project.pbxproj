@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2043A0252B327300EC0A57 /* 89_gray_code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE20439F252B327300EC0A57 /* 89_gray_code.cpp */; };
 		FE4A143824EEC8B30020446B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A143724EEC8B30020446B /* main.cpp */; };
 		FE4A143F24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A143E24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp */; };
 		FE4A144124EECD290020446B /* 46_permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE4A144024EECD290020446B /* 46_permutations.cpp */; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE20439F252B327300EC0A57 /* 89_gray_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 89_gray_code.cpp; sourceTree = "<group>"; };
 		FE4A143424EEC8B30020446B /* leetcode_backtracking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_backtracking; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4A143724EEC8B30020446B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FE4A143E24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17_letter_combinations_of_a_phone_number.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				FE4A143724EEC8B30020446B /* main.cpp */,
+				FE20439F252B327300EC0A57 /* 89_gray_code.cpp */,
 				FE4B818624F46325001D6281 /* 93_restore_ip_addresses.cpp */,
 				FE4B818424F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp */,
 				FE4B818224F45067001D6281 /* 22_generate_parentheses.cpp */,
@@ -187,6 +190,7 @@
 				FE4B817D24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp in Sources */,
 				FE4B817724F3AF1B001D6281 /* 40_combination_sum_2.cpp in Sources */,
 				FE8907DA24F17FCD00405612 /* 77_combinations.cpp in Sources */,
+				FE2043A0252B327300EC0A57 /* 89_gray_code.cpp in Sources */,
 				FE4A143F24EEC8CF0020446B /* 17_letter_combinations_of_a_phone_number.cpp in Sources */,
 				FE4B817F24F40C51001D6281 /* 526_beautiful_arrangement.cpp in Sources */,
 				FE8907DF24F1A17C00405612 /* 90_subsets_2.cpp in Sources */,
