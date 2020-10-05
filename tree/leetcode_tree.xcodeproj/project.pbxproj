@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE204389252A538B00EC0A57 /* think_cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE204388252A538B00EC0A57 /* think_cell.cpp */; };
 		FE3787022521165A003C48F2 /* 235_lowest_common_ancestor_of_a_binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3787012521165A003C48F2 /* 235_lowest_common_ancestor_of_a_binary_search_tree.cpp */; };
 		FE378704252127C4003C48F2 /* codility_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE378703252127C4003C48F2 /* codility_test.cpp */; };
 		FE67DA23251DF98000F73498 /* 112_paht_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE67DA22251DF98000F73498 /* 112_paht_sum.cpp */; };
@@ -77,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE204388252A538B00EC0A57 /* think_cell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = think_cell.cpp; sourceTree = "<group>"; };
 		FE3787012521165A003C48F2 /* 235_lowest_common_ancestor_of_a_binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 235_lowest_common_ancestor_of_a_binary_search_tree.cpp; sourceTree = "<group>"; };
 		FE378703252127C4003C48F2 /* codility_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codility_test.cpp; sourceTree = "<group>"; };
 		FE67DA22251DF98000F73498 /* 112_paht_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 112_paht_sum.cpp; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				FEE18ACF24A1F223002603FE /* main.cpp */,
+				FE204388252A538B00EC0A57 /* think_cell.cpp */,
 				FEB8DE58252A3504007B2765 /* 94_binary_tree_inorder_tree_traversal.cpp */,
 				FE378703252127C4003C48F2 /* codility_test.cpp */,
 				FE3787012521165A003C48F2 /* 235_lowest_common_ancestor_of_a_binary_search_tree.cpp */,
@@ -301,6 +304,7 @@
 				FEA2E1C524B62B7900F8146F /* 111_minimum_depth_binary_tree.cpp in Sources */,
 				FEA2E1DB24B8A88100F8146F /* 590_nary_tree_postorder_traversal.cpp in Sources */,
 				FEA2E1F924BC694600F8146F /* 129_sum_root_to_leaf_numbers.cpp in Sources */,
+				FE204389252A538B00EC0A57 /* think_cell.cpp in Sources */,
 				FEE18ADB24A2182D002603FE /* 101_symmetric_tree.cpp in Sources */,
 				FEE18AE124A23AA4002603FE /* 226_invert_binary_tree.cpp in Sources */,
 				FEA2E21124BD057700F8146F /* 114_flatten_bianry_tree_to_linked_list.cpp in Sources */,
