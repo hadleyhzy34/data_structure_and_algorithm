@@ -34,3 +34,33 @@ public:
         return ones;
     }
 };
+
+class Solution2 {
+public:
+    int singleNumber(vector<int>& nums) {
+        unordered_map<int, int>map;
+        int res=0;
+        for(int i=0;i<nums.size();i++){
+            map[nums[i]]++;
+            if(map[nums[i]]<=2){
+                res^=nums[i];
+            }
+        }
+        return res;
+    }
+};
+
+class Solution3 {
+public:
+    int singleNumber(vector<int>& nums) {
+        int seen_once=0, seen_twice=0;
+
+        for(int i=0;i<nums.size();i++){
+            seen_once=~seen_twice&(seen_once^nums[i]);
+            seen_twice=~seen_once&(seen_twice^nums[i]);
+            
+        }
+        return seen_once;
+    }
+};
+

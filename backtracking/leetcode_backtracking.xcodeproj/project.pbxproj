@@ -27,6 +27,7 @@
 		FE8907DF24F1A17C00405612 /* 90_subsets_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907DE24F1A17C00405612 /* 90_subsets_2.cpp */; };
 		FE8907E124F1B71300405612 /* 254_factor_combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907E024F1B71300405612 /* 254_factor_combinations.cpp */; };
 		FE8907E324F1C5AB00405612 /* 216_combination_sum_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8907E224F1C5AB00405612 /* 216_combination_sum_3.cpp */; };
+		FE9CEE20252C59E1006F2B26 /* 134_gas_station.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE9CEE1F252C59E1006F2B26 /* 134_gas_station.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		FE8907DE24F1A17C00405612 /* 90_subsets_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 90_subsets_2.cpp; sourceTree = "<group>"; };
 		FE8907E024F1B71300405612 /* 254_factor_combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 254_factor_combinations.cpp; sourceTree = "<group>"; };
 		FE8907E224F1C5AB00405612 /* 216_combination_sum_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 216_combination_sum_3.cpp; sourceTree = "<group>"; };
+		FE9CEE1F252C59E1006F2B26 /* 134_gas_station.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 134_gas_station.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				FE4A143724EEC8B30020446B /* main.cpp */,
+				FE9CEE1F252C59E1006F2B26 /* 134_gas_station.cpp */,
 				FE20439F252B327300EC0A57 /* 89_gray_code.cpp */,
 				FE4B818624F46325001D6281 /* 93_restore_ip_addresses.cpp */,
 				FE4B818424F45665001D6281 /* 211_design_add_and_search_words_data_structure.cpp */,
@@ -185,6 +188,7 @@
 				FE8907E324F1C5AB00405612 /* 216_combination_sum_3.cpp in Sources */,
 				FE8907E124F1B71300405612 /* 254_factor_combinations.cpp in Sources */,
 				FE4A144124EECD290020446B /* 46_permutations.cpp in Sources */,
+				FE9CEE20252C59E1006F2B26 /* 134_gas_station.cpp in Sources */,
 				FE4B817B24F3D049001D6281 /* palindrome_permutation_2.cpp in Sources */,
 				FE4B817524F3AD0C001D6281 /* 39_combination_sum.cpp in Sources */,
 				FE4B817D24F3F2E9001D6281 /* 320_generalized_abbreviation.cpp in Sources */,

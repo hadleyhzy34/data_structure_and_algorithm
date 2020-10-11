@@ -20,15 +20,40 @@ class Solution {
 public:
     bool isOneEditDistance(string s, string t) {
         if(s==t)return false;
-        
-        int m=s.size();
-        int n=t.size();
-        if(abs(m-n)>1) return false;
+        int m=s.size(),n=t.size();
+        if(abs(m-n)>1)return false;
         
         for(int i=0;i<min(m,n);i++){
-            if(s[i]!=t[i]){
-                return s.substr(i)==t.substr(i+1)||s.substr(i+1)==t.substr(i)||s.substr(i+1)==t.substr(i+1);
-            }
+            if(s[i]!=t[i])return s.substr(i)==t.substr(i+1)||s.substr(i+1)==t.substr(i+1)||s.substr(i+1)==t.substr(i);
+        }
+        return true;
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution2 {
+public:
+    bool isOneEditDistance(string s, string t) {
+        if(s==t)return false;
+        int m=s.size(),n=t.size();
+        if(abs(m-n)>1)return false;
+        int dif=0;
+        int j=0;
+        for(int i=0;i<s.size();i++){
+            if(s[i]!=s[i])return s.substr(i,m-i)==t.substr(i+1,m-i-1)||s.substr(i+1,m-i-1)==t.substr(i+1,m-i-1)||s.substr(i+1,m-i+1)==t.substr(i,m-i);
         }
         return true;
     }

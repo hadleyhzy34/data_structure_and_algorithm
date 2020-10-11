@@ -178,3 +178,33 @@ public:
 };
 
 
+class Solution {
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        if(!root)return {};
+        queue<TreeNode*> s;
+        s.push(root);
+        
+        vector<vector<int>>res;
+        
+        while(!s.empty()){
+            int size=int(s.size());
+            vector<int>t;
+            while(size--){
+                TreeNode *temp=s.front();
+                t.push_back(temp->val);
+                s.pop();
+                if(temp->left){
+                    s.push(temp->left);
+                }
+                if(temp->right){
+                     s.push(temp->right);
+                }
+            }
+            res.push_back(t);
+        }
+        return res;
+    }
+};
+
+

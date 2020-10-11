@@ -46,6 +46,8 @@
 		FE694431251A9DE1002A6734 /* 58_length_of_last_word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */; };
 		FE694433251AA128002A6734 /* 91_decode_ways.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694432251AA128002A6734 /* 91_decode_ways.cpp */; };
 		FE694435251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */; };
+		FE87F8AC252F9E2300C92C7A /* 159_longest_substring_with_at_most_distinct_characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE87F8AB252F9E2300C92C7A /* 159_longest_substring_with_at_most_distinct_characters.cpp */; };
+		FE9CEE24252C6DBF006F2B26 /* 139_word_break.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE9CEE23252C6DBF006F2B26 /* 139_word_break.cpp */; };
 		FEB8DE4B2529B6BF007B2765 /* 12_integer_to_roman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8DE4A2529B6BF007B2765 /* 12_integer_to_roman.cpp */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +104,8 @@
 		FE694430251A9DE1002A6734 /* 58_length_of_last_word.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 58_length_of_last_word.cpp; sourceTree = "<group>"; };
 		FE694432251AA128002A6734 /* 91_decode_ways.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 91_decode_ways.cpp; sourceTree = "<group>"; };
 		FE694434251AAE33002A6734 /* 151_reverse_words_in_a_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 151_reverse_words_in_a_string.cpp; sourceTree = "<group>"; };
+		FE87F8AB252F9E2300C92C7A /* 159_longest_substring_with_at_most_distinct_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 159_longest_substring_with_at_most_distinct_characters.cpp; sourceTree = "<group>"; };
+		FE9CEE23252C6DBF006F2B26 /* 139_word_break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 139_word_break.cpp; sourceTree = "<group>"; };
 		FEB8DE4A2529B6BF007B2765 /* 12_integer_to_roman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12_integer_to_roman.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				FE694423251A787F002A6734 /* main.cpp */,
+				FE87F8AB252F9E2300C92C7A /* 159_longest_substring_with_at_most_distinct_characters.cpp */,
+				FE9CEE23252C6DBF006F2B26 /* 139_word_break.cpp */,
 				FEB8DE4A2529B6BF007B2765 /* 12_integer_to_roman.cpp */,
 				FE1A5CED25273DB100098E3A /* 54_spiral_matrix.cpp */,
 				FE1A5CEB25273C4900098E3A /* 49_group_anagrams.cpp */,
@@ -268,11 +274,13 @@
 				FE69442B251A7BAF002A6734 /* 6_zigzag_conversion.cpp in Sources */,
 				FE5CA3C8251BFA8C0017BAA5 /* 293_flip_game.cpp in Sources */,
 				FE5CA3CA251BFBCF0017BAA5 /* 294_flip_game_2.cpp in Sources */,
+				FE87F8AC252F9E2300C92C7A /* 159_longest_substring_with_at_most_distinct_characters.cpp in Sources */,
 				FE5CA3DC251CA3A70017BAA5 /* 583_delete_operation_for_two_strings.cpp in Sources */,
 				FE694424251A787F002A6734 /* main.cpp in Sources */,
 				FE5CA3C0251BC4A70017BAA5 /* 186_reverse_words_in_a_string_2.cpp in Sources */,
 				FE3787312523AB90003C48F2 /* 422_valid_word_square.cpp in Sources */,
 				FE1A5CEC25273C4900098E3A /* 49_group_anagrams.cpp in Sources */,
+				FE9CEE24252C6DBF006F2B26 /* 139_word_break.cpp in Sources */,
 				FE694431251A9DE1002A6734 /* 58_length_of_last_word.cpp in Sources */,
 				FE5CA3E2251CAD3D0017BAA5 /* 536_construct_binary_tree_from_string.cpp in Sources */,
 				FE694433251AA128002A6734 /* 91_decode_ways.cpp in Sources */,

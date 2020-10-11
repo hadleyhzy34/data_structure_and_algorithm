@@ -31,48 +31,26 @@ struct TreeNode {
 class BSTIterator {
 public:
     BSTIterator(TreeNode* root) {
-        stack<TreeNode*> t;
         if(!root)return;
-        t.push(root);
+        stack<TreeNode*> s;
+        s.push(root);
         
-        TreeNode* node=root->left;
-        
-        while(!t.empty()||node){
+        TreeNode *node=root->left;
+        while (!s.empty()) {
             while(node){
-                t.push(node);
+                s.push(node);
                 node=node->left;
             }
-            
-            S.push(t.top()->val);
-            
-            if(t.top()->right)
-                node=t.top()->right;
-            t.pop();
+            q.push(s.top()->val);
+            if(s.top()->right){
+                node=s.top()->right;
+            }
+            s.pop();
         }
-        
-    }
-    
-    /** @return the next smallest number */
-    int next() {
-        int n=S.front();
-        S.pop();
-        return n;
-    }
-    
-    /** @return whether we have a next smallest number */
-    bool hasNext() {
-        return !S.empty();
     }
 private:
-    queue<int> S;
+    queue<int> q;
 };
-
-/**
- * Your BSTIterator object will be instantiated and called as such:
- * BSTIterator* obj = new BSTIterator(root);
- * int param_1 = obj->next();
- * bool param_2 = obj->hasNext();
- */
 
 
 

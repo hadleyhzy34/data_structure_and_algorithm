@@ -47,3 +47,28 @@ public:
 
 
 
+class Solution2 {
+public:
+    bool inOrder(TreeNode* root, int val, int status){
+        if(!root)return true;
+        if(status==0){
+            if(root->val>=val)return false;
+        }
+        if(status==1){
+            if(root->val<=val)return false;
+        }
+        bool l=inOrder(root->left, val, status);
+        bool r=inOrder(root->right, val, status);
+        return l&&r;
+    }
+
+    bool isValidBST(TreeNode* root) {
+        if(!root)return true;
+        bool l=inOrder(root->left, root->val, 0);
+        bool r=inOrder(root->right, root->val, 1);
+        return l&&r&&isValidBST(root->left)&&isValidBST(root->right);
+    }
+};
+
+
+

@@ -59,3 +59,30 @@ public:
         return constructTrees(1, n);
     }
 };
+
+class Solution2 {
+public:
+    vector<TreeNode*> dfs(int l,int r){
+        vector<TreeNode*>list;
+        if(l>r){
+            return {nullptr};
+        }
+        for(int i=l;i<=r;i++){
+            vector<TreeNode*> lt=dfs(l,i-1);
+            vector<TreeNode*> rt=dfs(i+1,r);
+            for(auto &x:lt){
+                for(auto &y:rt){
+                    TreeNode* temp=new TreeNode(i);
+                    temp->left=x;
+                    temp->right=y;
+                    list.push_back(temp);
+                }
+            }
+        }
+        return list;
+    }
+    vector<TreeNode*> generateTrees(int n) {
+        if(n==0)return {};
+        return dfs(1,n);
+    }
+};

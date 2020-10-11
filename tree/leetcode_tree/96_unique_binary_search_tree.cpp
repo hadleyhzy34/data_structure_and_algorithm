@@ -53,3 +53,11 @@ private:
     vector<int> count;
 };
 
+
+class Solution2 {
+public:
+    int numTrees(int n) {
+        
+    }
+};
+

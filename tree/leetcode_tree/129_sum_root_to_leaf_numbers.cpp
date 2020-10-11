@@ -55,3 +55,26 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    vector<int> p;
+    void path(TreeNode* root, int sum){
+        if(!root){
+            return;
+        }
+        if(!root->left&&!root->right){
+            p.push_back(10*sum+root->val);
+            return;
+        }
+        if(root->left)
+            path(root->left, 10*sum+root->val);
+        if(root->right)
+            path(root->right, 10*sum+root->val);
+    }
+    int sumNumbers(TreeNode* root) {
+        if(!root) return 0;
+        path(root, 0);
+        return accumulate(p.begin(), p.end(), 0);
+    }
+};
+

@@ -65,6 +65,34 @@ public:
     };
 };
 
+class Solution3 {
+public:
+    class Solution {
+    public:
+        vector<int> inorderTraversal(TreeNode* root) {
+            vector<int> res;
+            stack<TreeNode*> t;
+            if(!root) return {};
+            t.push(root);
+            
+            
+            while(!t.empty()){
+                res.push_back(t.top()->val);
+                TreeNode* node=t.top();
+                t.pop();
+                
+                if(node->right){
+                    t.push(node->right);
+                }
+                if(node->left){
+                    t.push(node->left);
+                }
+            }
+        return res;
+        }
+    };
+};
+
 
 
 

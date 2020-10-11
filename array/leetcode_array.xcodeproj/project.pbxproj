@@ -25,6 +25,9 @@
 		FE63A1992528801C00A005AF /* 40_combiantion_sum_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE63A1982528801C00A005AF /* 40_combiantion_sum_2.cpp */; };
 		FE63A19B2528833800A005AF /* 46_permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE63A19A2528833800A005AF /* 46_permutations.cpp */; };
 		FE63A19D2528879C00A005AF /* 47_permutations_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE63A19C2528879C00A005AF /* 47_permutations_2.cpp */; };
+		FE87F8A8252F92E200C92C7A /* 152_maximum_product_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE87F8A7252F92E200C92C7A /* 152_maximum_product_subarray.cpp */; };
+		FE87F8AA252F995600C92C7A /* 153_find_minimum_in_rotated_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE87F8A9252F995600C92C7A /* 153_find_minimum_in_rotated_sorted_array.cpp */; };
+		FE87F8AE252FA87900C92C7A /* 162_find_peak_element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE87F8AD252FA87900C92C7A /* 162_find_peak_element.cpp */; };
 		FE8F3E2D244DAE1E0015E0D1 /* 268_missing_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E2C244DAE1E0015E0D1 /* 268_missing_number.cpp */; };
 		FE8F3E2F244DB2100015E0D1 /* 283_move_zeros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E2E244DB2100015E0D1 /* 283_move_zeros.cpp */; };
 		FE8F3E31244DF21E0015E0D1 /* 414_third_maximum_number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3E30244DF21E0015E0D1 /* 414_third_maximum_number.cpp */; };
@@ -97,6 +100,9 @@
 		FE63A1982528801C00A005AF /* 40_combiantion_sum_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 40_combiantion_sum_2.cpp; sourceTree = "<group>"; };
 		FE63A19A2528833800A005AF /* 46_permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 46_permutations.cpp; sourceTree = "<group>"; };
 		FE63A19C2528879C00A005AF /* 47_permutations_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 47_permutations_2.cpp; sourceTree = "<group>"; };
+		FE87F8A7252F92E200C92C7A /* 152_maximum_product_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 152_maximum_product_subarray.cpp; sourceTree = "<group>"; };
+		FE87F8A9252F995600C92C7A /* 153_find_minimum_in_rotated_sorted_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 153_find_minimum_in_rotated_sorted_array.cpp; sourceTree = "<group>"; };
+		FE87F8AD252FA87900C92C7A /* 162_find_peak_element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 162_find_peak_element.cpp; sourceTree = "<group>"; };
 		FE8F3E2C244DAE1E0015E0D1 /* 268_missing_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 268_missing_number.cpp; sourceTree = "<group>"; };
 		FE8F3E2E244DB2100015E0D1 /* 283_move_zeros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 283_move_zeros.cpp; sourceTree = "<group>"; };
 		FE8F3E30244DF21E0015E0D1 /* 414_third_maximum_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 414_third_maximum_number.cpp; sourceTree = "<group>"; };
@@ -170,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				FEF8EAB22448307F004B94C5 /* main.cpp */,
+				FE87F8AD252FA87900C92C7A /* 162_find_peak_element.cpp */,
+				FE87F8A9252F995600C92C7A /* 153_find_minimum_in_rotated_sorted_array.cpp */,
+				FE87F8A7252F92E200C92C7A /* 152_maximum_product_subarray.cpp */,
 				FEB8DE4E2529D898007B2765 /* 81_search_in_rotated_sorted_array_2.cpp */,
 				FEB8DE4C2529D53A007B2765 /* 80_remove_duplicates_from_sorted_array_2.cpp */,
 				FEB8DE482529B49F007B2765 /* 63_unique_paths_2.cpp */,
@@ -291,6 +300,7 @@
 				FEF8EAD2244B3C29004B94C5 /* 169_Majority_Element.cpp in Sources */,
 				FEF8EABA244830D5004B94C5 /* 1_two_sum.cpp in Sources */,
 				FEB8DE41252905B0007B2765 /* 57_insert_intervals.cpp in Sources */,
+				FE87F8AA252F995600C92C7A /* 153_find_minimum_in_rotated_sorted_array.cpp in Sources */,
 				FEF8EABE24489FAF004B94C5 /* 27_remove_element.cpp in Sources */,
 				FEB8DE3B2528F7D5007B2765 /* 75_sort_colors.cpp in Sources */,
 				FE3786FC2520BE69003C48F2 /* 252_meeting_rooms.cpp in Sources */,
@@ -318,6 +328,7 @@
 				FE3786FA2520BC46003C48F2 /* 243_shortest_word_distance.cpp in Sources */,
 				FEF8EAD0244B30E4004B94C5 /* 167_two_sum.cpp in Sources */,
 				FE63A18D2528652400A005AF /* 59_spiral_matrix_2.cpp in Sources */,
+				FE87F8AE252FA87900C92C7A /* 162_find_peak_element.cpp in Sources */,
 				FE1A5CE82527385900098E3A /* 48_rotate_image.cpp in Sources */,
 				FE63A19B2528833800A005AF /* 46_permutations.cpp in Sources */,
 				FE63A18B25285E9A00A005AF /* 54_spiral_matrix.cpp in Sources */,
@@ -337,6 +348,7 @@
 				FEF8EAD6244B8E2E004B94C5 /* 217_contains_duplciate.cpp in Sources */,
 				FE3787392523D575003C48F2 /* 506_relative_ranks.cpp in Sources */,
 				FE8F3E2F244DB2100015E0D1 /* 283_move_zeros.cpp in Sources */,
+				FE87F8A8252F92E200C92C7A /* 152_maximum_product_subarray.cpp in Sources */,
 				FE1A5CDE25265A2E00098E3A /* 475_heaters.cpp in Sources */,
 				FEF8EAB32448307F004B94C5 /* main.cpp in Sources */,
 				FEF8EAC62449B363004B94C5 /* 88_merge_sorted_array.cpp in Sources */,

@@ -42,3 +42,22 @@ public:
         return output[0]=='0'?"0":output;
     }
 };
+
+
+class Solution2 {
+public:
+    string largestNumber(vector<int>& nums) {
+        string output;
+        vector<string> nums_string;
+        for(int i=0;i<nums.size();i++){
+            nums_string.push_back(to_string(nums[i]));
+        }
+        sort(nums_string.begin(),nums_string.end(),[](string a,string b){
+            return a+b>b+a;
+        });
+        for(auto &x:nums_string){
+            output+=x;
+        }
+        return output;
+    }
+};
