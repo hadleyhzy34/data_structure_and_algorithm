@@ -56,8 +56,48 @@ private:
 
 class Solution2 {
 public:
+    int dfs(int l,int r){
+        int res=0;
+        if(l>r){
+            return 1;
+        }
+        for(int i=l;i<=r;i++){
+            int ll=dfs(l,i-1);
+            int rr=dfs(i+1,r);
+            res+=ll*rr;
+        }
+        return res;
+    }
     int numTrees(int n) {
-        
+        if(n==0)return 0;
+        return dfs(1,n);
+    }
+};
+
+class Solution3 {
+public:
+    int numTrees(int n) {
+        if(n==0)return 0;
+        vector<vector<int>> dp(n,vector<int>(n,0));
+
+        for(int l=1;l<=n;l++){
+            for(int i=1;i+l-1<=n;i++){
+                if(l==1){
+                    dp[i][i+l-1]=1;
+                }else{
+                    for(int j=i;j<=i+l-1;j++){
+                        if(j==i){
+                            dp[i][i+l-1]+=dp[j+1][i+l-1];
+                        }else if(j==i+l-1){
+                            dp[i][i+l-1]+=dp[i][j-1];
+                        }else{
+                            dp[i][i+l-1]+=dp[i][j-1]*dp[j+1][i+l-1];
+                        }
+                    }
+                }
+            }
+        }
+        return dp[1][n];
     }
 };
 

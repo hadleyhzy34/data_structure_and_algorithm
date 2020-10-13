@@ -83,3 +83,30 @@ public:
     }
 };
 
+
+
+
+
+
+
+
+
+
+
+
+class Solution3 {
+public:
+    void dfs(Node *left, Node *right){
+        if(!left||!right)return;
+        left->next=right;
+        dfs(left->left,left->right);
+        dfs(left->right, right->left);
+        dfs(right->left,right->right);
+    }
+    Node* connect(Node* root) {
+        if(root==NULL) return nullptr;
+        dfs(root->left,root->right);
+        return root;
+    }
+};
+

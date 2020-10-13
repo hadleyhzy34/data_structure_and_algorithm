@@ -49,6 +49,29 @@ public:
 };
 
 
+class Solution3 {
+public:
+    //return tail of current root
+    TreeNode* dfs(TreeNode* root){
+        if(!root) return nullptr;
+        if(!root->left&&!root->right)return root;
+        TreeNode* l=dfs(root->left);
+        TreeNode* r=dfs(root->right);
+        
+        if(l){
+            l->right=root->right;
+            root->right=root->left;
+            root->left=nullptr;
+        }
+        return r==nullptr?l:r;
+    }
+    void flatten(TreeNode* root) {
+        if(!root)return;
+        dfs(root);
+    }
+};
+
+
 
 
 

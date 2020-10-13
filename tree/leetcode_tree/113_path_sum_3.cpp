@@ -68,3 +68,41 @@ public:
 };
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution2 {
+public:
+    void path(vector<int>subset, TreeNode* root, int sum){
+        if(!root)return;
+        subset.push_back(root->val);
+
+        if(!root->left&&!root->right){
+            if(sum==root->val){
+                res.push_back(subset);
+                return;
+            }
+            return;
+        }
+        path(subset, root->left, sum-root->val);
+        path(subset, root->right,sum-root->val);
+    }
+    vector<vector<int>> pathSum(TreeNode* root, int sum) {
+        vector<int>subset;
+        path(subset, root, sum);
+        return res;
+    }
+private:
+    vector<vector<int>>res;
+};
+
+

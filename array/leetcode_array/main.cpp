@@ -21,6 +21,10 @@
 using namespace std;
 
 
+void testt(vector<int> &subset, int val){
+    subset.push_back(val);
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     //test1
@@ -80,6 +84,10 @@ int main(int argc, const char * argv[]) {
 //    vector<int> num={1,1};
 //    auto min=*min_element(num.begin(), num.end());
 //    cout<<min<<endl;
-    
+    testt(data4, 4);
+    for(auto x:data4){
+        cout<<x<<" ";
+    }
+    sort(data4.begin(), data4.end(), greater<int>());
     return 0;
 }

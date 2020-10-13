@@ -74,3 +74,77 @@ public:
 };
 
 
+
+
+
+class Solution2 {
+public:
+    Node* connect(Node* root) {
+        if(root==NULL) return {};
+        
+        queue<Node*> q;
+        q.push(root);
+        
+        while (!q.empty()) {
+            vector<Node*>subset;
+            int size=q.size();
+            while(size--){
+                Node* temp=q.front();
+                q.pop();
+                subset.push_back(temp);
+                if(temp->left){
+                    q.push(temp->left);
+                }
+                if(temp->right){
+                    q.push(temp->right);
+                }
+            }
+            for(int i=0;i<subset.size()-1;i++){
+                subset[i]->next=subset[i+1];
+            }
+        }
+        return root;
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
