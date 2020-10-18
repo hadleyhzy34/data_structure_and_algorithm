@@ -34,16 +34,18 @@ public:
         if(!root)return;
         stack<TreeNode*> s;
         s.push(root);
-        
-        TreeNode *node=root->left;
-        while (!s.empty()) {
+
+        TreeNode *node=s.top()->left;
+        while(!s.empty()||node){
+
             while(node){
                 s.push(node);
                 node=node->left;
             }
             q.push(s.top()->val);
+
             if(s.top()->right){
-                node=s.top()->right;
+                node=s.top->right;
             }
             s.pop();
         }

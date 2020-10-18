@@ -18,6 +18,7 @@
 #include "121_best_time_buy_and_sell_stock.cpp"
 #include "219_contains_duplicate_2.cpp"
 #include "414_third_maximum_number.cpp"
+#include "209_minimum_size_subarray_sum.cpp"
 using namespace std;
 
 
@@ -84,10 +85,14 @@ int main(int argc, const char * argv[]) {
 //    vector<int> num={1,1};
 //    auto min=*min_element(num.begin(), num.end());
 //    cout<<min<<endl;
-    testt(data4, 4);
-    for(auto x:data4){
-        cout<<x<<" ";
-    }
-    sort(data4.begin(), data4.end(), greater<int>());
+//    testt(data4, 4);
+//    for(auto x:data4){
+//        cout<<x<<" ";
+//    }
+//    sort(data4.begin(), data4.end(), greater<int>());
+    vector<int> num{2,3,1,2,4,3};
+    int s=7;
+    Solution209_3 test209;
+    test209.minSubArrayLen(s, num);
     return 0;
 }

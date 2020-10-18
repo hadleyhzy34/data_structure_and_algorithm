@@ -44,3 +44,53 @@ public:
     }
 };
 
+
+//binary search 
+class Solution2 {
+public:
+    int computeDepth(TreeNode* root){
+        int depth=0;
+        while(root->left){
+            root=root->left;
+            depth++;
+        }
+        return depth;
+    }
+
+    bool check(int index, int d, TreeNode* node){
+        int left=0,right=pow(2,d)-1;
+        int pivot;
+        for(int i=0;i<d;i++){
+            pivot=left+(right-left)/2;
+            if(index<=pivot){
+                node=node->left;
+                right=pivot;
+            }else{
+                node=node->right;
+                left=pivot+1;
+            }
+        }
+        return node!=nullptr;
+    }
+
+    int countNodes(TreeNode* root) {
+        if(!root)return 0;
+        int d=computeDepth(root);
+        
+        if(d==0)return 1;
+
+        int left=1, right=pow(2,d)-1;
+        int pivot;
+        while(left<=right){
+            pivot=left+(right-pivot)/2;
+            if(check(pivot,d,root)){
+                left=pivot+1;
+            }else{
+                right=pivot-1;
+            }
+        }
+
+        return pow(2,d)-1+left;
+    }
+};
+

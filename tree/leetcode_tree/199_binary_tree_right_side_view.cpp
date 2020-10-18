@@ -58,3 +58,28 @@ public:
 };
 
 
+
+
+class Solution200 {
+public:
+    void sideView(TreeNode* root, int level){
+        if(res.size()==level){
+            res.push_back(root->val);
+        }
+        if(root->right){
+            sideView(root->right,level+1);
+        }
+        if(root->left){
+            sideView(root->left, level+1);
+        }
+    }
+    vector<int> rightSideView(TreeNode* root) {
+        if(!root)return {};
+        sideView(root,0);
+        return res;    
+    }
+private:
+    vector<int> res;
+};
+
+

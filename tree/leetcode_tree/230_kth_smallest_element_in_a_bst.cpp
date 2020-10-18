@@ -44,3 +44,47 @@ public:
         return st[k-1];
     }
 };
+
+class Solution2 {
+public:
+    void treeSort(TreeNode* root){
+        if(!root)return;
+        treeSort(root->left);
+        res.push_back(root->val);
+        treeSort(root->right);
+    }
+    
+    int kthSmallest(TreeNode* root, int k) {
+        treeSort(root);
+        return res[k-1];
+    }
+private:
+    vector<int> res;
+};
+
+
+class Solution3 {
+public:   
+    int kthSmallest(TreeNode* root, int k) {
+        stack<TreeNode*>s;
+        s.push(root);
+        int count=0;
+
+        TreeNode* node=root->left;
+        while(s.empty()||node){
+            while(node){
+                s.push(node);
+                node=node->left;
+            }
+            count++;
+            if(count==k){
+                return s.top();
+            }
+            if(s.top()->right){
+                node=s.top()->right;
+            }
+            s.pop();
+        }
+        return root;
+    }
+};

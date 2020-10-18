@@ -40,3 +40,26 @@ struct TreeNode {
 //        
 //    }
 //};
+
+
+class Solution2 {
+public:
+	bool checkAncestor(TreeNode* root, TreeNode* p, TreeNode* q){
+		if(!root){
+			return false;
+		}
+		int left=checkAncestor(root->left,p,q)?1:0;
+		int right=checkAncestor(root->right,p,q)?1:0;
+		int mid=(root==p||root==q)?1:0;
+		if(left+right+mid>=2){
+			res=root;
+		}
+		return (mid+left+right>0);
+	}
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+    	checkAncestor(root,p,q);
+    	return res;
+    }
+private:
+	TreeNode* res;
+};

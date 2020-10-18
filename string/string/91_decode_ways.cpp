@@ -48,3 +48,89 @@ public:
         return one[s.length()-1]+two[s.length()-1];
     }
 };
+
+
+class Solution2 {
+public:
+    int numDecodings(string s) {
+                int n=s.size();
+        int ones[n];
+        int twos[n];
+
+
+        for(int i=0;i<s.size();i++){
+            if(i==0){
+                if(s[i]!='0'){
+                    ones[i]=1;
+                    twos[i]=0;
+                }else{
+                    return 0;
+                }
+            }else if(i==1){
+                if(s[i]!='0'){
+                    ones[i]=ones[i-1];
+                }else{
+                    ones[i]=0;
+                }
+                if(stoi(s.substr(i-1,2))>=10&&stoi(s.substr(i-1,2))<=26){
+                    twos[i]=1;
+                }else{
+                    twos[i]=0;
+                }
+            }else{
+                if(s[i]!='0'){
+                    ones[i]=ones[i-1]+twos[i-1];
+                }else{
+                    ones[i]=0;
+                }
+                if(stoi(s.substr(i-1,2))>=10&&stoi(s.substr(i-1,2))<=26){
+                    twos[i]=twos[i-2]+ones[i-2];
+                }else{
+                    twos[i]=0;
+                }
+            }
+            if(ones[i]==0&&twos[i]==0){
+                return 0;
+            } 
+        }
+        return ones[n-1]+twos[n-1];
+    }
+};
+
+
+
+class Solution3 {
+public:
+    int numDecodings(string s) {
+        int n=s.size();
+        int ones[n];
+        int twos[n];
+
+
+        for(int i=0;i<s.size();i++){
+            if(i==0){
+                if(s[i]!='0'){
+                    ones[i]=1;
+                    twos[i]=0;
+                }else{
+                    return 0;
+                }
+            }else{
+                if(s[i]!='0'){
+                    ones[i]=ones[i-1]+twos[i-1];
+                }else{
+                    ones[i]=0;
+                }
+                if(stoi(s.substr(i-1,2))>=10&&stoi(s.substr(i-1,2))<=26){
+                    twos[i]=ones[i-1];
+                }else{
+                    twos[i]=0;
+                }
+            }
+            if(ones[i]==0&&twos[i]==0){
+                return 0;
+            } 
+        }
+        return ones[n-1]+twos[n-1];
+    }
+};
