@@ -41,6 +41,29 @@ public:
 };
 
 
+class Solution 2{
+public:
+    int minCost(vector<vector<int>>& costs) {
+        if(costs.empty())return 0;
+        if(costs.size()==1)return *min_element(costs[0].begin(), costs[0].end());
+        vector<vector<int>>price(costs.size(),{0,0,0});
+
+
+        price[0][0]=costs[0];
+        price[0][1]=costs[1];
+        price[0][2]=costs[2];
+
+        for(int i=1;i<costs.size();i++){
+            price[i][0]=min(price[i-1][1],price[i-1][2])+costs[i][0];
+            price[i][1]=min(price[i-1][0],price[i-1][2])+costs[i][1];
+            price[i][2]=min(price[i-1][0],price[i-1][1])+costs[i][2];
+        }
+        int n=costs.size();
+        return min(price[n-1][0],min(price[n-1][1],price[n-1][2]));
+    }
+};
+
+
 
 
 
