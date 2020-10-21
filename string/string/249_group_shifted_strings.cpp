@@ -23,7 +23,7 @@ public:
         string shifted;
         
         for(auto c:s){
-            shifted.push_back((c-s[0]+26)%26);
+            shifted.push_back('a'+(c-s[0]+26)%26);
         }
         
         return shifted;
@@ -43,4 +43,3 @@ public:
         return result;
     }
 };
-
