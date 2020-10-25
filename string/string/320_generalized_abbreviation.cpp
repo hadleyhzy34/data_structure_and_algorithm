@@ -21,25 +21,27 @@ public:
 //
 class Solution1 {
 public:
-    void gAbbreviations(vector<string>&res, string &temp, string word, int index){
-        if(index>=word.size()){
+        void gAbbreviations(vector<string>&res, string &temp, string word, int index){
+        if(index==word.size()){
             res.push_back(temp);
             return;
         }
 
         temp+=word[index];
         gAbbreviations(res,temp,word,index+1);
-        temp=temp.substr(0,index);
+        temp=temp.substr(0,temp.size()-1);
 
-        for(int i=1, index+i-1<word.size();i++){
-            temp+=to_string(i);
+        for(int i=1; index+i-1<word.size();i++){
+            //create new string variable, backtracking to substract string size which is not nessarily to be 1
+            string number = to_string(i);
+            temp+=number;
             if(index+i<word.size()){
                 temp+=word[index+i];
                 gAbbreviations(res,temp,word,index+i+1);
-                temp=temp.substr(0,temp.size()-1);
+                temp=temp.substr(0,temp.size()-number.size()-1);
             }else{
-                gAbbreviations(res,tmep,word,index+i);
-                temp=temp.substr(0,temp.size()-1);
+                gAbbreviations(res,temp,word,index+i);
+                temp=temp.substr(0,temp.size()-number.size());
             }
         }
     }
