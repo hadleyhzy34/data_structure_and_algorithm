@@ -53,3 +53,34 @@ public:
 };
 
 
+class Solution3 {
+public:
+    int dfs(TreeNode* root, bool robbed){
+        if(!root)return 0;
+        if(robbed){
+            return root->val+dfs(root->left,false)+dfs(root->right,false);
+        }else{
+            return max(dfs(root->left,true),dfs(root->left,false))+max(dfs(root->right,true),dfs(root->right,false));            
+        }
+    }
+    int rob(TreeNode* root) {
+        return max(dfs(root,true),dfs(root,false));
+    }
+};
+
+
+class Solution4 {
+public:
+    pair<int,int> dfs(TreeNode* root){
+        if(!root)return {0,0};
+        pair<int,int>left=dfs(root->left);
+        pair<int,int>right=dfs(root->right);
+        int choose=left.second+right.second+root->val;
+        int not_choose=max(left.first,left.second)+max(right.first,right.second);
+        return {choose,not_choose};
+    }
+    int rob(TreeNode* root) {
+        return max(dfs(root).first,dfs(root).second);
+    }
+};
+

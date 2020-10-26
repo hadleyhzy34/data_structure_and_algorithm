@@ -39,3 +39,49 @@ public:
         return res;
     }
 };
+
+
+class Solution2 {
+public:
+    vector<int> countBits(int num) {
+        if(num==0)return{0};
+        vector<int> dp(num+1,0);
+        dp[0]=0;
+        dp[1]=1;
+        int count=1;
+        for(int i=2;i<=num;i++){
+            if(i>=pow(2,count+1)){
+                count++;
+            }
+            dp[i]=dp[i%int(pow(2,count))]+1;
+        }
+        return dp;
+    }
+};
+
+
+//count all bits except at position 0, then plus(1&i)
+class Solution3 {
+public:
+    vector<int> countBits(int num) {
+        if(num==0)return{0};
+        vector<int> dp(num+1,0);
+        for(int i=1;i<=num;i++){
+            dp[i]=dp[i>>1]+(i&1);
+        }
+        return dp;
+    }
+};
+
+//rightmost bits solution2, turnoff rightmost bits, then plus one
+class Solution3 {
+public:
+    vector<int> countBits(int num) {
+        if(num==0)return{0};
+        vector<int> dp(num+1,0);
+        for(int i=1;i<=num;i++){
+            dp[i]=dp[i&(i-1)]+1;
+        }
+        return dp;
+    }
+};
