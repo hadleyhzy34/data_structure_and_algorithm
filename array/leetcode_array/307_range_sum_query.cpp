@@ -32,7 +32,7 @@ class NumArray2 {
 public:
     NumArray(vector<int>& nums) {
         this->nums=nums;
-        sums.resize(nums.size());
+        sums.resize(numsw.size());
         for(int i=0;i<nums.size();i++){
             if(i==0){
                 sums[i]=nums[i];
