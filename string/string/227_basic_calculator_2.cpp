@@ -108,3 +108,47 @@ public:
         return res + sign * n;
     }
 };
+
+
+//using stack
+class Solution3 {
+public:
+    int calculate(string s) {
+        stack<int>t;
+        char sign='+';
+        int res=0, tmp=0;
+
+        for(int i=0;i<s.size();i++){
+            if(isdigit(s[i])){
+                tmp=tmp*10+(s[i]-'0');
+            }
+            if((!isdigit(s[i])&&!isspace(s[i]))||i==s.size()-1){
+                if(sign=='+'){
+                    t.push(tmp);
+                }else if(sign=='-'){
+                    t.push(-tmp);
+                }else if(sign=='*'){
+                    int value=t.top()*tmp;
+                    t.pop();
+                    t.push(value);
+                }else if(sign=='/'){
+                    int value=t.top()/tmp;
+                    t.pop();
+                    t.push(value);
+                }
+                sign=s[i];
+                tmp=0;
+            }
+            // cout<<tmp<<" "<<sign;
+            // if(!t.empty()){
+            //     cout<<t.top();
+            // }
+            // cout<<" "<<endl;
+        }
+        while(!t.empty()){
+            res+=t.top();
+            t.pop();
+        }
+        return res;
+    }
+};
