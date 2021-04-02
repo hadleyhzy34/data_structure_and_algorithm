@@ -36,3 +36,24 @@ public:
         return *max_t;
     }
 };
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> dp(n);
+        int res = INT_MIN;
+
+        for(int i=0;i<n;i++){
+            if(i==0){
+                dp[i]=nums[i];
+            }else{
+                dp[i]=max(dp[i-1]+nums[i],nums[i]);
+            }
+            if(dp[i]>res){
+                res=dp[i];
+            }
+        }
+        return res;
+    }
+};
