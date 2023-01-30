@@ -5,91 +5,24 @@
 void checkCycle(int idx, int n, std::vector<std::vector<int>> &isConnected, std::vector<bool>& visited){
     visited[idx] = true;
     for(int i = 0; i < n; i++){
-        if(visited[isConnected[idx][i]])continue;
-        checkCycle(isConnected[idx][i], n, isConnected, visited);
+        // std::cout<<"idx: "<<idx<<"adj "<<i<<"connected status: "<<isConnected[idx][i]<<"visited status: "<<visited[i]<<std::endl;
+        // if(i == idx)continue;
+        if(visited[i]||!isConnected[idx][i])continue;
+        checkCycle(i, n, isConnected, visited);
     }
 }
 
 int findCircleNum(std::vector<std::vector<int>>& isConnected){
     int numCities = isConnected.size();
 
-    std::vector<bool> visited(numCities);
+    std::vector<bool> visited(numCities, false);
     
     int res = 0;
     for(int i = 0; i < numCities; i++){
-        if(visited[i])return true;
+        if(visited[i])continue;
         checkCycle(i, numCities, isConnected, visited);
+        res++;
+        std::cout<<i<<" new province is added"<<std::endl;
     }
     return res;
-}
-
-bool canFinish_v0(int numCourses, std::vector<std::vector<int>>& prerequisites){
-    std::vector<bool> visited(numCourses, false);
-    std::vector<std::vector<int>> adj(numCourses);
-
-    for(auto pre:prerequisites){
-        adj[pre[0]].push_back(pre[1]);
-    }
-
-    for(int i = 0; i < numCourses; i++){
-        if(checkCycle(i, adj, visited))return false;
-    }
-    return true;
-}
-
-bool canFinish(int numCourses, std::vector<std::vector<int>>& prerequisites){
-    std::vector<bool> visited(numCourses, false);
-    std::vector<std::vector<int>> adj(numCourses);
-    std::queue<int> nodes;
-    std::vector<int> degrees(numCourses);
-    int visited_nodes = 0;
-
-    for(auto pre:prerequisites){
-        adj[pre[1]].push_back(pre[0]);  //id of courses that can be taken only after taking this course
-        ++degrees[pre[0]];  //number of prerequisites to be taken before taking this course
-    }
-    
-    //push courses without prerequisites to queue
-    for(int i = 0; i < numCourses; i++){
-        if(degrees[i]==0){
-            nodes.push(i);
-        }
-    }
-    
-    while(!nodes.empty()){
-        int cur = nodes.front();
-        nodes.pop();
-        visited[cur] = true;
-        visited_nodes++;
-
-        std::cout<<"courses visited: "<<cur<<std::endl;
-        for(int i = 0; i < adj[cur].size(); i++){
-            degrees[adj[cur][i]]--;
-            if(visited[adj[cur][i]]){
-                return false;
-            }
-            if(degrees[adj[cur][i]]==0){
-                nodes.push(adj[cur][i]);
-            }
-        }
-    }
-
-    return visited_nodes == numCourses?true:false;
-}
-
-int main()
-{
-    std::vector<std::vector<int>> prerequisites = {{0,1},{2,3},{3,4},{0,3}};
-    bool res = canFinish(5,prerequisites);
-    std::cout<<"can finished all courses"<<res<<std::endl;
-
-    prerequisites = {{0,1},{3,2},{4,3},{0,3},{2,4}};
-    res = canFinish(5,prerequisites);
-    std::cout<<"can finished all courses"<<res<<std::endl;
-
-    prerequisites = {{2,3},{3,2}};
-    res = canFinish(4,prerequisites);
-    std::cout<<"can finished all courses"<<res<<std::endl;
- 
-    return 0;
 }
