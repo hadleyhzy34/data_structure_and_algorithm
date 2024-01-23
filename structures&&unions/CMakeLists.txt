@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(struct VERSION 0.1.0)
+set(CMAKE_CXX_STANDARD 11)
+find_package(Threads REQUIRED)
+include(CTest)
+enable_testing()
+
+# add_executable(isSameTree_0 src/100_same_tree.c)
+# add_executable(isSameTree_1 src/100_same_tree.cpp)
+# add_executable(course_schedule_0 src/207_course_schedule.cpp)
+add_executable(main src/main.cpp)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
