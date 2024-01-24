@@ -8,6 +8,11 @@ enable_testing()
 add_executable(kmp src/kmp.cpp)
 target_link_libraries(kmp Threads::Threads)
 
+add_library(is_subsequence src/392-is_subsequence.cpp)
+
+add_executable(main main.cpp)
+target_link_libraries(main is_subsequence)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
