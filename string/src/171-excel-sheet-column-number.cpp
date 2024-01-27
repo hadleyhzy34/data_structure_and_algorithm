@@ -1,10 +1,17 @@
 #include <iostream>
 #include <string.h>
+#include <vector>
 
 class Solution {
 public:
-  int findLUSlength(string a, string b) {
-    return (a != b) ? max(a.length(), b.length()) : -1;
+  int titleToNumbner(std::string columnTitle) {
+    int res = 0;
+    int n = columnTitle.length();
+    int cnt = 0;
+    for (auto i = 0; i < n; i++) {
+      res = res * 26 + int(columnTitle[i] - 'A' + 1);
+    }
+    return res;
   }
   Solution();
   Solution(Solution &&) = default;
