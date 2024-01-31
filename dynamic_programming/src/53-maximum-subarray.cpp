@@ -3,7 +3,7 @@
 
 class Solution {
 public:
-  int maxSubArray(vector<int> &nums) {
+  int maxSubArray(std::vector<int> &nums) {
     int n = nums.size();
     int sum[n];
     int lmin[n];
