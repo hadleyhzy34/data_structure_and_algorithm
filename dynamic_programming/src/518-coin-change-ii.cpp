@@ -38,3 +38,22 @@ int coinChange_v1(int amount, std::vector<int> &coins) {
   }
   return dp[amount];
 }
+
+class Solution {
+public:
+  int change(int amount, std::vector<int> &coins) {
+    int dp[amount + 1];
+    dp[0] = 0;
+    for (auto i = 1; i <= amount; i++) {
+      dp[i] = 0;
+      for (auto j = 0; j < coins.size(); j++) {
+        if (i == coins[j]) {
+          dp[i]++;
+        } else if (i - coins[j] > 0) {
+          dp[i] += dp[i - coins[j]];
+        }
+      }
+    }
+    return dp[amount];
+  }
+};

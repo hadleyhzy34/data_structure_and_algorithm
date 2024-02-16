@@ -1,23 +1,33 @@
+#include <climits>
 #include <iostream>
 #include <vector>
 
 class Solution {
 public:
-  int maxSubArray(std::vector<int> &nums) {
+  int maxProduct(std::vector<int> &nums) {
     int n = nums.size();
-    int sum[n];
-    int lmin[n];
-    int rmax[n];
-
-    sum[0] = nums[0];
-    lmin[0] = std::min(0, nums[0]);
-    rmax[0] = nums[0];
-
-    for (auto i = 1; i < nums.size(); i++) {
-      sum[i] = sum[i - 1] + nums[i];
-      rmax[i] = std::max(rmax[i - 1], sum[i] - lmin[i - 1]);
-      lmin[i] = std::min(lmin[i - 1], sum[i]);
+    int pos[n];
+    int neg[n];
+    int res = INT_MIN;
+    for (auto i = 0; i < n; i++) {
+      if (nums[i] == 0) {
+        pos[i] = 0;
+        neg[i] = 0;
+      } else {
+        if (i == 0) {
+          //   pos[i] = std::max(0, nums[i]);
+          //   neg[i] = std::min(0, nums[i]);
+          pos[i] = nums[i];
+          neg[i] = nums[i];
+        } else {
+          pos[i] = std::max(
+              nums[i], std::max(pos[i - 1] * nums[i], neg[i - 1] * nums[i]));
+          neg[i] = std::min(
+              nums[i], std::min(neg[i - 1] * nums[i], pos[i - 1] * nums[i]));
+        }
+      }
+      res = std::max(res, pos[i]);
     }
-    return rmax[n - 1];
+    return res;
   }
 };

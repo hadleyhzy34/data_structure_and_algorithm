@@ -7,29 +7,38 @@ struct TreeNode {
   TreeNode *right;
 };
 
-void dfs(TreeNode *node, int wSum, int oSum, int &res) {
+std::vector<int> dfs(TreeNode *node, bool toRob, int &res) {
   if (!node) {
-    return;
+    return {0, 0};
   }
 
-  oSum = std::max(wSum, oSum);
-  wSum = oSum + node->val;
-
-  if (res < std::max(oSum, wSum)) {
-    res = std::max(oSum, wSum);
-  }
+  int robbed = node->val;
+  int notRobbed = 0;
 
   if (node->left) {
-    dfs(node->left, wSum, oSum, res);
+    std::vector<int> tmp = dfs(node->left, false, res);
+    robbed += tmp[0];
+    notRobbed += tmp[1];
   }
 
   if (node->right) {
-    dfs(node->right, wSum, oSum, res);
+    std::vector<int> tmp = dfs(node->right, false, res);
+    robbed += tmp[0];
+    notRobbed += tmp[1];
+  }
+
+  int cur = std::max(robbed, notRobbed);
+  res = std::max(res, cur);
+
+  if (toRob) {
+    return {robbed, cur};
+  } else {
+    return {notRobbed, cur};
   }
 }
 
 int rob(TreeNode *root) {
   int res = 0;
-  dfs(root, 0, 0, res);
+  dfs(root, true, res);
   return res;
 }
