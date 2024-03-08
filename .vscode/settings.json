@@ -60,5 +60,6 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "bit": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/Users/hadley/Developments/data_structure_and_algorithm/two_pointers"
 }
