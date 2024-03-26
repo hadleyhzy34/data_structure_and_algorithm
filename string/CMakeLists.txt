@@ -13,6 +13,8 @@ add_library(is_subsequence src/392-is_subsequence.cpp)
 add_executable(main main.cpp)
 target_link_libraries(main is_subsequence)
 
+add_executable(repeatedString src/459-repeated-substring-pattern.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
