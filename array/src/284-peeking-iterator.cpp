@@ -31,8 +31,8 @@ public:
 
   // Returns the next element in the iteration without advancing the iterator.
   int peek() {
-    if (pre < 0) {
-      pre = Iterator.next();
+    if (pre == -1) {
+      pre = this->next();
     }
     return pre;
   }
@@ -40,11 +40,12 @@ public:
   // hasNext() and next() should behave the same as in the Iterator interface.
   // Override them if needed.
   int next() {
-    pre = Iterator.next();
-    return pre;
+    int t = pre;
+    pre = this->next();
+    return t;
   }
 
-  bool hasNext() const { return Iterator.hasNext(); }
+  bool hasNext() const { return Iterator::hasNext(); }
 
 private:
   int pre = -1;
