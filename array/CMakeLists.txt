@@ -17,7 +17,8 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g3 -ggdb")
 # add_executable(wildcard_matching src/44-wildcard-matching.cpp)
 # add_executable(divisible_subset src/368-largest-divisible-subset.cpp)
 
-add_executable(insert-interval src/57-insert-interval.cpp)
+# add_executable(insert-interval src/57-insert-interval.cpp)
+add_executable(text_justification src/68-text-justification.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
