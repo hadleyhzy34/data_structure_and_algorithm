@@ -2,6 +2,9 @@
 *.d
 
 *.DS_Store
+*/.DS_Store
+*.cache
+*/.cache
 build/
 */build/*
 build/*
