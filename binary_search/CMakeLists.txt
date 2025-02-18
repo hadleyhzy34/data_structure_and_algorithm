@@ -12,9 +12,7 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build." FORCE)
 endif()
 
-# add_executable(csn src/315-count-smaller-numbers.cpp)
-# add_executable(reverse-pairs src/493-reverse-pairs.cpp)
-add_executable(count-range-sums src/327-count-range-sums.cpp)
+add_executable(find-kth-smallest-pair src/719-find-kth-smallest-pair-distance.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
