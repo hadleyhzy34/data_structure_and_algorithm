@@ -15,6 +15,7 @@ endif()
 add_executable(find-kth-smallest-pair src/719-find-kth-smallest-pair-distance.cpp)
 add_executable(find-minimum src/154-find-minimum-in-rotated-sorted-array.cpp)
 add_executable(median-sorted src/4-median-of-two-sorted-array.cpp)
+add_executable(max-sum src/363-max-sum-rectangle-no-larger-than-k.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
