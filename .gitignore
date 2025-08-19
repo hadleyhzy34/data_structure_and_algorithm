@@ -1,7 +1,14 @@
 # Prerequisites
 *.d
 
+*.vscode
+.vscode
+*/.vscode/*
 *.DS_Store
+*.DS_Store*
+*/.DS_Store
+*.cache
+*/.cache
 build/
 */build/*
 build/*

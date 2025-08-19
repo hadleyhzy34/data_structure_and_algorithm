@@ -7,6 +7,11 @@ enable_testing()
 
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g3 -ggdb")
 
+# Set default build type to Debug if not specified
+if (NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build." FORCE)
+endif()
+
 # add_library(palindrome src/131-palindrome-partitioning.cpp)
 # add_library(boundaryCheck src/576-out-of-boundary-paths.cpp)
 
@@ -21,7 +26,8 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g3 -ggdb")
 # add_executable(expression_add_operator src/282-expression-add-operators.cpp)
 # add_executable(match_to_square src/473-matchsticks-to-square.cpp)
 # add_executable(remove_boxes src/546-remove-boxes.cpp)
-add_executable(600-non-negative-integers-without-consecutive-ones src/600-non-negative-integers-without-consecutive-ones.cpp)
+# add_executable(600-non-negative-integers-without-consecutive-ones src/600-non-negative-integers-without-consecutive-ones.cpp)
+add_executable(number-lis src/673-number-lis.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
